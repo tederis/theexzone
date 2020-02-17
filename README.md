@@ -1,6 +1,7 @@
 # theexzone
 MTA: The Exclusion Zone
 1. Add these lines to acl.xml:
+```xml
  <group name="sp_game">
         <acl name="Default"></acl>
         <acl name="sp_game"></acl>
@@ -94,8 +95,11 @@ MTA: The Exclusion Zone
         <right name="command.unbanserial" access="false"></right>
         <right name="command.listbans" access="false"></right>
     </acl>
+```
 
 2. Check this setting in mtaserver.conf:
+```xml
     <database_credentials_protection>0</database_credentials_protection>
+```
 
 3. You also should create a new database with name 'sp'. Connection settings should reside in MTA settings system: 'db_user' for database user and 'db_pass' for database pass.
