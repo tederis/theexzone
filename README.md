@@ -103,3 +103,4 @@ MTA: The Exclusion Zone
 ```
 
 3. You also should create a new database with name 'sp'. Connection settings should reside in MTA settings system: 'db_user' for database user and 'db_pass' for database pass.
+4. Start the resource 'xrcore'. Never run any other resources manually, NEVER.
