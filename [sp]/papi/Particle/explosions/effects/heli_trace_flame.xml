@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.45" killLessThan="false" />
+		<action type="Source" enabled="true" rate="50" alpha="0.68" startingAge="0" ageSigma="0" parentMotion="0.2" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-0.523599 -0.523599 0" point2="5.75959 0 0" />
+			<domain name="size" type="Line" point1="0.55 0.55 0.05" point2="0.75 0.75 0.75" />
+			<domain name="color" type="Point" center="0.160784 0.160784 0.160784" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="6" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetVelocity" enabled="true" scale="1.5" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.001" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_flamefx_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<animated randomPlayback="true" speed="25" />
+</effect>

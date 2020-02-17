@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="38" alpha="0.1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="false">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 0.3 0" radiusInner="0" radiusOuter="10" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="2 2 0.02" />
+			<domain name="color" type="Point" center="1 0.63 0.45" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.018" scale="1" timeFrom="0" timeTo="1" color="0.035294 0.015686 0.003922" />
+		<action type="TargetSize" enabled="true" size="30 30 30" scale="20 20 20" />
+		<action type="TargetVelocity" enabled="true" scale="2.7" velocity="0 8 0" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="0 10 3.7" axis="10 0 0" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="0 10 -3.7" axis="-10 0 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/fx_gradient1.xml" />
+	<timeLimit value="1" />
+</effect>

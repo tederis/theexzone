@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_specks.dds" />
+    <shader name="add.fx" />
+</material>

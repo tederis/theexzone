@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="8" alpha="0.4" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 8 0" point2="0 18 0" />
+			<domain name="velocity" type="Line" point1="0 4 0" point2="0 28 0" />
+			<domain name="rotation" type="Line" point1="-52.3599 -52.3599 -52.3599" point2="62.8319 62.8319 62.8319" />
+			<domain name="size" type="Line" point1="6 6 6" point2="8 8 8" />
+			<domain name="color" type="Point" center="0.784314 0.784314 0.784314" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 1 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0.128" scale="1.8" timeFrom="0" timeTo="1" color="0.007843 0.007843 0.007843" />
+		<action type="TargetRotate" enabled="true" scale="0.08" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_distortion.xml" />
+	<animated randomPlayback="true" speed="0" />
+</effect>

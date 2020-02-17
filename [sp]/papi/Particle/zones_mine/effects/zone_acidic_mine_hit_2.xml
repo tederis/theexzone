@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="10">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="60" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0.5 0" />
+			<domain name="velocity" type="Cone" apex="0 6 0" endPoint="0 2 0" radiusInner="0" radiusOuter="1" />
+			<domain name="rotation" type="Line" point1="6.28319 6.28319 0" point2="-6.28319 -6.28319 0" />
+			<domain name="size" type="Line" point1="0.5 0.5 0" point2="1 1 0" />
+			<domain name="color" type="Point" center="0.792157 0.839216 0.678431" />
+		</action>
+		<action type="TargetSize" enabled="true" size="1 1 0.001" scale="3 3 0" />
+		<action type="TargetColor" enabled="true" alpha="1" scale="3" timeFrom="0" timeTo="0.4" color="0.670588 1 0.878431" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="2" timeFrom="0.6" timeTo="1" color="0 0 0" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="46.7244 0 0" />
+		<action type="Move" enabled="true" />
+		<action type="Gravity" enabled="true" direction="0 -9.8 0" allowRotate="true" />
+		<action type="Gravitate" enabled="false" magnitude="1" epsilon="0.001" maxRadius="10" />
+	</actions>
+	<sprite material="Materials/pfx_specks_poison.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.1" />
+</effect>

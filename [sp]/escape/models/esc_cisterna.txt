@@ -1,0 +1,7 @@
+[TXDList]
+count=1
+app=TEDERIs Blender Tools
+lighttype=0
+[Texture1]
+name=mtl_bo4ka_big_iov
+path=D:\OblivionLost\textures\mtl_bo4ka_big_iov.jpeg

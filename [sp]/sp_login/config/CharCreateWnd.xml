@@ -1,0 +1,74 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame texture="ui_old_textures" section="ui_frame" type="image" name="Wnd" visible="true">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="212" y="184" width="600" height="400"></origin>
+            <frame texture="ui_common" section="ui_options_rust_02" type="image" name="BackImg" visible="true">
+                <anchor leftTopX="0.70333333333333" leftTopY="0.285" rightBottomX="1.0033333333333" rightBottomY="0.4425"></anchor>
+                <origin x="422" y="114" width="180" height="63"></origin>
+            </frame>
+            <frame texture="ui_common" section="ui_options_rust_06" type="image" name="BackImg2" visible="true">
+                <anchor leftTopX="0.48" leftTopY="0.7025" rightBottomX="0.95833333333333" rightBottomY="0.9925"></anchor>
+                <origin x="288" y="281" width="287" height="116"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="Привет, сталкер. Судя по всему ты здесь впервые, поэтому давай создадим тебе персонажа. Ниже ты должен заполнить поле &apos;Ролевое имя персонажа&apos; и выбрать клан за который предстоит играть." alignX="left" alignY="top" scale="0.5" clip="true" wordBreak="true" type="text" name="Str" visible="true">
+                <anchor leftTopX="0.05" leftTopY="0.0725" rightBottomX="0.93333333333333" rightBottomY="0.3475"></anchor>
+                <origin x="30" y="29" width="530" height="110"></origin>
+            </frame>
+            <frame font="LettericaRomanMedium" text="Ролевое имя персонажа" alignX="left" alignY="top" scale="0.6" clip="false" wordBreak="false" type="text" name="RoleNameLbl" visible="true">
+                <anchor leftTopX="0.05" leftTopY="0.2675" rightBottomX="0.2620000076294" rightBottomY="0.31400000095367"></anchor>
+                <origin x="30" y="107" width="127.20000457764" height="18.60000038147"></origin>
+            </frame>
+            <frame texture="ui_old_textures" section="ui_string_01" type="image" name="Name" visible="true">
+                <anchor leftTopX="0.05" leftTopY="0.3375" rightBottomX="0.50666666666667" rightBottomY="0.4075"></anchor>
+                <origin x="30" y="135" width="274" height="28"></origin>
+                <frame font="LettericaRomanMedium" text="" scale="0.65" masked="false" length="30" type="editfield" name="NameEdt" visible="true">
+                    <anchor leftTopX="0.025547445255474" leftTopY="0" rightBottomX="0.97080291970803" rightBottomY="0.92857142857143"></anchor>
+                    <origin x="7" y="0" width="259" height="26"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_logos" toggled="false" type="button" name="StalkerFactImg" visible="true">
+                <sections default="stalker_big"></sections>
+                <anchor leftTopX="0.05" leftTopY="0.5075" rightBottomX="0.285" rightBottomY="0.78"></anchor>
+                <origin x="30" y="203" width="141" height="109"></origin>
+            </frame>
+            <frame texture="ui_logos" toggled="false" type="button" name="BanditFactImg" visible="true">
+                <sections default="bandit_big"></sections>
+                <anchor leftTopX="0.33333333333333" leftTopY="0.5075" rightBottomX="0.56833333333333" rightBottomY="0.78"></anchor>
+                <origin x="200" y="203" width="141" height="109"></origin>
+            </frame>
+            <frame font="LettericaRomanMedium" text="Клан" alignX="left" alignY="top" scale="0.65" clip="false" wordBreak="false" type="text" name="FactionLbl" visible="true">
+                <anchor leftTopX="0.05" leftTopY="0.4375" rightBottomX="0.091000000635783" rightBottomY="0.48400000095368"></anchor>
+                <origin x="30" y="175" width="24.60000038147" height="18.60000038147"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="CreateBtn" visible="true">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_e" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.05" leftTopY="0.855" rightBottomX="0.29666666666667" rightBottomY="0.945"></anchor>
+                <origin x="30" y="342" width="148" height="36"></origin>
+                <frame font="LettericaRomanMedium" text="Создать" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" type="text" name="CreateLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0202702702703" rightBottomY="0.91666666666667"></anchor>
+                    <origin x="0" y="0" width="151" height="33"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui_old_textures" section="ui_frame" type="image" name="NameErrorWnd" visible="false">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="308" y="256" width="408" height="256"></origin>
+            <frame font="LettericaRomanMedium" text="" alignX="left" alignY="top" scale="0.7" clip="true" wordBreak="true" type="text" name="NameErrorLbl" visible="true">
+                <anchor leftTopX="0.056372549019608" leftTopY="0.06640625" rightBottomX="0.94117647058824" rightBottomY="0.58984375"></anchor>
+                <origin x="23" y="17" width="361" height="134"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="ErrorOkBtn" visible="true">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_h" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.29656862745098" leftTopY="0.765625" rightBottomX="0.70098039215686" rightBottomY="0.921875"></anchor>
+                <origin x="121" y="196" width="165" height="40"></origin>
+                <frame font="LettericaRomanMedium" text="Я всё понял" alignX="center" alignY="center" scale="0.6" clip="false" wordBreak="false" type="text" name="ErrorOkLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0242424242424" rightBottomY="0.95"></anchor>
+                    <origin x="0" y="0" width="169" height="38"></origin>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+</ui>

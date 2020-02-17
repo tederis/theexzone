@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/static\effects\static_anomaly_hot.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\static_anomaly_hot_steam.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

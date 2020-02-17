@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="200">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="4" killLessThan="false" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.5" timeFrom="0" timeTo="1" color="0.086275 0.098039 0.023529" />
+		<action type="TargetVelocity" enabled="true" scale="4" velocity="0 2 0" allowRotate="false" />
+		<action type="Gravity" enabled="true" direction="0 -3 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="100" epsilon="0.05" offset="-0.7 -1 10.7" octaves="1" />
+		<action type="Source" enabled="true" rate="600" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0.25 0" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 20 0" radiusInner="10" radiusOuter="22" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="0.06 0.06 0.51" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Sink" enabled="true" killInside="false" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -0.1 0" normal="0 1 0" />
+		</action>
+		<action type="TargetSize" enabled="true" size="0.2 0.2 0.2" scale="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_sparks.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="8" />
+	<animated randomPlayback="false" speed="20" />
+	<timeLimit value="1" />
+</effect>

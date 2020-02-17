@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\teleport_glow_out_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_idle_dist_krug_big.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_spark_out_monolit.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_dist_out_big.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

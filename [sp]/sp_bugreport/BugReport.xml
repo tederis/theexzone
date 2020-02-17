@@ -1,0 +1,40 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame texture="ui_old_textures" section="ui_frame_03" type="image" name="Wnd" visible="true">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="187" y="149" width="649" height="469"></origin>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="Field" visible="true">
+                <anchor leftTopX="0.052388289676425" leftTopY="0.18336886993603" rightBottomX="0.93836671802773" rightBottomY="0.83795309168443"></anchor>
+                <origin x="34" y="86" width="575" height="307"></origin>
+                <frame font="LettericaObliqueMedium" text="" scale="0.7" masked="false" memo="true" length="100" type="editfield" name="Memo" visible="true">
+                    <anchor leftTopX="0.026086956521739" leftTopY="0.04885993485342" rightBottomX="0.96695652173913" rightBottomY="0.92833876221498"></anchor>
+                    <origin x="15" y="15" width="541" height="270"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="SendBtn" visible="true">
+                <sections default="ui_button_main01_d" selected="ui_button_main01_e" clicked="ui_button_main01_t"></sections>
+                <anchor leftTopX="0.053929121725732" leftTopY="0.84861407249467" rightBottomX="0.29583975346687" rightBottomY="0.95095948827292"></anchor>
+                <origin x="35" y="398" width="157" height="48"></origin>
+                <frame font="LettericaObliqueMedium" text="Отправить" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" color="255 255 255" type="text" name="SendLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="0.99363057324841" rightBottomY="0.89583333333333"></anchor>
+                    <origin x="0" y="0" width="156" height="43"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="CancelBtn" visible="true">
+                <sections default="ui_button_main01_d" selected="ui_button_main01_e" clicked="ui_button_main01_t"></sections>
+                <anchor leftTopX="0.32357473035439" leftTopY="0.84861407249467" rightBottomX="0.56548536209553" rightBottomY="0.95095948827292"></anchor>
+                <origin x="210" y="398" width="157" height="48"></origin>
+                <frame font="LettericaObliqueMedium" text="Отмена" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" color="255 255 255" type="text" name="CancelLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="0.99363057324841" rightBottomY="0.89583333333333"></anchor>
+                    <origin x="0" y="0" width="156" height="43"></origin>
+                </frame>
+            </frame>
+            <frame font="LettericaObliqueMedium" text="Чтобы отправить репорт, сообщение об ошибке или предложить что-то, введите текст ниже и нажмите Отправить." alignX="left" alignY="top" scale="0.6" clip="false" wordBreak="true" color="255 255 255" type="text" name="Label" visible="true">
+                <anchor leftTopX="0.040061633281972" leftTopY="0.040511727078891" rightBottomX="0.95531587057011" rightBottomY="0.16631130063966"></anchor>
+                <origin x="26" y="19" width="594" height="59"></origin>
+            </frame>
+        </frame>
+    </frame>
+</ui>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="10">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.7" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Disc" center="0 0 0" normal="0 1 0" radiusInner="15" radiusOuter="20" />
+			<domain name="rotation" type="Line" point1="-52.3599 -52.3599 -52.3599" point2="62.8319 62.8319 62.8319" />
+			<domain name="size" type="Line" point1="0 0 1" point2="0.01 0.01 1" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="3" velocity="0 0 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="40" magnitude="20" epsilon="0.143" offset="4 4 4" octaves="1" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="2" timeFrom="0" timeTo="1" color="0.003922 0.003922 0.058824" />
+		<action type="Gravity" enabled="true" direction="0 -100 0" allowRotate="true" />
+		<action type="TargetSize" enabled="false" size="1 1 1" scale="2 2 2" />
+		<action type="TargetRotate" enabled="false" scale="0.2" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_light1.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.2" />
+	<collision friction="1" resilience="0.2" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

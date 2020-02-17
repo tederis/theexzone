@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="100">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="TargetSize" enabled="true" size="3 3 1" scale="0.3 0.3 0" />
+		<action type="TargetVelocity" enabled="true" scale="0.4" velocity="-1.5 2 -1.5" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="2" timeFrom="0" timeTo="1" color="0 0.423529 1" />
+		<action type="Source" enabled="true" rate="20" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 2 0" />
+			<domain name="rotation" type="Line" point1="-174.533 -174.533 0" point2="174.533 174.533 0" />
+			<domain name="size" type="Line" point1="0.05 0.05 0" point2="0.1 0.1 0" />
+			<domain name="color" type="Point" center="0 0.235294 1" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="0.1" rotation="174.533 174.533 174.533" />
+		<action type="RandomAccel" enabled="true" allowRotate="true">
+			<domain name="accelerate" type="Line" point1="-3 0 -3" point2="3 0 3" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_b.xml" />
+</effect>

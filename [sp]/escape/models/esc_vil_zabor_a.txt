@@ -1,0 +1,13 @@
+[TXDList]
+count=3
+app=TEDERIs Blender Tools
+lighttype=25
+[Texture1]
+name=wood_veranda_01
+path=D:\OblivionLost\textures\wood_veranda_01.jpeg
+[Texture2]
+name=ston_beton_stena_iov_hi
+path=D:\OblivionLost\textures\ston_beton_stena_iov_hi.jpeg
+[Texture3]
+name=wood_zabor_iov
+path=D:\OblivionLost\textures\wood_zabor_iov.jpeg

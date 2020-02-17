@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/destroy_fx\effects\destroy_paper_box_1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

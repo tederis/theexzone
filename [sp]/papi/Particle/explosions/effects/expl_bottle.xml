@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="10000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0.1 0" radiusInner="0.1" radiusOuter="0" />
+			<domain name="velocity" type="Cone" apex="1 1 1" endPoint="0 3 0" radiusInner="8" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="6.98132 0 0" point2="13.9626 0 0" />
+			<domain name="size" type="Line" point1="0.08 0.08 0.08" point2="0.05 0.05 0.05" />
+			<domain name="color" type="Point" center="0.643137 0.690196 0.65098" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.3" timeFrom="0" timeTo="1" color="0.8 0.8 0.8" />
+		<action type="TargetRotate" enabled="true" scale="5" rotation="0 0 0" />
+		<action type="Gravity" enabled="true" direction="0 -15 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_vehglassdebris_01.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<timeLimit value="0.3" />
+	<collision friction="0.8" resilience="0" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="40">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="17" alpha="0.3" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 1 0" normal="0 0.5 0" radiusInner="12" radiusOuter="22" />
+			<domain name="velocity" type="Point" center="0 4 0" />
+			<domain name="rotation" type="Line" point1="36 -1 -1" point2="6 1 1" />
+			<domain name="size" type="Point" center="4 4 4" />
+			<domain name="color" type="Point" center="0.12549 0.12549 0.12549" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetSize" enabled="true" size="18 18 18" scale="1 1 1" />
+		<action type="TargetRotate" enabled="true" scale="0.06" rotation="-14.7606 0 0" />
+		<action type="Move" enabled="true" />
+		<action type="Gravity" enabled="true" direction="0 3.5 0" allowRotate="true" />
+	</actions>
+	<sprite material="Materials/pfx_distortion.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="8" />
+</effect>

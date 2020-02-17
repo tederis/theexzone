@@ -1,0 +1,59 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<min_mta_version client="1.4.0" server="1.4.0" />
+	<oop>true</oop>
+	
+	<script src="defs_sh.lua" type="shared" />
+	<script src="shared.lua" type="shared" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+
+	<file src="sounds/interface/inv_attach_addon.ogg" />
+	<file src="sounds/interface/inv_bandage.ogg" />
+	<file src="sounds/interface/inv_belt.ogg" />
+	<file src="sounds/interface/inv_close.ogg" />
+	<file src="sounds/interface/inv_detach_addon.ogg" />
+	<file src="sounds/interface/inv_drop.ogg" />
+	<file src="sounds/interface/inv_food.ogg" />
+	<file src="sounds/interface/inv_medkit.ogg" />
+	<file src="sounds/interface/inv_open.ogg" />
+	<file src="sounds/interface/inv_pills.ogg" />
+	<file src="sounds/interface/inv_properties.ogg" />
+	<file src="sounds/interface/inv_ruck.ogg" />
+	<file src="sounds/interface/inv_slot.ogg" />
+	<file src="sounds/interface/inv_softdrink.ogg" />
+	<file src="sounds/interface/inv_vodka.ogg" />
+	<file src="sounds/interface/mp_reward.ogg" />
+
+	<include resource="xrcore" />
+
+	<export function="xrContainerAddObserver" type="server" />
+	<export function="xrContainerRemoveObserver" type="server" />
+	<export function="xrContainerMoveItems" type="server" />
+	<export function="xrContainerMoveItem" type="server" />
+	<export function="xrContainerInsertItem" type="server" />
+	<export function="xrContainerRemoveItem" type="server" />
+	<export function="xrContainerRemoveItems" type="server" />
+	<export function="xrGetContainerItem" type="server" />
+	<export function="xrContainerGetSlotCost" type="shared" />
+	<export function="xrGetContainerWeight" type="client" />
+	<export function="xrGetContainerItems" type="shared" />
+	<export function="xrCreateContainer" type="server" />
+	<export function="xrDestroyContainer" type="server" />
+	<export function="xrSetContainerOwner" type="server" />
+
+	<export function="xrContainerLoad" type="server" />
+	<export function="xrFindContainerItemByType" type="shared" />
+	<export function="xrCountContainerItemByType" type="shared" />
+	<export function="xrSetContainerItemData" type="shared" />
+	<export function="xrGetContainerItemData" type="shared" />
+	<export function="xrDecimateContainerItemsByType" type="server" />
+	<export function="xrDecimateContainerItem" type="server" />
+	<export function="xrContainerDropItem" type="server" />
+	<export function="xrCreateDropItem" type="server" />
+	<export function="xrContainerUseItem" type="shared" />
+
+	<export function="xrRearrangeContainerSlots" type="server" />
+	<export function="xrContainerRemoveRandomItems" type="server" />
+	<export function="xrContainerMoveRandomItems" type="server" />
+</meta>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="30">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="18" alpha="0.128" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0.6" radiusOuter="0.8" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="36 -1 -1" point2="6 1 1" />
+			<domain name="size" type="Point" center="1 1 0" />
+			<domain name="color" type="Point" center="1 0.988235 0.364706" />
+		</action>
+		<action type="TargetSize" enabled="true" size="4 4 4" scale="1 1 0" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.5" timeFrom="0" timeTo="1" color="0 0.007843 0.011765" />
+		<action type="Gravity" enabled="true" direction="0 1 0.25" allowRotate="false" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+	<timeLimit value="4" />
+	<collision friction="0.9" resilience="0" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

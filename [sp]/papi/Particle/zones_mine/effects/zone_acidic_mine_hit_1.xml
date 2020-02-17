@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="64">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Scatter" enabled="true" magnitude="3000" epsilon="22" maxRadius="1.8" center="0 0 0" allowRotate="true" />
+		<action type="Damping" enabled="true" vLow="1" vHigh="80" damping="-17 -17 -17" />
+		<action type="Source" enabled="true" rate="7.77778e+08" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="1" radiusOuter="1" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="5.23599 5.23599 5.23599" point2="-5.23599 -5.23599 -5.23599" />
+			<domain name="size" type="Line" point1="1.5 1.5 1.5" point2="1 1 1" />
+			<domain name="color" type="Triangle" point1="0.313726 0.407843 0.490196" point2="0.372549 0.447059 0.309804" point3="0.345098 0.27451 0.231373" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-2 0 -2" max="2 -1 2" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.18" scale="6" timeFrom="0" timeTo="1" color="0.019608 0.035294 0.105882" />
+		<action type="TargetSize" enabled="true" size="3 3 3" scale="0.5 0.5 0.5" />
+		<action type="TargetRotate" enabled="true" scale="0.5" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_anomaly_18.xml" />
+	<timeLimit value="0.2" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

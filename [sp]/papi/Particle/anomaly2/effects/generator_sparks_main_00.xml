@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="3" alpha="0.4" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 70 0" point2="0 90 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-0.261799 -0.261799 -0.261799" point2="0.261799 0.261799 0.261799" />
+			<domain name="size" type="Line" point1="25 25 25" point2="35 35 35" />
+			<domain name="color" type="Point" center="0.090196 0.12549 0.239216" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="1.5" velocity="0 50 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0.28" scale="0.4" timeFrom="0" timeTo="1" color="0.003922 0.039216 0.047059" />
+		<action type="TargetSize" enabled="true" size="20 50 20" scale="1 0.75 1" />
+		<action type="TargetRotate" enabled="false" scale="0.12" rotation="0 0 0" />
+		<action type="Turbulence" enabled="true" frequency="3" magnitude="2" epsilon="0.03" offset="1 1 1" octaves="2" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ligth_6.xml" />
+	<animated randomPlayback="true" speed="0" />
+	<velocityScale value="0 0.2 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

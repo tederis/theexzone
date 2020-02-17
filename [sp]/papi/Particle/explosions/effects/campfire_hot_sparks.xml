@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="21" alpha="1" startingAge="0" ageSigma="0" parentMotion="1" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 1 0" radiusInner="0" radiusOuter="0.7" />
+			<domain name="velocity" type="Sphere" center="0 2 0" radiusInner="0" radiusOuter="2" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.027 0.027 1" point2="0.01 0.01 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="3" timeFrom="0" timeTo="1" color="0.752941 0.34902 0.34902" />
+		<action type="RandomAccel" enabled="true" allowRotate="true">
+			<domain name="accelerate" type="Sphere" center="0 3 0" radiusInner="1" radiusOuter="0.5" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-fire01.bmp.xml" />
+	<frame randomInit="true" size="0.09082 0.142578" dimension="11" count="77" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

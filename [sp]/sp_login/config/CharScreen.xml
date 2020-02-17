@@ -1,0 +1,41 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame texture="ui_common" toggled="false" type="button" name="JoinBtn" visible="true">
+            <sections default="ui_button_main01_d" selected="ui_button_main01_e" clicked="ui_button_main01_t"></sections>
+            <anchor leftTopX="0.5" leftTopY="1" rightBottomX="0.5" rightBottomY="1"></anchor>
+            <origin x="388" y="622" width="247" height="75"></origin>
+            <frame font="LettericaRomanBig" text="В игру!" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="JoinLbl" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0080971659919" rightBottomY="0.89333333333333"></anchor>
+                <origin x="0" y="0" width="249" height="67"></origin>
+            </frame>
+        </frame>
+        <frame texture="ui_old_textures" section="ui_frame_03" type="image" name="ErrorWnd" visible="true">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="297" y="274" width="430" height="220"></origin>
+            <frame font="LettericaRomanBig" text="До окончания выброса в зоне осталось 10 секунд. При входе в игру вы можете в любой момент умереть. Хотите продолжить на свой страх и риск?" alignX="left" alignY="top" scale="0.5" clip="false" wordBreak="true" colorCoded="false" color="255 255 255" type="text" name="ErrorLbl" visible="true">
+                <anchor leftTopX="0.072093023255814" leftTopY="0.17272727272727" rightBottomX="0.89767441860465" rightBottomY="0.63181818181818"></anchor>
+                <origin x="31" y="38" width="355" height="101"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="CancelBtn" visible="true">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_h" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.43255813953488" leftTopY="0.71363636363636" rightBottomX="0.74186046511628" rightBottomY="0.90909090909091"></anchor>
+                <origin x="47" y="156" width="133" height="43"></origin>
+                <frame font="LettericaRomanBig" text="Закрыть" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ErrorBtnLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="0.99248120300752" rightBottomY="0.83720930232558"></anchor>
+                    <origin x="0" y="0" width="132" height="36"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="OkayBtn" visible="true">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_h" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.086046511627907" leftTopY="0.75" rightBottomX="0.35813953488372" rightBottomY="0.88181818181818"></anchor>
+                <origin x="236" y="156" width="133" height="43"></origin>
+                <frame font="LettericaRomanBig" text="Всё равно войти" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ErrorBtnLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="0.99248120300752" rightBottomY="0.83720930232558"></anchor>
+                    <origin x="0" y="0" width="132" height="36"></origin>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+</ui>

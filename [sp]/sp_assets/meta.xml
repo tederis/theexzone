@@ -1,0 +1,33 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="OblisionLost Assets" type="script" />
+	<script src="client.lua" type="client" />
+	
+	<file src="textures/ui_icons_npc.dds" />	
+	<file src="textures/ui_grid.dds" />	
+	<file src="textures/ui/ui_actor_pda.dds" />	
+	<file src="textures/ui/ui_common.dds" />	
+	<file src="textures/ui/ui_actor_hint_wnd.dds" />	
+	<file src="textures/ui/ui_old_textures.dds" />	
+	<file src="textures/ui/ui_frame_over_lb.dds" />	
+	<file src="textures/ui/ui_frame_over_lt.dds" />	
+	<file src="textures/ui/ui_inv_info_over_lt.dds" />	
+	<file src="textures/ui/ui_logos.dds" />	
+	<file src="textures/ui/ui_hud.dds" />	
+	<file src="textures/ui/ui_icon_equipment.dds" />	
+	<file src="textures/ui/ui_actor_achivments.dds" />	
+	<file src="textures/ui/ui_actor_newsmanager_icons.dds" />	
+	<file src="textures/map_escape.dds" />	
+	<file src="textures/circle.png" />	
+	<file src="textures/keyboard.png" />	
+
+	<file src="fonts/AG Letterica Oblique Medium.ttf" />	
+	<file src="fonts/AG Letterica Roman Medium.ttf" />	
+	<file src="fonts/AGLettericaExtraCompressed Roman.ttf" />	
+	<file src="fonts/Graff.ttf" />	
+
+	<file src="fonts.xml" />
+	<file src="textures.xml" />
+
+	<export function="xrLoadAsset" type="client" />
+	<export function="xrUnloadAsset" type="client" />
+</meta>

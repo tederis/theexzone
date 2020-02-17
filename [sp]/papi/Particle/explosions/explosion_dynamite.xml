@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/explosions\effects\expl_flash_alpha.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_glow00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_06.xml" onPlayChild="Particle/explosions\effects\expl_flame_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_smoke_00.xml" time0="0.12" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_distortion.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_smoke00_03.xml" time0="0.8" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

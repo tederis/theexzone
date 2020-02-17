@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.2">
+	<effect name="Particle/artefact\effects\af_gravi_show_01.xml" onPlayChild="Particle/artefact\effects\af_gravi_show_01_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_gravi_show_01_dist1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_gravi_show_01_smoke.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_gravi_show_01_dist2.xml" time0="0" time1="1.2" defferedStop="false" enabled="true" rewind="false" />
+</group>

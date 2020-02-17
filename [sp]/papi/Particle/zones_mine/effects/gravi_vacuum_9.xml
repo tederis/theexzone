@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="80">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="300" epsilon="20" maxRadius="1e+15" center="0 0 0" allowRotate="true" />
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.85" />
+		</action>
+		<action type="SpeedLimit" enabled="true" minSpeed="-1" maxSpeed="10" />
+		<action type="Move" enabled="true" />
+		<action type="Source" enabled="true" rate="80" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0.3 0" normal="0 1 0" radiusInner="10" radiusOuter="11" />
+			<domain name="velocity" type="Point" center="0.5 6 0.5" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.05 0.05 0.05" point2="0.1 0.1 0.1" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<animated randomPlayback="false" speed="32" />
+	<timeLimit value="1" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="2" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 2 0" radiusInner="0" radiusOuter="0.3" />
+			<domain name="velocity" type="Cone" apex="0 1 0" endPoint="0 -37 0" radiusInner="3" radiusOuter="17" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Line" point1="0.05 0.05 0.05" point2="0.1 0.1 0.1" />
+			<domain name="color" type="Point" center="0.5 0.5 0.5" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.1" scale="0.3" timeFrom="0" timeTo="1" color="0.5 0.5 0.5" />
+		<action type="TargetVelocity" enabled="true" scale="3.7" velocity="0 1 0" allowRotate="false" />
+		<action type="Sink" enabled="true" killInside="false" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -1 0" normal="0 1 0" />
+		</action>
+		<action type="Bounce" enabled="true" friction="0" resilience="1" cutoff="0" allowRotate="true">
+			<domain name="position" type="Sphere" center="0 0 0" radiusInner="1" radiusOuter="6" />
+		</action>
+		<action type="Vortex" enabled="true" magnitude="33" epsilon="2" maxRadius="5" center="-1.7 2 0" axis="0 0 -10" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="33" epsilon="2" maxRadius="5" center="1.7 2 0" axis="0 0 10" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="33" epsilon="2" maxRadius="5" center="0 2 1.7" axis="-10 0 0" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="33" epsilon="2" maxRadius="5" center="0 2 -1.7" axis="10 0 0" allowRotate="false" />
+		<action type="Gravity" enabled="true" direction="0 -15 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+</effect>

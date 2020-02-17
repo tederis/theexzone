@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/explosions\effects\campfire_boar_grill_smoke.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_boar_grill_sparks.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\fire_distort.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_boar_grill_vacuum.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_boar_grill_drop.xml" onBirthChild="Particle/explosions\effects\campfire_boar_grill_drop_smoke.xml" onDeadChild="Particle/explosions\effects\campfire_boar_grill_drop_sparks.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

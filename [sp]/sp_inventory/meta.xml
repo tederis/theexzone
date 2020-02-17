@@ -1,0 +1,100 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<min_mta_version client="1.5.6" server="1.5.6" />
+	<oop>true</oop>
+
+	<script src="utils.lua" type="client" />
+	<script src="system.lua" type="shared" />	
+	<script src="client.lua" type="client" />
+	<script src="inventory.lua" type="client" />
+	<script src="carbody.lua" type="client" />
+	<script src="trade.lua" type="client" />	
+	<script src="server.lua" type="server" />
+
+	<include resource="xrcore" />
+
+	<file src="textures/ui/ui_actor_menu.dds" />
+	
+	<file src="textures/ui_frame_03/ui_frame_03_b.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_back.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_l.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_r.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_t.dds" />
+	
+	<file src="textures/ui_frame/ui_frame_b.dds" />
+	<file src="textures/ui_frame/ui_frame_back.dds" />
+	<file src="textures/ui_frame/ui_frame_l.dds" />
+	<file src="textures/ui_frame/ui_frame_lb.dds" />
+	<file src="textures/ui_frame/ui_frame_lt.dds" />
+	<file src="textures/ui_frame/ui_frame_r.dds" />
+	<file src="textures/ui_frame/ui_frame_rb.dds" />
+	<file src="textures/ui_frame/ui_frame_rt.dds" />
+	<file src="textures/ui_frame/ui_frame_t.dds" />
+	
+	<file src="textures/ui_dg_inventory.dds" />
+	<file src="textures/ui_dg_info.dds" />
+	<file src="textures/ui_inv_belt.dds" />
+	<file src="textures/ui_inv_personal_over_t.dds" />
+	<file src="textures/ui_inv_personal_over_b.dds" />
+	<file src="textures/ui_inv_quick_slots.dds" />
+	<file src="textures/ui_bottom_background.dds" />
+	<file src="textures/ui_grid.dds" />
+	<file src="textures/ui_icon_equipment.dds" />
+	<file src="textures/ui_inv_info_over_lt.dds" />
+	<file src="textures/ui_inv_info_over_b.dds" />
+	<file src="textures/ui_trade_character.dds" />
+	
+	<file src="textures/ui_dg_inventory_exchange_trade.dds" />
+	<file src="textures/ui_trade_list_back.dds" />
+	<file src="textures/ui_button_05.dds" />
+	<file src="textures/ui_button_06.dds" />
+	<file src="textures/ui_top_background.dds" />
+	
+	<file src="textures/ui_inv_progress/ui_inv_progress_blood.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_blood_empty.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_food.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_food_empty.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_end.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_end_empty.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_rad.dds" />
+	<file src="textures/ui_inv_progress/ui_inv_progress_rad_empty.dds" />
+	
+	<file src="config/character_desc_general.xml" />
+	<file src="config/character_desc_soldier.xml" />
+	<file src="config/character_desc_stalker.xml" />
+	<file src="config/dialogs.xml" />
+	<file src="config/dialogs_agroprom.xml" />
+	<file src="config/dialogs_bar.xml" />
+	<file src="config/dialogs_escape.xml" />
+	<file src="config/dialogs_garbage.xml" />
+	<file src="config/dialogs_yantar.xml" />
+	
+	<file src="config/string_table_general.xml" />
+	<file src="config/string_table_news.xml" />
+	<file src="config/string_table_items.xml" />
+	<file src="config/string_table_ui.xml" />
+	<file src="config/string_table_tips.xml" />
+	<file src="config/string_table_enc_mutants.xml" />
+	<file src="config/string_table_enc_zone.xml" />
+	<file src="config/string_table_enc_vehicles.xml" />
+	<file src="config/string_table_enc_social.xml" />
+	<file src="config/string_table_enc_equipment.xml" />
+	<file src="config/string_table_tasks_escape.xml" />
+	<file src="config/string_table_artefacts.xml" />
+	<file src="config/stable_dialogs_escape.xml" />
+	<file src="config/stable_dialogs_garbage.xml" />
+	<file src="config/stable_dialogs_agroprom.xml" />
+	
+	<file src="AG Letterica Roman Medium.ttf" />
+	
+	<export function="xrStartInventorySession" type="server" />
+	<export function="xrStopInventorySession" type="server" />
+	<export function="xrGetInventorySessionStatus" type="server" />
+	<export function="xrGetElementRefsNum" type="server" />
+	<export function="xrReturnPlayerItems" type="server" />
+	<export function="xrGetInventoryStatus" type="client" />
+</meta>

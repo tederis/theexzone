@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/nature\effects\fog_stormy_dust_02.xml" time0="0" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/nature\effects\fog_stormy_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/nature\effects\fog_stormy_dust_02.xml" time0="0" time1="0" defferedStop="false" enabled="false" rewind="false" />
+</group>

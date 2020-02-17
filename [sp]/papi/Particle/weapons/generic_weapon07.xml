@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.55">
+	<effect name="Particle/weapons\effects\shot_matrix00.xml" time0="0.01" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix02.xml" time0="0.015" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix03.xml" time0="0.03" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix04.xml" time0="0.045" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix05.xml" time0="0.06" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix06.xml" time0="0.075" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix07.xml" time0="0.09" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\shot_matrix.xml" time0="0.1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

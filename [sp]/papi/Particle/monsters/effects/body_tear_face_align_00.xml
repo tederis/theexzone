@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="28">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="4" killLessThan="false" />
+		<action type="Scatter" enabled="true" magnitude="3333" epsilon="32" maxRadius="3" center="0 0 0" allowRotate="true" />
+		<action type="Damping" enabled="true" vLow="8" vHigh="111" damping="-18 -18 -18" />
+		<action type="Gravity" enabled="true" direction="0 -7 0" allowRotate="false" />
+		<action type="RandomAccel" enabled="false" allowRotate="false">
+			<domain name="accelerate" type="Sphere" center="0 0 0" radiusInner="18" radiusOuter="3" />
+		</action>
+		<action type="Source" enabled="true" rate="100000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0.5" radiusOuter="0.6" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="5.23599 5.23599 5.23599" point2="-5.23599 -5.23599 -5.23599" />
+			<domain name="size" type="Line" point1="0.5 0.4 0.5" point2="0.2 0.1 0.2" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_skinsplash1.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<timeLimit value="0.1" />
+	<collision friction="1" resilience="0" cutoff="0" destroyOnContact="true" collideWithDynamic="false" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

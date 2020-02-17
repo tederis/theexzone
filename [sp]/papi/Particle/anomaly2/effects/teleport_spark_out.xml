@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="99">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="0.25" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 1.25 0" normal="0 0 -200" radiusInner="1.1" radiusOuter="0.7" />
+			<domain name="velocity" type="Point" center="0 0 500" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.08 0.08 0.08" point2="0.1 0.1 0.1" />
+			<domain name="color" type="Point" center="0.105882 0.160784 0.352941" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="4" timeFrom="0" timeTo="1" color="0.070588 0.070588 0.070588" />
+		<action type="TargetSize" enabled="true" size="0.1 0.1 0.1" scale="9 9 9" />
+		<action type="TargetVelocity" enabled="true" scale="18" velocity="0 0 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_gradient1.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.2" />
+	<velocityScale value="0 0.19 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

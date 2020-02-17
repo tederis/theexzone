@@ -1,0 +1,92 @@
+<meta>
+	<info author="TEDERIs" version="1.0" name="PAPI" description="Particle system" type="script" />
+	<oop>true</oop>
+
+	<include resource="xrcore" />
+
+	<script src="shared.lua" type="shared" />
+	<script src="utils.lua" type="shared" />
+	<script src="artefact_cl.lua" type="client" />
+	<script src="bolt_cl.lua" type="client" />
+	<script src="artefact_se.lua" type="server" />	
+
+	<script src="defs.lua" type="shared" />
+
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+
+	<script src="anomaly_se.lua" type="server" />
+	<script src="anomaly_cl.lua" type="client" />
+	<script src="capture_se.lua" type="server" />
+	<script src="capture_cl.lua" type="client" />
+
+	<script src="detector_cl.lua" type="client" />
+
+	<file src="textures/detector.png" />
+	<file src="textures/detector_light.png" />
+	<file src="shader.fx" />
+
+	<file src="Zones/zone_mine_electric.xml" />
+	<file src="Zones/zone_mine_gravitational_strong.xml" />
+
+	<file src="Sounds/anomaly/electra_idle1.ogg" />
+	<file src="Sounds/anomaly/electra_blast1.ogg" />
+
+	<file src="Sounds/detectors/art_beep1.ogg" />
+	<file src="Sounds/detectors/geiger_1.ogg" />
+	<file src="Sounds/detectors/geiger_2.ogg" />
+	<file src="Sounds/detectors/geiger_3.ogg" />
+	<file src="Sounds/detectors/geiger_4.ogg" />
+	<file src="Sounds/detectors/geiger_5.ogg" />
+	<file src="Sounds/detectors/geiger_6.ogg" />
+	<file src="Sounds/detectors/geiger_7.ogg" />
+	<file src="Sounds/detectors/geiger_8.ogg" />
+
+	<file src="models/prop_barrel2_fire.dff" />
+	<file src="models/prop_barrel2_fire.col" />
+	<file src="models/prop_barrel2_fire.txd" />
+	<file src="models/art_blue.dff" />
+	<file src="models/art_blue.col" />
+	<file src="models/art_blue.txd" />
+	<file src="models/art_flash.dff" />
+	<file src="models/art_flash.col" />
+	<file src="models/art_flash.txd" />
+	<file src="models/art_balon.dff" />
+	<file src="models/art_balon.col" />
+	<file src="models/art_balon.txd" />
+	<file src="models/art_blood.dff" />
+	<file src="models/art_blood.col" />
+	<file src="models/art_blood.txd" />
+
+	<file src="Sounds/anomaly/bfuzz_blowout.ogg" />
+    <file src="Sounds/anomaly/pux_blast.ogg" />
+	<file src="Sounds/anomaly/buzz_hit.ogg" />
+	<file src="Sounds/anomaly/buzz_idle.ogg" />
+
+    <file src="Sounds/ambient/fire2.ogg" />
+
+	<file src="Sounds/human_01/bandit/alife/attack/found_enemy_1_pda.ogg" />
+    <file src="Sounds/human_01/bandit/alife/attack/found_enemy_2_pda.ogg" />
+    <file src="Sounds/human_01/bandit/alife/attack/found_enemy_3_pda.ogg" />
+    <file src="Sounds/human_01/bandit/alife/attack/smart_captured_1_pda.ogg" />
+    <file src="Sounds/human_01/bandit/alife/attack/smart_captured_2_pda.ogg" />
+    <file src="Sounds/human_01/bandit/alife/attack/smart_captured_3_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/found_enemy_1_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/found_enemy_2_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/found_enemy_3_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/smart_captured_1_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/smart_captured_2_pda.ogg" />
+    <file src="Sounds/human_01/stalker/alife/attack/smart_captured_3_pda.ogg" />
+
+
+
+
+	<export function="xrZoneGetAttribute" type="shared" />
+	<export function="Zone_create" type="server" />
+	<export function="xrGetPlayerZoneInfluence" type="client" />
+	<export function="xrGetPlayerZoneElement" type="client" />
+	<export function="xrIsPlayerWithinGreenZone" type="client" />
+	<export function="xrIsPlayerCaptureZone" type="server" />
+
+	<include resource="papi" />
+</meta>

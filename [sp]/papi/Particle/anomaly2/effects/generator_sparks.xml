@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="4">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="222" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 59 0" point2="0 38 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-7.85398 7.85398 7.85398" point2="10.472 62.8319 62.8319" />
+			<domain name="size" type="Line" point1="0.5 0.5 0.5" point2="1 1 1" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0.5 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0.28" scale="12" timeFrom="0" timeTo="1" color="0 0.027451 0.039216" />
+		<action type="TargetSize" enabled="true" size="30 30 30" scale="12 12 12" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_lightning_02.xml" />
+</effect>

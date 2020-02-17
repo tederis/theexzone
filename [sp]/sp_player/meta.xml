@@ -1,0 +1,75 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+    <oop>true</oop>
+    <script src="shared.lua" type="shared" />	
+    <script src="client.lua" type="client" />
+	<script src="fake_se.lua" type="server" />
+	<script src="server.lua" type="server" />
+    <script src="affector_cl.lua" type="client" />
+    <script src="affector_se.lua" type="server" />
+    <script src="watcher_se.lua" type="server" />
+
+    <include resource="xrcore" />
+
+    <file src="sounds/actor/breath_1.ogg" />
+    <file src="sounds/actor/bullet_hit_1.ogg" />
+    <file src="sounds/actor/bullet_hit_2.ogg" />
+    <file src="sounds/actor/bullet_hit_3.ogg" />
+    <file src="sounds/actor/bullet_hit_4.ogg" />
+    <file src="sounds/actor/bullet_hit_pain_1.ogg" />
+    <file src="sounds/actor/bullet_hit_pain_2.ogg" />
+    <file src="sounds/actor/bullet_hit_pain_3.ogg" />
+    <file src="sounds/actor/die0.ogg" />
+    <file src="sounds/actor/die1.ogg" />
+    <file src="sounds/actor/die2.ogg" />
+    <file src="sounds/actor/die3.ogg" />
+    <file src="sounds/actor/drink_1.ogg" />
+    <file src="sounds/actor/drink_2.ogg" />
+    <file src="sounds/actor/drink_3.ogg" />
+    <file src="sounds/actor/hit_5.ogg" />
+    <file src="sounds/actor/hit_6.ogg" />
+    <file src="sounds/actor/hit_7.ogg" />
+    <file src="sounds/actor/hurt1.ogg" />
+    <file src="sounds/actor/hurt2.ogg" />
+    <file src="sounds/actor/hurt3.ogg" />
+    <file src="sounds/actor/hurt4.ogg" />
+    <file src="sounds/actor/hurt5.ogg" />
+    <file src="sounds/actor/hurt6.ogg" />
+    <file src="sounds/actor/hurt7.ogg" />
+    <file src="sounds/actor/pain1.ogg" />
+    <file src="sounds/actor/pain2.ogg" />
+    <file src="sounds/actor/pain3.ogg" />
+    <file src="sounds/actor/pain_1.ogg" />
+    <file src="sounds/actor/pain_2.ogg" />
+    <file src="sounds/actor/pain_3.ogg" />
+    <file src="sounds/actor/pain_4.ogg" />
+    <file src="sounds/actor/pain_5.ogg" />
+    <file src="sounds/actor/pain_6.ogg" />
+    <file src="sounds/actor/pain_7.ogg" />
+    <file src="sounds/actor/pain_8.ogg" />
+
+
+    <export function="xrPlayerLogIn" type="server" />
+    <export function="xrPlayerRegister" type="server" />
+    <export function="xrCreateCharacter" type="server" />
+    <export function="xrPlayerGetCharacters" type="server" />
+    <export function="xrPlayerGetCharacter" type="server" />
+    <export function="xrPlayerApplyCharacter" type="server" />
+    <export function="xrGetPlayerPower" type="client" />
+    <export function="PlayerAffector_applyBooster" type="server" />
+    <export function="PlayerAffector_applyItemAffects" type="shared" />
+    <export function="PlayerAffector_removeItemAffects" type="shared" />
+    <export function="PlayerAffector_applyAffect" type="client" />
+    <export function="PlayerAffector_removeAffect" type="client" />
+    <export function="PlayerAffector_getAffects" type="client" />
+    <export function="xrPlayerSpawn" type="server" />
+    <export function="xrSetPlayerSkin" type="server" />
+    <export function="xrGivePlayerMoney" type="server" />
+    <export function="xrSetPlayerInfo" type="server" />
+    <export function="xrRemovePlayerInfo" type="server" />
+    <export function="xrGetPlayerInfo" type="server" />
+    <export function="xrAddPlayerRank" type="server" />
+    <export function="xrGetPlayerElementFromId" type="server" />
+    <export function="xrGetPlayerFromCharacterId" type="server" />
+    <export function="xrKillPlayer" type="server" />
+</meta>

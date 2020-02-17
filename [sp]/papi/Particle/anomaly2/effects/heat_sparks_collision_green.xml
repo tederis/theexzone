@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="25">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="25" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 1 0" radiusInner="0" radiusOuter="0.1" />
+			<domain name="velocity" type="Sphere" center="0 3 0" radiusInner="7" radiusOuter="15" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="1.7 1.7 1" point2="0.5 0.5 0" />
+			<domain name="color" type="Point" center="0.47451 0.666667 0.066667" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="2" timeFrom="0" timeTo="0.6" color="0.47451 0.666667 0.066667" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="10" timeFrom="0.6" timeTo="1" color="0 0 0" />
+		<action type="TargetSize" enabled="true" size="0.1 0.1 1" scale="3 3 0.4" />
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -7 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_specks.xml" />
+	<collision friction="1" resilience="0.5" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

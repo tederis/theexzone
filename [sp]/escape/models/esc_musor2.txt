@@ -1,0 +1,13 @@
+[TXDList]
+count=3
+app=TEDERIs Blender Tools
+lighttype=0
+[Texture1]
+name=mtl_bochka_01
+path=D:\OblivionLost\textures\mtl_bochka_01.jpeg
+[Texture2]
+name=mtl_bo4ka_big_iov
+path=D:\OblivionLost\textures\mtl_bo4ka_big_iov.jpeg
+[Texture3]
+name=ston_beton_pod_03
+path=D:\OblivionLost\textures\ston_beton_pod_03.jpeg

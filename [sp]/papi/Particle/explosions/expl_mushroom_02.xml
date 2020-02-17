@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/explosions\effects\expl_benzin_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_glow00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_00.xml" time0="0.1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_fire_small.xml" time0="0.8" time1="2" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_glow_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\fire_distort.xml" time0="0.8" time1="4" defferedStop="true" enabled="true" rewind="false" />
+</group>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\control_monolit_holo_1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\control_monolit_holo_1_scaner.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\control_monolit_holo_1_scaner_disk.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\control_monolit_holo_1_scaner_dist.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\control_monolit_holo_1_scaner_dist_1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

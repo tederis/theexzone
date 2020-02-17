@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="6">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2000" killLessThan="false" />
+		<action type="Source" enabled="true" rate="5" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="-1 1.1 0" point2="1 1.1 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.9 1.3 1" />
+			<domain name="color" type="Point" center="0 0 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="2" timeFrom="0" timeTo="1" color="0.8 0.8 0.8" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-fire01.bmp.xml" />
+	<frame randomInit="false" size="0.09082 0.142578" dimension="11" count="77" />
+	<animated randomPlayback="false" speed="30" />
+	<timeLimit value="2000" />
+</effect>

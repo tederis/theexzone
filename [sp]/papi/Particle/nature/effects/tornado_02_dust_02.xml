@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="48">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="37" alpha="0.03" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 15 0" point2="0 18 0" radiusInner="3" radiusOuter="10" />
+			<domain name="velocity" type="Cylinder" point1="0 -0.1 0" point2="0 0.1 0" radiusInner="-3" radiusOuter="-3" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Line" point1="3 3 0" point2="7 7 0" />
+			<domain name="color" type="Line" point1="0.682353 0.682353 0.682353" point2="0.7 0.7 0.5" />
+		</action>
+		<action type="Sink" enabled="true" killInside="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 12 0" point2="0 21 0" radiusInner="0" radiusOuter="15" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.05" scale="0.3" timeFrom="0" timeTo="1" color="0.745098 0.745098 0.745098" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="47.2555 0 0" />
+		<action type="Vortex" enabled="true" magnitude="73" epsilon="3.7" maxRadius="170" center="0 12 0" axis="0 37 0" allowRotate="true" />
+		<action type="Gravitate" enabled="true" magnitude="3" epsilon="0.001" maxRadius="7" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_b.xml" />
+</effect>

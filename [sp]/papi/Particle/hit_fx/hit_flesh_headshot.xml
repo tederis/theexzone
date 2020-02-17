@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/hit_fx\effects\hit_flesh_headshot_puff.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_flesh_blood_drops.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_flesh_bone_drops.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_blood_drops_out.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_flash_inside.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

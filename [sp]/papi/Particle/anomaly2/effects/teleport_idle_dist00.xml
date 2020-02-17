@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="7" alpha="0.08" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 1.5 0" />
+			<domain name="velocity" type="Point" center="0 0 0.001" />
+			<domain name="rotation" type="Line" point1="-0.785398 -0.785398 -0.785398" point2="-1.0472 -1.0472 -1.0472" />
+			<domain name="size" type="Line" point1="7 7 7" point2="6 6 6" />
+			<domain name="color" type="Point" center="0 0 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="2" timeFrom="0" timeTo="1" color="0.705882 0.701961 0.701961" />
+		<action type="TargetRotate" enabled="true" scale="1" rotation="0 0 0" />
+		<action type="TargetSize" enabled="true" size="0.5 0.5 0.5" scale="4 4 4" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 0 18" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_dist8.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

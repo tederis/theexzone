@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/anomaly2\effects\burer_shield_wave---(hitmark).xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\burer_shield_bullet1.xml" onPlayChild="Particle/anomaly2\effects\burer_shield_trail1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\burer_shield_trail2.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\burer_shield_flash.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

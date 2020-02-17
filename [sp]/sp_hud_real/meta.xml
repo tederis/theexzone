@@ -1,0 +1,90 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="help_cl.lua" type="client" />
+	<script src="labels_cl.lua" type="client" />
+	<script src="news_cl.lua" type="client" />
+	<script src="radar_cl.lua" type="client" />
+	<script src="rankbar_cl.lua" type="client" />
+	<script src="hitmark_cl.lua" type="client" />
+
+	<include resource="xrcore" />
+	
+	<file src="textures/ui_mn_health.dds" />
+	<file src="textures/ui_mn_weapons.dds" />
+	<file src="textures/ui_mg_back_map.dds" />
+	<file src="textures/ui_hud_map_arrow.dds" />
+	<file src="textures/ui_mg_back_pager.dds" />
+	<file src="textures/hud_map_point.dds" />
+	<file src="textures/ui_mg_progress_efficiency_empty.dds" />
+	<file src="textures/ui_mg_progress_efficiency_full.dds" />
+	<file src="textures/ui_motion_icon.dds" />
+	<file src="textures/ui_common.dds" />
+	<file src="textures/cursor.dds" />
+
+	<file src="textures/ui_frame_01/ui_frame_01_b.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_back.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_l.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_lb.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_lt.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_r.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_rb.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_rt.dds" />
+	<file src="textures/ui_frame_01/ui_frame_01_t.dds" />
+	
+	<file src="textures/ui_frame_02/ui_frame_02_b.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_back.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_l.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_lb.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_lt.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_r.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_rb.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_rt.dds" />
+	<file src="textures/ui_frame_02/ui_frame_02_t.dds" />
+	
+	<file src="textures/ui_frame_03/ui_frame_03_b.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_back.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_l.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_r.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_t.dds" />
+	
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_b.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_back.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_l.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_lb.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_lt.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_r.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_rb.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_rt.dds" />
+	<file src="textures/ui_frame_dialog/ui_frame_dialog_t.dds" />
+
+	<file src="textures/ui_inv_info_over_lt.dds" />
+	<file src="textures/ui_frame_over_lb.dds" />
+	<file src="textures/ui_hud_hit_mark.dds" />
+	<file src="textures/chat.png" />
+
+	<file src="shaders/circle.fx" />
+
+	<file src="textures/ui/ui_hud.dds" />
+	<file src="textures/ui/ui_actor_hint_wnd.dds" />
+	<file src="textures/ui/ui_logos.dds" />
+	<file src="textures/ui/ui_icon_equipment.dds" />
+	<file src="textures/ui/map_escape.dds" />
+	
+	<file src="AG Letterica Roman Medium.ttf" />
+	<file src="AGLettericaExtraCompressed Roman.ttf" />
+
+	<file src="config/NewsEntry.xml" />
+	<file src="config/NewsManager.xml" />
+
+	<export function="xrHUDSetEnabled" type="client" />
+	<export function="xrSendPlayerHelpString" type="shared" />
+</meta>

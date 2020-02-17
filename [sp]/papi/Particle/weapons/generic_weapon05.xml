@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0.2">
+	<effect name="Particle/weapons\effects\weapon_test_02_sparks.xml" time0="0" time1="0.1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_test_02_flame.xml" time0="0" time1="0.1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_test_02c.xml" time0="0" time1="0.1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_shot_invert_glow.xml" time0="0" time1="0.1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_shot_invert_01.xml" time0="0" time1="0.1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_shoot_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

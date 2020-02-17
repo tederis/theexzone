@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="63">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="100" alpha="0.7" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0.1 0" radiusInner="0.05" radiusOuter="0.21" />
+			<domain name="velocity" type="Cone" apex="0 -2 0" endPoint="0 -5 0" radiusInner="2" radiusOuter="10" />
+			<domain name="rotation" type="Line" point1="36 -1 -1" point2="6 1 1" />
+			<domain name="size" type="Line" point1="0.03 0.03 0" point2="0.1 0.1 0" />
+			<domain name="color" type="Line" point1="0 0 -1" point2="0.7 0.7 0.3" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="3" velocity="0 0 0" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="50" epsilon="1.5" maxRadius="3" center="0 -2 0" axis="0 1 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-35.7803 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_sparks.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="8" />
+	<animated randomPlayback="false" speed="1" />
+	<timeLimit value="1" />
+</effect>

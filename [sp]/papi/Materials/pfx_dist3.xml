@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_dist3.dds" />
+    <shader name="blend.fx" />
+</material>

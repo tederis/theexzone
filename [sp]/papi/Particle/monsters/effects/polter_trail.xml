@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.25" killLessThan="false" />
+		<action type="Source" enabled="true" rate="28" alpha="0.38" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.25" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-1.0472 0 0" point2="1.0472 1.0472 1.0472" />
+			<domain name="size" type="Line" point1="0.6 0.6 0" point2="0.8 0.8 0.8" />
+			<domain name="color" type="Point" center="0.415686 0.415686 0.415686" />
+		</action>
+		<action type="Gravity" enabled="true" direction="0 1 0" allowRotate="false" />
+		<action type="TargetSize" enabled="true" size="1 1 1" scale="1 1 0" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="5" timeFrom="0" timeTo="1" color="0.12549 0.007843 0.168627" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_anomaly_19.xml" />
+	<animated randomPlayback="false" speed="0" />
+</effect>

@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_ligth_6.dds" />
+    <shader name="add.fx" />
+</material>

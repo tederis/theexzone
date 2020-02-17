@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="300" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.01" />
+			<domain name="velocity" type="Cone" apex="0 0 -1" endPoint="0 1 -3" radiusInner="0" radiusOuter="0.3" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.05 0.05 0" point2="0.07 0.07 0.07" />
+			<domain name="color" type="Point" center="0.756863 0.541176 0.541176" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0.184314 0.043137 0.019608" />
+		<action type="TargetVelocity" enabled="true" scale="3" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -3 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_bloodsplash1.xml" />
+	<timeLimit value="0.3" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

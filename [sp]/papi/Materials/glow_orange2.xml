@@ -1,0 +1,4 @@
+<material>
+    <texture name="glow_orange2.dds" />
+    <shader name="blend.fx" />
+</material>

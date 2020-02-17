@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.9" killLessThan="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="50" epsilon="0.01" maxRadius="1e+16" center="-2.678 -0.396 0.88" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="50" epsilon="0.1" maxRadius="1e+16" center="-6.723 -1.687 0.451" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="50" epsilon="0.1" maxRadius="1e+16" center="-8.375 -1.771 0.11" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="50" epsilon="0.1" maxRadius="1e+16" center="-10.065 -1.602 -0.065" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="50" epsilon="0.1" maxRadius="1e+16" center="-13.127 -2.014 -0.09" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="200" epsilon="0.1" maxRadius="1e+16" center="-15.848 -0.796 -0.133" allowRotate="true" />
+		<action type="Source" enabled="true" rate="1000" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0.4" radiusOuter="0.6" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-5.23599 -5.23599 -5.23599" point2="5.23599 5.23599 5.23599" />
+			<domain name="size" type="Line" point1="1 1 1" point2="2 2 2" />
+			<domain name="color" type="Point" center="0 0 0" />
+		</action>
+		<action type="SpeedLimit" enabled="true" minSpeed="20" maxSpeed="20" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_lightning_02.xml" />
+	<timeLimit value="0.9" />
+</effect>

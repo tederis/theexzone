@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="3">
+	<effect name="Particle/monsters\effects\flame_yadro.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\flame_yadro_glow_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\flame_yadro_glow_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\flame_birth_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\flame_death_00.xml" time0="2.4" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\flame_low.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

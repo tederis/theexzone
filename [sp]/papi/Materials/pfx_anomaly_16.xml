@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_anomaly_16.dds" />
+    <shader name="blend.fx" />
+</material>

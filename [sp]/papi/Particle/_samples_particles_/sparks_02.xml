@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="80">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="27" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 1 0" radiusInner="1.5" radiusOuter="3.5" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 1 0" radiusInner="0.3" radiusOuter="0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.15 0.15 0" point2="0.175 0.175 0.175" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.3" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_sparks.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="8" />
+	<animated randomPlayback="false" speed="48" />
+	<velocityScale value="0 3 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

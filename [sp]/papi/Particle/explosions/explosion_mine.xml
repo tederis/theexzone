@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="3">
+	<effect name="Particle/explosions\effects\expl_10_smoke00_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_06.xml" onBirthChild="Particle/explosions\effects\expl_flame_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_stones.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flash_alpha.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

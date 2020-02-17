@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.73" killLessThan="false" />
+		<action type="Source" enabled="true" rate="50" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.2" />
+			<domain name="velocity" type="Sphere" center="0 0.1 0" radiusInner="0" radiusOuter="3" />
+			<domain name="rotation" type="Line" point1="-6.28319 -6.28319 0" point2="6.28319 6.28319 0" />
+			<domain name="size" type="Line" point1="0.02 0.02 0" point2="0.05 0.05 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="4" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="1" rotation="6.28319 0 0" />
+		<action type="Gravity" enabled="true" direction="0 -3 0" allowRotate="false" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<timeLimit value="0.73" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

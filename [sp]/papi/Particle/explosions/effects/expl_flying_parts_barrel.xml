@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="200" alpha="0.128" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0.5 0" normal="0 1 0" radiusInner="1" radiusOuter="2" />
+			<domain name="velocity" type="Cone" apex="0 2 0" endPoint="8 20 0" radiusInner="12" radiusOuter="22" />
+			<domain name="rotation" type="Line" point1="29.9975 -30 -30" point2="-29.9975 30 30" />
+			<domain name="size" type="Line" point1="0.6 0.6 0" point2="0.45 0.45 0" />
+			<domain name="color" type="Point" center="0.996078 0.717647 0.494118" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="2" timeFrom="0" timeTo="1" color="0.388235 0.388235 0.388235" />
+		<action type="Gravity" enabled="true" direction="0 -10 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="false" scale="0.4" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_vehmetaldebris_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<timeLimit value="0.1" />
+	<collision friction="0" resilience="0.28" cutoff="1" destroyOnContact="true" collideWithDynamic="false" />
+</effect>

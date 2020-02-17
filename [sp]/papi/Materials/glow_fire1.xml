@@ -1,0 +1,4 @@
+<material>
+    <texture name="glow_fire1.dds" />
+    <shader name="add.fx" />
+</material>

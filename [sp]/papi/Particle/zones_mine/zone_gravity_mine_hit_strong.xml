@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="12">
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat-400.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat00-4.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat004.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat400.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_yadro.xml" time0="1.5" time1="6.2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat-400_leaves.xml" time0="0" time1="3" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat00-4_leaves.xml" time0="0" time1="3" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat004_leaves.xml" time0="0" time1="3" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat400_leaves.xml" time0="0" time1="3" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_wave.xml" time0="6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_yadro_dust.xml" time0="2" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_otbrosy.xml" time0="6.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_dust.xml" time0="6.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat-400_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat00-4_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat004_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat400_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_zaxvat_wave_dist.xml" time0="6.1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

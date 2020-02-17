@@ -1,0 +1,206 @@
+#include "defines.ltx"
+#include "prefetch\prefetch.ltx"
+;#include "weathers\environment.ltx"
+#include "creatures\monsters.ltx"
+#include "creatures\stalkers.ltx"
+#include "weapons\weapons.ltx"
+#include "misc\inventory_upgrades.ltx"
+#include "misc\items.ltx"
+
+#include "creatures\actor.ltx"
+#include "zones\zones.ltx"
+#include "misc\postprocess.ltx"
+
+#include "misc\outfit.ltx"
+#include "misc\achievements.ltx"
+#include "misc\artefacts.ltx"
+#include "misc\devices.ltx"
+#include "misc\radiation_counter.ltx"
+#include "misc\quest_items.ltx"
+#include "models\dynamic_objects.ltx"
+#include "misc\m_online_offline_group.ltx"
+#include "misc\squad_descr.ltx"
+#include "misc\monster_items.ltx"
+
+#include "misc\effectors.ltx"
+#include "creatures\helicopter.ltx"
+#include "external.ltx"
+
+#include "creatures\game_relations.ltx"
+
+#include "mp\mp_actor.ltx"
+#include "mp\team_logo.ltx"
+#include "mp\weapons_mp\ammo_mp.ltx"
+#include "mp\weapons_mp\weapons_mp.ltx"
+#include "mp\weapons_mp\outfit_mp.ltx"
+#include "mp\weapons_mp\items_mp.ltx"
+
+;Game types
+#include "mp\SoundMessages\mp_snd_messages.ltx"
+#include "mp\SoundMessages\ahunt_snd_messages.ltx"
+#include "mp\SoundMessages\cta_snd_messages.ltx"
+#include "mp\SoundMessages\dm_snd_messages.ltx"
+#include "mp\SoundMessages\tdm_snd_messages.ltx"
+#include "mp\private_defines.ltx"
+#include "mp\deathmatch_game.ltx"
+#include "mp\teamdeathmatch_game.ltx"
+#include "mp\artefacthunt_game.ltx"
+#include "mp\capturetheartefact_game.ltx"
+#include "mp\anticheat_active_params.ltx"
+
+#include "evaluation.ltx"
+#include "fonts.ltx"
+
+#include "alife.ltx"
+; SIMULATION
+#include "misc\simulation.ltx"
+
+; Respawns
+#include "creatures\spawn_sections.ltx"
+
+; Extra Content
+#include "extracontent.ltx"
+#include "localization.ltx"
+#include "smart_cover.ltx"
+
+[sound]
+occlusion_scale = 0.4
+snd_collide_min_volume=0.1
+snd_collide_max_volume=200.
+
+[dialogs]
+files = dialogs, dialogs_zaton, dialogs_jupiter, dialogs_pripyat
+
+[encyclopedia]
+files = encyclopedia_infos
+
+[profiles]
+files =  npc_profile
+specific_characters_files = character_desc_general, character_desc_zaton, character_desc_pripyat, character_desc_jupiter, character_desc_underpass
+
+[inventory]
+take_dist   	= 2
+max_weight    	= 50
+max_ruck    	= 56
+max_belt    	= 5 ;16
+slots_count   	= 12 ; count +1 (zero)
+
+slot_persistent_1   = true   ;knife
+slot_active_1       = true
+
+slot_persistent_2   = false  ;pistol
+slot_active_2       = true
+
+slot_persistent_3   = false  ;automatic
+slot_active_3       = true
+
+slot_persistent_4   = true   ;grenades
+slot_active_4       = true
+
+slot_persistent_5   = true   ;binocular
+slot_active_5       = true
+
+slot_persistent_6   = true   ;bolt
+slot_active_6       = true
+
+slot_persistent_7   = false  ;outfit
+slot_active_7       = false
+
+slot_persistent_8   = true   ;pda
+slot_active_8       = false
+
+slot_persistent_9   = true   ;detector
+slot_active_9       = false
+
+slot_persistent_10  = true  ;torch
+slot_active_10      = false
+
+slot_persistent_11  = false ;artefact
+slot_active_11      = true
+
+slot_persistent_12  = false ;helmet
+slot_active_12      = false
+
+
+
+[hud_hitmark]
+hit_mark_texture    = ui\ui_hud_hit_mark; ui\ui_empty
+grenade_mark_texture    = ui\ui_hud_grenade_mark
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; inventory items
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[document]
+GroupControlSection = spawn_group
+;discovery_dependency =
+spawn        = "documents\document 01"
+;$prefetch      = 32
+class       = II_DOC
+cform       = skeleton
+visual        = dynamics\equipments\item_document_1.ogf
+
+inv_name      = Document
+inv_name_short    = Document
+inv_weight      = 1 ;0.2
+
+inv_grid_width    = 1
+inv_grid_height   = 1
+inv_grid_x      = 0
+inv_grid_y      = 0
+cost        = 0
+
+[maingame_ui]
+pda_msgs_max_show_time = 20000
+info_msgs_max_show_time = 10000
+snd_new_contact         = detectors\contact_1
+snd_new_contact1        = detectors\contact_8
+
+[hud_sound]
+hud_sound_vol_k     	= 0.38
+hud_step_sound_vol_k 	= 0.21
+
+[attachable_item]
+GroupControlSection   = spawn_group
+discovery_dependency  =
+spawn          = "equipment\attachable_item"
+cform                   = skeleton
+class         = II_ATTCH
+cost          = 100
+inv_name        = "Attachable item"
+inv_name_short      = "Attachable item"
+inv_weight        = .5
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x        = 16
+inv_grid_y        = 12
+attach_angle_offset   = 0, -3.14, 1.6
+attach_position_offset  = 0.105, 0.00, 0.085
+attach_bone_name    = bip01_head
+
+[hand_radio]:identity_immunities
+GroupControlSection   = spawn_group
+discovery_dependency  =
+spawn          = "equipment\hand_radio"
+cform                   = skeleton
+class         = II_ATTCH
+visual                  = dynamics\devices\dev_fmradio\dev_fmradio.ogf
+cost          = 0
+inv_name        = "hand_radio"
+inv_name_short      = "hand_radio"
+inv_weight        = .5
+inv_grid_width      = 2
+inv_grid_height     = 1
+inv_grid_x        = 16
+inv_grid_y        = 12
+attach_angle_offset   = -1.5708,0.1919,3.1416    ;�������������� � �������� Angle*PI/180
+attach_position_offset  = 0.075, 0.066, 0.023
+attach_bone_name    = bip01_l_hand
+auto_attach       = false
+
+[breakable_object]
+class           = O_BRKBL
+remove_time         = 10      ;after remove_time seconds object will be removed after it is breaked
+hit_break_threthhold    = 0.      ;weapon impact can stand breakable_object
+collision_break_threthhold  = 2000.f  ;collision impact can stand breakable_object
+immunity_factor       = 1.3     ;hit power multiplier

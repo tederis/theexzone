@@ -1,0 +1,50 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="help_cl.lua" type="client" />
+	<script src="labels_cl.lua" type="client" />
+	<script src="radar_cl.lua" type="client" />
+	<script src="rankbar_cl.lua" type="client" />
+	<script src="hitmark_cl.lua" type="client" />
+	<script src="news_cl.lua" type="client" />
+
+	<file src="config/Hud.xml" />
+	<file src="config/Map.xml" />
+	<file src="config/NewsEntry.xml" />
+
+	<include resource="xrcore" />
+	
+	<file src="textures/ui_mn_health.dds" />
+	<file src="textures/ui_mn_weapons.dds" />
+	<file src="textures/ui_mg_back_map.dds" />
+	<file src="textures/ui_hud_map_arrow.dds" />
+	<file src="textures/ui_mg_back_pager.dds" />
+	<file src="textures/hud_map_point.dds" />
+	<file src="textures/ui_mg_progress_efficiency_empty.dds" />
+	<file src="textures/ui_mg_progress_efficiency_full.dds" />
+	<file src="textures/ui_motion_icon.dds" />
+	<file src="textures/ui_common.dds" />
+	<file src="textures/cursor.dds" />
+
+	<file src="textures/ui_hud_hit_mark.dds" />
+	<file src="textures/chat.png" />
+
+	<file src="shaders/circle.fx" />
+
+	<file src="textures/ui/ui_hud.dds" />
+	<file src="textures/ui/ui_actor_hint_wnd.dds" />
+	<file src="textures/ui/ui_logos.dds" />
+	<file src="textures/ui/ui_icon_equipment.dds" />
+	<file src="textures/ui/map_escape.dds" />	
+
+	<file src="sounds/pda_news.ogg" />	
+
+	<export function="xrHUDSetEnabled" type="client" />
+	<export function="xrSendPlayerHelpString" type="shared" />
+	<export function="xrPrintNews" type="shared" />
+	<export function="xrPrintPlayerNews" type="shared" />
+</meta>

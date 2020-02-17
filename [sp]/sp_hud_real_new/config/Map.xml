@@ -1,0 +1,10 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="0" y="0" width="1024" height="2048"></origin>
+        <frame texture="map_escape" type="image" name="Map" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+            <origin x="0" y="0" width="1024" height="2048"></origin>
+        </frame>
+    </frame>
+</ui>

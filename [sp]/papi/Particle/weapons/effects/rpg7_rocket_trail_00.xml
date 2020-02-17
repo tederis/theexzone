@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="80">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.28" killLessThan="false" />
+		<action type="Source" enabled="true" rate="168" alpha="1" startingAge="0" ageSigma="0" parentMotion="0.5" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 0 18" point2="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="0 0 0" point2="34.9066 34.9066 34.9066" />
+			<domain name="size" type="Line" point1="1 1 1" point2="0.7 0.7 0.7" />
+			<domain name="color" type="Line" point1="0.262745 0.239216 0.2" point2="0.286275 0.262745 0.247059" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.028" scale="4.68" timeFrom="0" timeTo="1" color="0.007843 0.007843 0.007843" />
+		<action type="TargetSize" enabled="true" size="3.8 3.8 3.8" scale="2.8 2.8 2.8" />
+		<action type="TargetVelocity" enabled="true" scale="8" velocity="1.5 0.5 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smokepuffs2.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="8" />
+	<timeLimit value="1" />
+</effect>

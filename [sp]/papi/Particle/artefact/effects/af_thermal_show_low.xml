@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="2">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2.4" killLessThan="false" />
+		<action type="Source" enabled="true" rate="12" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-6.28319 -6.28319 -6.28319" point2="0 0 0" />
+			<domain name="size" type="Point" center="2 2 2" />
+			<domain name="color" type="Point" center="1 0.145098 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="2" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetSize" enabled="true" size="8 8 8" scale="3 3 3" />
+		<action type="TargetRotate" enabled="true" scale="0.2" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_orange2.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="1" />
+</effect>

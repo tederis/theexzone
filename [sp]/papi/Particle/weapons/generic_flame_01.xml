@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/weapons\effects\generic_flame_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_flame_01a.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_flame_02a.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_flame_02b.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_flame_02c.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_smoke_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_flame_01b.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

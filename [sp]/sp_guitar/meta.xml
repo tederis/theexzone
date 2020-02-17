@@ -1,0 +1,18 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="OblivionLost NPC" type="script" />
+    <oop>true</oop>
+    <min_mta_version client="1.5.6" server="1.5.6" />
+
+    <script src="shared.lua" type="shared" />	
+	<script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+
+    <file src="models/guitar.dff" />
+    <file src="models/guitar.txd" />
+    <file src="models/guitar.col" />
+    <file src="models/guitar.ifp" />    
+
+    <export function="xrGivePlayerWeapon" type="server" />
+	<export function="xrTakePlayerWeapon" type="server" />
+    <export function="xrReloadPlayerWeapon" type="server" />
+</meta>

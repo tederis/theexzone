@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="3">
+	<effect name="Particle/weapons\effects\rpg_hit_back.xml" time0="0.1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rgd_dust_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg_hit_spark.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg7_flash.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

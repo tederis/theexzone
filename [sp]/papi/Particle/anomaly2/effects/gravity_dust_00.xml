@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="70">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="3000" alpha="0.6" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0.2 0" radiusInner="0.2" radiusOuter="0" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0.1 0" radiusInner="10" radiusOuter="20" />
+			<domain name="rotation" type="Line" point1="-30 -30 -30" point2="30 30 30" />
+			<domain name="size" type="Point" center="1.3 3.9 0" />
+			<domain name="color" type="Point" center="0.337255 0.341176 0.098039" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="8" timeFrom="0" timeTo="1" color="0.270588 0.211765 0.211765" />
+		<action type="TargetSize" enabled="true" size="0.2 0.001 0.001" scale="6 6 6" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="-0.093 0 -0.782" allowRotate="true" />
+		<action type="TargetRotate" enabled="false" scale="0.3" rotation="-38.5739 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_anomaly_7.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="8" />
+	<animated randomPlayback="false" speed="21" />
+	<timeLimit value="0.5" />
+</effect>

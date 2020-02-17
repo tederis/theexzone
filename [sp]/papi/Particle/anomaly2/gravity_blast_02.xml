@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\gravity_flash_06.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_leaves_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

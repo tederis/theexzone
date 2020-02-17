@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/nature\effects\tornado_01_dust_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/nature\effects\tornado_01_dust_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/nature\effects\tornado_01_leaves_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/nature\effects\tornado_01_leaves_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/nature\effects\tornado_01_stuff_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

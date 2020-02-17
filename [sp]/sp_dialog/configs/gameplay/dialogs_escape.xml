@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<game_dialogs>
+    <dialog id="start_dialog_bandit">
+        <phrase_list>
+            <phrase id="0">
+                <text>start_dialog_bandit_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="talk_about_stalker">
+        <has_info>is_intro_left</has_info>
+        <phrase_list>
+            <phrase id="22">
+                <text>talk_about_stalker_22</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="222">
+                <text>talk_about_stalker_222</text>
+                <next>333</next>
+            </phrase>
+            <phrase id="1">
+                <text>talk_about_stalker_1</text>
+                <next>2</next>
+                <next>22</next>
+                <next>222</next>
+            </phrase>
+            <phrase id="2">
+                <text>talk_about_stalker_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="32">
+                <text>talk_about_stalker_32</text>
+            </phrase>
+            <phrase id="3">
+                <text>talk_about_stalker_3</text>
+            </phrase>
+            <phrase id="333">
+                <text>talk_about_stalker_333</text>
+            </phrase>
+            <phrase id="0">
+                <text>talk_about_stalker_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="return_items_dialog">
+        <has_info>is_player_naked</has_info>
+        <phrase_list>
+            <phrase id="1">
+                <text>return_items_dialog_1</text>
+                <action>sp_inventory:xrReturnPlayerItems</action>
+                <disable_info>is_player_naked</disable_info>
+            </phrase>
+            <phrase id="0">
+                <text>return_items_dialog_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="return_items_dialog_bandit">
+        <has_info>is_player_naked</has_info>
+        <phrase_list>
+            <phrase id="1">
+                <text>return_items_dialog_bandit_1</text>
+                <action>sp_inventory:xrReturnPlayerItems</action>
+                <disable_info>is_player_naked</disable_info>
+            </phrase>
+            <phrase id="0">
+                <text>return_items_dialog_bandit_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="start_dialog_stalker">
+        <phrase_list>
+            <phrase id="0">
+                <text>start_dialog_stalker_0</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="talk_about_bandit">
+        <has_info>is_intro_left</has_info>
+        <phrase_list>
+            <phrase id="22">
+                <text>talk_about_bandit_22</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="222">
+                <text>talk_about_bandit_222</text>
+                <next>333</next>
+            </phrase>
+            <phrase id="32">
+                <text>talk_about_bandit_32</text>
+            </phrase>
+            <phrase id="1">
+                <text>talk_about_bandit_1</text>
+                <next>2</next>
+                <next>22</next>
+                <next>222</next>
+            </phrase>
+            <phrase id="333">
+                <text>talk_about_bandit_333</text>
+            </phrase>
+            <phrase id="2">
+                <text>talk_about_bandit_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>talk_about_bandit_3</text>
+            </phrase>
+            <phrase id="0">
+                <text>talk_about_bandit_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="receiver_quest">
+        <has_info>has_courier_quest</has_info>
+        <phrase_list>
+            <phrase id="1">
+                <text>receiver_quest_1</text>
+                <action>sp_gamemode:xrFinishCourierQuest</action>
+                <disable_info>has_courier_quest</disable_info>
+                <dont_has_info>info_passed_courier_quest</dont_has_info>
+                <give_info>info_passed_courier_quest</give_info>
+            </phrase>
+            <phrase id="11">
+                <text>receiver_quest_11</text>
+                <action>sp_gamemode:xrFinishCourierQuest</action>
+                <disable_info>has_courier_quest</disable_info>
+                <has_info>info_passed_courier_quest</has_info>
+            </phrase>
+            <phrase id="0">
+                <text>receiver_quest_0</text>
+                <precondition>sp_gamemode:xrIsPlayerKeepCourierItem</precondition>
+                <next>1</next>
+                <next>11</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="receiver_quest_fail">
+        <has_info>has_courier_quest</has_info>
+        <phrase_list>
+            <phrase id="0">
+                <text>receiver_quest_fail_0</text>
+                <precondition>sp_gamemode:xrIsPlayerWasteCourierItem</precondition>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>receiver_quest_fail_1</text>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="receiver_help">
+        <dont_has_info>has_courier_quest</dont_has_info>
+        <phrase_list>
+            <phrase id="1">
+                <text>receiver_help_1</text>
+            </phrase>
+            <phrase id="0">
+                <text>receiver_help_0</text>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="intro_dialog">
+        <dont_has_info>is_intro_left</dont_has_info>
+        <phrase_list>
+            <phrase id="12125">
+                <text>intro_dialog_12125</text>
+                <next>12126</next>
+            </phrase>
+            <phrase id="12127">
+                <text>intro_dialog_12127</text>
+                <next>12128</next>
+            </phrase>
+            <phrase id="12126">
+                <text>intro_dialog_12126</text>
+                <next>12127</next>
+            </phrase>
+            <phrase id="12129">
+                <text>intro_dialog_12129</text>
+                <next>12130</next>
+            </phrase>
+            <phrase id="12130">
+                <text>intro_dialog_12130</text>
+            </phrase>
+            <phrase id="12">
+                <text>intro_dialog_12</text>
+                <next>121</next>
+            </phrase>
+            <phrase id="121">
+                <text>intro_dialog_121</text>
+                <next>1211</next>
+            </phrase>
+            <phrase id="1211">
+                <text>intro_dialog_1211</text>
+                <next>1212</next>
+            </phrase>
+            <phrase id="1212">
+                <text>intro_dialog_1212</text>
+                <next>12123</next>
+            </phrase>
+            <phrase id="12123">
+                <text>intro_dialog_12123</text>
+                <next>12124</next>
+            </phrase>
+            <phrase id="12124">
+                <text>intro_dialog_12124</text>
+                <next>12125</next>
+            </phrase>
+            <phrase id="12128">
+                <text>intro_dialog_12128</text>
+                <next>12129</next>
+            </phrase>
+            <phrase id="14">
+                <text>intro_dialog_14</text>
+            </phrase>
+            <phrase id="13">
+                <text>intro_dialog_13</text>
+                <next>14</next>
+            </phrase>
+            <phrase id="0">
+                <text>intro_dialog_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>intro_dialog_1</text>
+                <action>sp_dialog:xrGivePlayerStartKit</action>
+                <give_info>is_intro_left</give_info>
+                <next>12</next>
+                <next>13</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="intro_dialog_bandit">
+        <dont_has_info>is_intro_left</dont_has_info>
+        <phrase_list>
+            <phrase id="347">
+                <text>intro_dialog_bandit_347</text>
+            </phrase>
+            <phrase id="346">
+                <text>intro_dialog_bandit_346</text>
+                <next>347</next>
+            </phrase>
+            <phrase id="121">
+                <text>intro_dialog_bandit_121</text>
+                <next>1211</next>
+            </phrase>
+            <phrase id="1211">
+                <text>intro_dialog_bandit_1211</text>
+                <next>1212</next>
+            </phrase>
+            <phrase id="1212">
+                <text>intro_dialog_bandit_1212</text>
+                <next>12123</next>
+            </phrase>
+            <phrase id="12123">
+                <text>intro_dialog_bandit_12123</text>
+                <next>12124</next>
+            </phrase>
+            <phrase id="12124">
+                <text>intro_dialog_bandit_12124</text>
+                <next>12125</next>
+            </phrase>
+            <phrase id="12125">
+                <text>intro_dialog_bandit_12125</text>
+                <next>12126</next>
+            </phrase>
+            <phrase id="12126">
+                <text>intro_dialog_bandit_12126</text>
+                <next>12127</next>
+            </phrase>
+            <phrase id="12127">
+                <text>intro_dialog_bandit_12127</text>
+                <next>12128</next>
+            </phrase>
+            <phrase id="12128">
+                <text>intro_dialog_bandit_12128</text>
+            </phrase>
+            <phrase id="14">
+                <text>intro_dialog_bandit_14</text>
+            </phrase>
+            <phrase id="13">
+                <text>intro_dialog_bandit_13</text>
+                <next>14</next>
+            </phrase>
+            <phrase id="12">
+                <text>intro_dialog_bandit_12</text>
+                <next>121</next>
+            </phrase>
+            <phrase id="0">
+                <text>intro_dialog_bandit_0</text>
+                <next>1</next>
+            </phrase>
+            <phrase id="1">
+                <text>intro_dialog_bandit_1</text>
+                <action>sp_dialog:xrGivePlayerStartKit</action>
+                <give_info>is_intro_left</give_info>
+                <next>12</next>
+                <next>13</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="actor_break_dialog">
+        <phrase_list>
+            <phrase id="0">
+                <text>actor_break_dialog_0</text>
+                <action>sp_dialog:xrBreakDialog</action>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="provider_quest">
+        <phrase_list>
+            <phrase id="41">
+                <text>provider_quest_41</text>
+                <next>51</next>
+            </phrase>
+            <phrase id="21">
+                <text>provider_quest_21</text>
+                <next>31</next>
+            </phrase>
+            <phrase id="31">
+                <text>provider_quest_31</text>
+                <action>sp_gamemode:xrStartCourierQuest</action>
+                <give_info>has_courier_quest</give_info>
+            </phrase>
+            <phrase id="22">
+                <text>provider_quest_22</text>
+                <next>32</next>
+            </phrase>
+            <phrase id="32">
+                <text>provider_quest_32</text>
+            </phrase>
+            <phrase id="2">
+                <text>provider_quest_2</text>
+                <next>3</next>
+            </phrase>
+            <phrase id="3">
+                <text>provider_quest_3</text>
+                <next>4</next>
+                <next>41</next>
+            </phrase>
+            <phrase id="4">
+                <text>provider_quest_4</text>
+                <next>5</next>
+            </phrase>
+            <phrase id="5">
+                <text>provider_quest_5</text>
+                <action>sp_gamemode:xrStartCourierQuest</action>
+                <give_info>has_courier_quest</give_info>
+            </phrase>
+            <phrase id="51">
+                <text>provider_quest_51</text>
+            </phrase>
+            <phrase id="111">
+                <text>provider_quest_111</text>
+                <has_info>has_courier_quest</has_info>
+            </phrase>
+            <phrase id="11">
+                <text>provider_quest_11</text>
+                <dont_has_info>has_courier_quest</dont_has_info>
+                <has_info>info_passed_courier_quest</has_info>
+                <next>21</next>
+                <next>22</next>
+            </phrase>
+            <phrase id="0">
+                <text>provider_quest_0</text>
+                <precondition>sp_gamemode:xrPlayerCourierTimeCondition</precondition>
+                <next>1</next>
+                <next>11</next>
+                <next>111</next>
+            </phrase>
+            <phrase id="1">
+                <text>provider_quest_1</text>
+                <dont_has_info>has_courier_quest</dont_has_info>
+                <dont_has_info>info_passed_courier_quest</dont_has_info>
+                <next>2</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+    <dialog id="provider_quest_wait">
+        <phrase_list>
+            <phrase id="1">
+                <text>provider_quest_wait_1</text>
+            </phrase>
+            <phrase id="0">
+                <text>provider_quest_wait_0</text>
+                <precondition>sp_gamemode:xrPlayerCourierTimeConditionInv</precondition>
+                <next>1</next>
+            </phrase>
+        </phrase_list>
+    </dialog>
+</game_dialogs>

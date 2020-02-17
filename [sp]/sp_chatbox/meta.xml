@@ -1,0 +1,14 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect2222" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+
+	<file src="qwerty.xml" />
+
+	<export function="xrShowChat" type="client" />
+
+	<include resource="xrcore" />	
+</meta>

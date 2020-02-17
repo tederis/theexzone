@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/weapons\effects\weapon_test_02_sparks.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\generic_smoke_01.xml" time0="0.1" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_test_01a.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_test_01b.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\weapon_test_01c.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

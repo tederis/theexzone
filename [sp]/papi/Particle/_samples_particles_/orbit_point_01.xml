@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1000">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="3" epsilon="0.1" maxRadius="1e+16" center="0 0 0" allowRotate="true" />
+		<action type="Gravitate" enabled="true" magnitude="0.001" epsilon="0.1" maxRadius="1e+16" />
+		<action type="SpeedLimit" enabled="true" minSpeed="0" maxSpeed="3" />
+		<action type="Move" enabled="true" />
+		<action type="Source" enabled="true" rate="30" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.75" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.1 0.1 0.1" />
+			<domain name="color" type="Point" center="1 0.588235 0" />
+		</action>
+	</actions>
+	<sprite material="Materials/glow_white.xml" />
+	<frame randomInit="false" size="1 1" dimension="1" count="8" />
+	<collision friction="0.9" resilience="0.8" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

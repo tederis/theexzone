@@ -1,0 +1,154 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame type="frame" name="RadarWnd" visible="true">
+            <anchor leftTopX="1" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+            <origin x="774.08" y="24.38" width="226" height="226"></origin>
+            <frame type="rt" name="RadarRT" visible="true">
+                <anchor leftTopX="0.10619469026549" leftTopY="0.11061946902655" rightBottomX="0.88495575221239" rightBottomY="0.88938053097345"></anchor>
+                <origin x="24" y="25" width="176" height="176"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_Radar_main_window" type="image" name="RadarImg" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="0" width="226" height="226"></origin>
+                <frame font="LettericaRomanMedium" text="09:00" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" color="255 177 33" type="text" name="TimeLbl" visible="true">
+                    <anchor leftTopX="0.044247787610619" leftTopY="0.80530973451327" rightBottomX="0.24743362831858" rightBottomY="0.91867256637168"></anchor>
+                    <origin x="10" y="182" width="45.92" height="25.62"></origin>
+                </frame>
+                <frame texture="ui_actor_hint_wnd" section="ui_inGame2_Radar_compass" type="image" name="Compass" visible="true">
+                    <anchor leftTopX="0.1283185840708" leftTopY="0.048672566371681" rightBottomX="0.16814159292035" rightBottomY="0.18141592920354"></anchor>
+                    <origin x="29" y="11" width="9" height="30"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui_actor_hint_wnd" section="ui_inGame2_Patroni_HUD_main_window" type="image" name="WpnImg" visible="true">
+            <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+            <origin x="703" y="575.12" width="300" height="170"></origin>
+            <frame type="frame" name="AmmoFrame" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="0" width="300" height="170"></origin>
+                <frame font="LettericaRomanMedium" text="A" alignX="center" alignY="center" scale="0.6" clip="false" wordBreak="false" color="255 177 33" type="text" name="FireMode" visible="true">
+                    <anchor leftTopX="0.12333333333333" leftTopY="0.67647058823529" rightBottomX="0.23" rightBottomY="0.864"></anchor>
+                    <origin x="37" y="115" width="32" height="31.88"></origin>
+                </frame>
+                <frame font="LettericaRomanMedium" text="" alignX="center" alignY="center" scale="0.6" clip="false" wordBreak="false" color="255 177 33" type="text" name="GranadeType" visible="true">
+                    <anchor leftTopX="0.12666666666667" leftTopY="0.42941176470588" rightBottomX="0.23" rightBottomY="0.61105882352941"></anchor>
+                    <origin x="38" y="73" width="31" height="30.88"></origin>
+                </frame>
+                <frame font="LettericaRomanMedium" text="20" alignX="center" alignY="center" scale="1.1" clip="false" wordBreak="false" color="255 177 33" type="text" name="AmmoInClip" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="76" y="76" width="95" height="32.88"></origin>
+                </frame>
+                <frame font="LettericaRomanMedium" text="200" alignX="center" alignY="center" scale="0.9" clip="false" wordBreak="false" color="255 177 33" type="text" name="AmmoTotal" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="76" y="110" width="43" height="32.88"></origin>
+                </frame>
+                <frame font="LettericaRomanMedium" text="0" alignX="center" alignY="center" scale="0.9" clip="false" wordBreak="false" color="255 177 33" type="text" name="TotalAPAmmo" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="122" y="108" width="47" height="36.88"></origin>
+                </frame>
+                <frame texture="ui_icon_equipment" type="image" name="AmmoIcon" visible="true">
+                    <anchor leftTopX="0.79666666666667" leftTopY="0.74047058823529" rightBottomX="0.79666666666667" rightBottomY="0.74047058823529"></anchor>
+                    <origin x="222" y="106" width="29" height="36"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_Patroni_HUD_red_bar" pos="1" type="progress" name="HealthProgress" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="77" y="18" width="186" height="21"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_Patroni_HUD_blue_bar" pos="1" type="progress" name="StaminaProgress" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="77" y="49" width="186" height="13"></origin>
+            </frame>
+        </frame>
+        <frame type="frame" name="Indicators" visible="true">
+            <anchor leftTopX="0" leftTopY="1" rightBottomX="0" rightBottomY="1"></anchor>
+            <origin x="22" y="250" width="33" height="275"></origin>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_hunger_yellow" type="image" name="IndicHunger" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="0" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_Helmetbroken_yellow" type="image" name="IndicHelmet" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="40" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_Armorbroken_yellow" type="image" name="IndicOutfit" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="80" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_Gunbroken_yellow" type="image" name="IndicWeapBroke" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="120" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_Overweight_yellow" type="image" name="IndicOverweight" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="160" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_radiation_yellow" type="image" name="IndicRad" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="200" width="33" height="35"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_circle_bloodloose_yellow" type="image" name="IndicBleeding" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="240" width="33" height="35"></origin>
+            </frame>
+        </frame>
+        <frame type="frame" name="IndicatorsBoosters" visible="true">
+            <anchor leftTopX="0" leftTopY="1" rightBottomX="0" rightBottomY="1"></anchor>
+            <origin x="20" y="660" width="325" height="41"></origin>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_Psy" type="image" name="BoosterPsy" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="0" width="31" height="41"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_Radiation" type="image" name="BoosterRad" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="42" y="0" width="31" height="41"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_biological" type="image" name="BoosterBio" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="84" y="0" width="31" height="41"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_blood" type="image" name="BoosterBlood" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="126" y="0" width="29" height="36"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_force" type="image" name="BoosterForce" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="168" y="0" width="29" height="36"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_health" type="image" name="BoosterHealth" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="210" y="0" width="29" height="36"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_stamina" type="image" name="BoosterStamina" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="252" y="0" width="29" height="36"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_shield_radiation_cleanup" type="image" name="BoosterRadCleanup" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="294" y="0" width="29" height="36"></origin>
+            </frame>
+        </frame>
+        <frame type="frame" name="IndicatorsDanger" visible="true">
+            <anchor leftTopX="1" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+            <origin x="808" y="258" width="176" height="33"></origin>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_triangle_Radiation_green" type="image" name="DangerRadio" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="0" y="0" width="37" height="33"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_triangle_Fire_green" type="image" name="DangerFire" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="45" y="0" width="37" height="33"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_triangle_Psy_green" type="image" name="DangerPsy" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="90" y="0" width="37" height="33"></origin>
+            </frame>
+            <frame texture="ui_actor_hint_wnd" section="ui_inGame2_triangle_Biological_green" type="image" name="DangerAcid" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="139" y="1" width="37" height="33"></origin>
+            </frame>
+        </frame>
+    </frame>
+</ui>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\anomaly_spatial_bubble_color.xml" time0="0" time1="5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\anomaly_spatial_bubble_dist2.xml" time0="0" time1="5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\anomaly_spatial_bubble_sphere.xml" time0="0" time1="4" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\anomaly_spatial_bubble_sphere.xml" onBirthChild="Particle/anomaly2\effects\anomaly_spatial_bubble_sparks.xml" time0="1" time1="5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\anomaly_spatial_bubble_glow.xml" onPlayChild="Particle/anomaly2\effects\tornado_flash_04.xml" onBirthChild="Particle/anomaly2\effects\tornado_flash_03.xml" time0="4.8" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

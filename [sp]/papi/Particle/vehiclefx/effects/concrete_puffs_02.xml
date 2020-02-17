@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="0.3" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.25" />
+			<domain name="velocity" type="Line" point1="0 -0.2 0" point2="0 0 0" />
+			<domain name="rotation" type="Line" point1="-10 0 0" point2="10 0 0" />
+			<domain name="size" type="Line" point1="0.27 0.27 0.1" point2="0.49 0.49 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetSize" enabled="true" size="0.49 0.49 0.3" scale="1 1 0" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-19.0847 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_concretepuffs_01.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="16" />
+	<timeLimit value="2" />
+</effect>

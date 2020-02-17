@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="50" alpha="0.28" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 0 -3" point2="0 2 -9" radiusInner="10" radiusOuter="0" />
+			<domain name="velocity" type="Line" point1="0 -1 5" point2="0 -3 8" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Line" point1="0.075 0.075 1" point2="0.05 0.05 0.05" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -1.7 0" normal="0 -1 0" />
+		</action>
+		<action type="TargetSize" enabled="true" size="0.1 0.1 0" scale="0.3 0.3 0" />
+		<action type="TargetRotate" enabled="true" scale="0.1" rotation="-47.9843 0 0" />
+		<action type="Vortex" enabled="true" magnitude="7" epsilon="0.001" maxRadius="30" center="0 0 0" axis="0 1 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="1" scale="1" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="false" size="0.5 0.5" dimension="2" count="4" />
+</effect>

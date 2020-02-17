@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="12" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Box" min="3 0.5 -2" max="-3 0 -6" />
+			<domain name="velocity" type="Line" point1="0 0 5" point2="0 -0.3 17" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Line" point1="0.08 0.08 1" point2="0.05 0.05 0.05" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -1.7 0" normal="0 -1 0" />
+		</action>
+		<action type="TargetSize" enabled="false" size="0.14 0.14 0.001" scale="1 1 1" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="-30.5155 0 0" />
+		<action type="Vortex" enabled="false" magnitude="3" epsilon="0.001" maxRadius="10" center="0 0 10" axis="0 0.01 0" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0.128" scale="0.78" timeFrom="0" timeTo="1" color="0.294118 0.294118 0.294118" />
+		<action type="Gravity" enabled="true" direction="0 -9 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_stonedebris2.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<collision friction="0.95" resilience="0.25" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

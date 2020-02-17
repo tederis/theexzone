@@ -1,0 +1,99 @@
+[ai_dog_weak]
+; Расход сил. Чем выше - тем быстрее устает агент
+power_expense_from = 0.15
+power_expense_to = 0.3
+
+; Скорость успокоения. Чем выше - тем быстрее агент забывает про тревогу
+relaxation_spd_from = 0.2
+relaxation_spd_to = 2
+
+; Терпимость к ранениям. При 1 агент не чувствует боли
+injury_tolerance = 0.5
+
+; Порог наступления голода
+hunger_threshold = 0.7
+
+; Сопротивляемость к ранениям. При 1 агент бессмертен
+injury_resistance = 0.75
+
+; Сила укуса
+attack_multiplier = 1
+
+; Дальность восприятия игрока
+perception_radius = 14
+
+anim_attack = #DogAttack#
+anim_run = #DogRun#
+anim_run_slow = #DogRunSlow#
+anim_walk = #DogWalk#
+anim_sit_down = #DogSeatDown#
+anim_sit = #DogSeatIdle#
+anim_seat_up = #DogSeatUp#
+anim_stand = #DogStretch#
+anim_howl = #DogHowl#
+anim_die = #DogDie#
+anim_eat = #DogEat#
+
+snd_attack_hit = #DogAttackHit#
+snd_attack = #DogAttack#
+snd_hurt = #DogHurt#
+snd_panic = #DogPanic#
+snd_howl = #DogHowl#
+snd_growl = #DogGrowl#
+snd_idle = #DogIdle#
+snd_die = #DogDie#
+snd_eat = #DogEat#
+
+model = 55
+
+drop_item = #mutant_dog_tail#
+
+[ai_dog_strong]
+; Расход сил. Чем выше - тем быстрее устает агент
+power_expense_from = 0.04
+power_expense_to = 0.8
+
+; Скорость успокоения. Чем выше - тем быстрее агент забывает про тревогу
+relaxation_spd_from = 0.5
+relaxation_spd_to = 4
+
+; Терпимость к ранениям. При 1 агент не чувствует боли
+injury_tolerance = 0.85
+
+; Порог наступления голода
+hunger_threshold = 1
+
+; Сопротивляемость к ранениям. При 1 агент бессмертен
+injury_resistance = 0.9
+
+; Сила укуса
+attack_multiplier = 2
+
+; Дальность восприятия игрока
+perception_radius = 70
+
+anim_attack = #DogStrongAttack#
+anim_run = #DogStrongRun#
+anim_run_slow = #DogStrongRunSlow#
+anim_walk = #DogStrongWalk#
+anim_sit_down = #DogStrongSeatDown#
+anim_sit = #DogStrongSeatIdle#
+anim_seat_up = #DogStrongSeatUp#
+anim_stand = #DogStrongStretch#
+anim_howl = #DogStrongHowl#
+anim_die = #DogStrongDie#
+anim_eat = #DogStrongEat#
+
+snd_attack_hit = #DogStrongAttackHit#
+snd_attack = #DogStrongAttack#
+snd_hurt = #DogStrongHurt#
+snd_panic = #DogStrongPanic#
+snd_howl = #DogStrongHowl#
+snd_growl = #DogStrongGrowl#
+snd_idle = #DogStrongIdle#
+snd_die = #DogStrongDie#
+snd_eat = #DogStrongEat#
+
+model = 56
+
+drop_item = #mutant_psevdodog_tail#

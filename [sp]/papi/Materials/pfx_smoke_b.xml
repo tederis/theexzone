@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_smoke_b.dds" />
+    <shader name="blend.fx" />
+</material>

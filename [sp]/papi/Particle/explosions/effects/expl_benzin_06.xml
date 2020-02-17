@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.38" killLessThan="false" />
+		<action type="Source" enabled="true" rate="88" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 0 0" point2="0 1 0" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 3 0" radiusInner="0" radiusOuter="2" />
+			<domain name="rotation" type="Line" point1="-31.9548 -31.9548 -31.9548" point2="24.1008 31.9548 31.9548" />
+			<domain name="size" type="Line" point1="0.5 0.5 0.5" point2="0.3 0.3 0.3" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1.5" timeFrom="0" timeTo="1" color="0.909804 0.909804 0.909804" />
+		<action type="TargetSize" enabled="true" size="2.5 2.5 2" scale="6 6 6" />
+		<action type="TargetVelocity" enabled="true" scale="8" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="0 1.7e-05 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_explotions_4.xml" />
+	<frame randomInit="false" size="0.125 0.125" dimension="8" count="55" />
+	<animated randomPlayback="false" speed="38" />
+	<timeLimit value="0.18" />
+</effect>

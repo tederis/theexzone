@@ -1,0 +1,12 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="frame_creator_cl.lua" type="client" />
+	<script src="client.lua" type="client" />
+
+	<file src="shader.fx" />
+
+	<include resource="xrcore" />	
+</meta>

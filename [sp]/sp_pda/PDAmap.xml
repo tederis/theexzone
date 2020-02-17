@@ -1,0 +1,227 @@
+<ui>
+    <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_texture" type="image" name="CanvasMap" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="0" y="0" width="1024" height="768"></origin>
+        <frame type="frame" name="BackButtons" visible="true">
+            <anchor leftTopX="0.0244140625" leftTopY="0.053385416666667" rightBottomX="0.96875" rightBottomY="0.19791666666667"></anchor>
+            <origin x="25" y="41" width="967" height="111"></origin>
+            <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_secondary_tasks_list_bckgnd" type="image" name="BackHull" visible="true">
+                <anchor leftTopX="0.0010341261633919" leftTopY="0.036036036036036" rightBottomX="0.99896587383661" rightBottomY="0.79279279279279"></anchor>
+                <origin x="1" y="4" width="965" height="84"></origin>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_buttons_leftside" type="image" name="BtnsLeftside" visible="true">
+                    <anchor leftTopX="0.01139896373057" leftTopY="0.19047619047619" rightBottomX="0.46424870466321" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="11" y="16" width="437" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Карта" alignX="left" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CurrentTabLbl" visible="true">
+                        <anchor leftTopX="0.015358361774744" leftTopY="0.074074074074074" rightBottomX="0.6518771331058" rightBottomY="0.92592592592593"></anchor>
+                        <origin x="9" y="2" width="300" height="23"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_buttons_rightside" type="image" name="BtnsRightside" visible="true">
+                    <anchor leftTopX="0.90051813471503" leftTopY="0.19047619047619" rightBottomX="0.98860103626943" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="869" y="16" width="85" height="27"></origin>
+                    <frame font="LettericaObliqueBig" text="09:47" alignX="center" alignY="center" scale="0.4" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="TimeLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0117647058824" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="86" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="SetsBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.44041450777202" leftTopY="0.19047619047619" rightBottomX="0.61865284974093" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="425" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Наборы" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="SetsBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="MapBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.59378238341969" leftTopY="0.19047619047619" rightBottomX="0.7720207253886" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="573" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Карта" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="MapBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="OptionsBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.74715025906736" leftTopY="0.19047619047619" rightBottomX="0.92538860103627" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="721" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Настройки" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="OptionsBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame font="LettericaRomanBig" text="Исследовать место" alignX="left" alignY="center" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CurrentQuestLbl" visible="true">
+                    <anchor leftTopX="0.063212435233161" leftTopY="0.52380952380952" rightBottomX="0.77823834196891" rightBottomY="0.94047619047619"></anchor>
+                    <origin x="61" y="44" width="690" height="35"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="true" selected="false" type="button" name="OnMissionBtn" visible="true">
+                    <sections default="ui_inGame2_pda_center_on_mission_button_e" clicked="ui_inGame2_pda_center_on_mission_button_h"></sections>
+                    <anchor leftTopX="0.96269430051813" leftTopY="0.64285714285714" rightBottomX="0.98238341968912" rightBottomY="0.86904761904762"></anchor>
+                    <origin x="929" y="54" width="19" height="19"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_smallbuttons_rightside" type="image" name="SmallBtnsR" visible="true">
+                <anchor leftTopX="0.95656670113754" leftTopY="0.73873873873874" rightBottomX="0.99896587383661" rightBottomY="0.98198198198198"></anchor>
+                <origin x="925" y="82" width="41" height="27"></origin>
+            </frame>
+            <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_missionlist_button_rightside" type="image" name="SmallBtnsGap" visible="true">
+                <anchor leftTopX="0.16235780765253" leftTopY="0.81081081081081" rightBottomX="0.21716649431231" rightBottomY="0.98198198198198"></anchor>
+                <origin x="157" y="90" width="53" height="19"></origin>
+            </frame>
+            <frame texture="ui\ui_actor_pda" toggled="true" selected="true" type="button" name="RadioImportant" visible="true">
+                <sections default="ui_inGame2_pda_smallbutton_e" clicked="ui_inGame2_pda_smallbutton_t"></sections>
+                <anchor leftTopX="0.77559462254395" leftTopY="0.81081081081081" rightBottomX="0.96070320579111" rightBottomY="0.98198198198198"></anchor>
+                <origin x="750" y="90" width="179" height="19"></origin>
+                <frame font="LettericaObliqueBig" text="Важное" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ImportandLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0167597765363" rightBottomY="1.0526315789474"></anchor>
+                    <origin x="0" y="0" width="182" height="20"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" toggled="true" selected="true" type="button" name="RadioQuests" visible="true">
+                <sections default="ui_inGame2_pda_smallbutton_e" clicked="ui_inGame2_pda_smallbutton_t"></sections>
+                <anchor leftTopX="0.5894519131334" leftTopY="0.81081081081081" rightBottomX="0.77456049638056" rightBottomY="0.98198198198198"></anchor>
+                <origin x="570" y="90" width="179" height="19"></origin>
+                <frame font="LettericaObliqueBig" text="Задания" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="QuestsLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="0" y="0" width="182" height="20"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" toggled="true" selected="false" type="button" name="RadioLocations" visible="true">
+                <sections default="ui_inGame2_pda_smallbutton_e" clicked="ui_inGame2_pda_smallbutton_t"></sections>
+                <anchor leftTopX="0.40330920372285" leftTopY="0.81081081081081" rightBottomX="0.58841778697001" rightBottomY="0.98198198198198"></anchor>
+                <origin x="390" y="90" width="179" height="19"></origin>
+                <frame font="LettericaObliqueBig" text="Локации" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LocationsLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0167597765363" rightBottomY="1.0526315789474"></anchor>
+                    <origin x="0" y="0" width="182" height="20"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" toggled="true" selected="false" type="button" name="RadioContainers" visible="true">
+                <sections default="ui_inGame2_pda_smallbutton_e" clicked="ui_inGame2_pda_smallbutton_t"></sections>
+                <anchor leftTopX="0.21716649431231" leftTopY="0.81081081081081" rightBottomX="0.40227507755946" rightBottomY="0.98198198198198"></anchor>
+                <origin x="210" y="90" width="179" height="19"></origin>
+                <frame font="LettericaObliqueBig" text="Тайники" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="QuestsLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0167597765363" rightBottomY="1.0526315789474"></anchor>
+                    <origin x="0" y="0" width="182" height="20"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="CurrentQuestsBtn" visible="true">
+                <sections default="ui_inGame2_pda_missionlist_button_e" clicked="ui_inGame2_pda_missionlist_button_ht"></sections>
+                <anchor leftTopX="0.018614270941055" leftTopY="0.81081081081081" rightBottomX="0.16856256463289" rightBottomY="0.98198198198198"></anchor>
+                <origin x="18" y="90" width="145" height="19"></origin>
+                <frame font="LettericaRomanMedium" text="Список заданий" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CurrQuestsLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0137931034483" rightBottomY="1.1578947368421"></anchor>
+                    <origin x="0" y="0" width="147" height="22"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_missionlist_button_leftside" type="image" name="SmallBtnsL" visible="true">
+                <anchor leftTopX="0" leftTopY="0.76576576576577" rightBottomX="0.024819027921406" rightBottomY="1.009009009009"></anchor>
+                <origin x="0" y="85" width="24" height="27"></origin>
+            </frame>
+        </frame>
+        <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="PowerBtn" visible="true">
+            <sections default="ui_inGame2_pda_offline_e" clicked="ui_inGame2_pda_offline_h"></sections>
+            <anchor leftTopX="0.9501953125" leftTopY="0.03125" rightBottomX="0.982421875" rightBottomY="0.075520833333333"></anchor>
+            <origin x="973" y="24" width="33" height="34"></origin>
+        </frame>
+        <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_map_background" type="image" name="BackMap" visible="true">
+            <anchor leftTopX="0.0234375" leftTopY="0.19661458333333" rightBottomX="0.9677734375" rightBottomY="0.92838541666667"></anchor>
+            <origin x="24" y="151" width="967" height="562"></origin>
+            <frame type="rt" name="MapRT" visible="true">
+                <anchor leftTopX="0.0062047569803516" leftTopY="0.01779359430605" rightBottomX="0.97621509824199" rightBottomY="0.95729537366548"></anchor>
+                <origin x="6" y="10" width="938" height="528"></origin>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_map_frame" type="image" name="MapMask" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="0" y="0" width="938" height="528"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ZoomArndBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_8_e" selected="ui_inGame2_pda_control_map_button_8_t" clicked="ui_inGame2_pda_control_map_button_8_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="910" y="498" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ArrowDownBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_7_e" selected="ui_inGame2_pda_control_map_button_7_t" clicked="ui_inGame2_pda_control_map_button_7_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="882" y="498" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ZoomOutBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_6_e" selected="ui_inGame2_pda_control_map_button_6_t" clicked="ui_inGame2_pda_control_map_button_6_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="854" y="498" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ArrowRightBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_5_e" selected="ui_inGame2_pda_control_map_button_5_t" clicked="ui_inGame2_pda_control_map_button_5_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="910" y="468" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="CenterBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_4_e" selected="ui_inGame2_pda_control_map_button_4_t" clicked="ui_inGame2_pda_control_map_button_4_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="882" y="468" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ArrowLeftBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_3_e" selected="ui_inGame2_pda_control_map_button_3_t" clicked="ui_inGame2_pda_control_map_button_3_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="854" y="468" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ZoomInBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_2_e" selected="ui_inGame2_pda_control_map_button_2_t" clicked="ui_inGame2_pda_control_map_button_2_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="910" y="438" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="ArrowUpBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_1_e" selected="ui_inGame2_pda_control_map_button_1_t" clicked="ui_inGame2_pda_control_map_button_1_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="882" y="438" width="21" height="21"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="DocumentBtn" visible="true">
+                    <sections default="ui_inGame2_pda_control_map_button_0_e" selected="ui_inGame2_pda_control_map_button_0_t" clicked="ui_inGame2_pda_control_map_button_0_h"></sections>
+                    <anchor leftTopX="1" leftTopY="1" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="854" y="438" width="21" height="21"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_dialog" type="image" name="MapQuestsList" visible="true">
+                <anchor leftTopX="0.016546018614271" leftTopY="0.04270462633452" rightBottomX="0.35573940020683" rightBottomY="0.95729537366548"></anchor>
+                <origin x="16" y="24" width="328" height="514"></origin>
+                <frame type="scrollpane" name="MapQuestsPane" visible="true">
+                    <anchor leftTopX="0.033536585365854" leftTopY="0.077821011673152" rightBottomX="0.89939024390244" rightBottomY="0.96108949416342"></anchor>
+                    <origin x="11" y="40" width="284" height="454"></origin>
+                    <frame type="list" name="QuestPaneList" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                        <origin x="0" y="0" width="284" height="454"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui_common" section="ui_icons_PDA_dialog_frame" type="image" name="MapQuestsScrollBack" visible="true">
+                    <anchor leftTopX="1" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="298" y="41" width="19" height="453"></origin>
+                    <frame texture="ui_common" toggled="false" type="button" name="QuestsScrollUpBtn" visible="true">
+                        <sections default="ui_scroll_btn_up"></sections>
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+                        <origin x="0" y="0" width="19" height="19"></origin>
+                    </frame>
+                    <frame texture="ui_common" toggled="false" type="button" name="QuestScrollDownBtn" visible="true">
+                        <sections default="ui_scroll_btn_down"></sections>
+                        <anchor leftTopX="0" leftTopY="1" rightBottomX="0" rightBottomY="1"></anchor>
+                        <origin x="0" y="433" width="19" height="19"></origin>
+                    </frame>
+                    <frame type="scrollbar" name="QuestsScrollBar" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                        <origin x="0" y="20" width="19" height="410"></origin>
+                        <frame texture="ui_common" section="ui_scroll_back_b" type="image" name="QuestsScrollBtn" visible="true">
+                            <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+                            <origin x="0" y="8" width="19" height="82"></origin>
+                        </frame>
+                    </frame>
+                </frame>
+                <frame font="LettericaObliqueMedium" text="Текущие задания" alignX="left" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="QuestsWndLbl" visible="true">
+                    <anchor leftTopX="0.033536585365854" leftTopY="0.011673151750973" rightBottomX="0.8719512195122" rightBottomY="0.062256809338521"></anchor>
+                    <origin x="11" y="6" width="275" height="26"></origin>
+                </frame>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_map_devider_line" type="image" name="QuestsWndLine" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+                    <origin x="13" y="31" width="299" height="3"></origin>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+</ui>

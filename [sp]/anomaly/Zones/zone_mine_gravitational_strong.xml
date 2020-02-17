@@ -1,0 +1,34 @@
+<zone>
+    <blowoutDuration value="10" />
+    <awakingDuration value="0.05" />
+    <accumulateDuration value="4" />
+    <ignoreNonaliveDuration value="0" />
+    <ignoreSmallDuration value="0" />
+    <disableParticlesDelay value="0.1" />
+    <ignoreNonalive value="false" />
+    <ignoreSmall value="true" />
+    <ignoreArtefact value="true" />
+    <blowoutParticlesDelay value="0.05" />
+    <blowoutLightDelay value="5.988" />
+    <blowoutSoundDelay value="0.1" />
+    <blowoutAffectDelay value="5.999" />
+    <idleParticles value="Particle/zones_mine/zone_gravity_mine_idle_strong.xml" />
+    <awakeParticles value="" />
+    <accumulateParticles value="" />
+    <blowoutParticles value="Particle/zones_mine/zone_gravity_mine_hit_strong.xml" />
+    <idleSound value="Sounds/anomaly/gravi_idle01.ogg" />
+    <blowoutSound value="Sounds/anomaly/anomaly_mincer_blowout.ogg" />
+    <blowoutLight color="1.4 1.6 1.3" range="20" time="0.38" height="1.5" />
+    <blowoutRadiusPercent value="0.6" />
+    <blowoutRadiusPercent value="1.0" />
+    <attenuation value="1.0" />
+    <movement>
+        <throwInImpulse value="4000" />
+        <throwOutImpulse value="1500" />
+        <throwInImpulseAlive value="8" />
+        <throwInAttenuation value="1.2" />
+        <holdingHeight value="10" />
+        <holdingDuration value="7" />
+        <pauseDuration value="4" />
+    </movement>
+</zone>

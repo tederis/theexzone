@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="6">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.47" killLessThan="false" />
+		<action type="TargetSize" enabled="true" size="0.05 0.05 0.05" scale="3 3 3" />
+		<action type="TargetColor" enabled="true" alpha="0.616" scale="2" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 -2 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+		<action type="Gravity" enabled="true" direction="0 -4 0" allowRotate="true" />
+		<action type="Source" enabled="true" rate="2.5" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-0.3 0.7 -0.6" max="0.3 0.8 0.6" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-0.523599 -0.523599 -0.523599" point2="5.23599 5.23599 5.23599" />
+			<domain name="size" type="Point" center="0.005 0.005 0.005" />
+			<domain name="color" type="Point" center="0 0 0" />
+		</action>
+	</actions>
+	<sprite material="Materials/pfx_splash_02.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="4" />
+</effect>

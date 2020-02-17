@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\hit_studen_hit_distort_01.xml" onBirthChild="Particle/anomaly2\effects\hit_studen_bubble.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\studen_idle_bottom.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<!--<effect name="Particle/anomaly2\effects\hit_studen_hit_distort_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />-->
+	<effect name="Particle/anomaly2\effects\studen_idle_glow_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<!--<effect name="Particle/anomaly2\effects\studen_buble_distort01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />-->
+</group>

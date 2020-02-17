@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.35" killLessThan="false" />
+		<action type="Source" enabled="true" rate="4" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 10 0" radiusInner="0" radiusOuter="10" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0 0" radiusInner="1" radiusOuter="3" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Line" point1="5 5 5" point2="8 8 8" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.028" scale="14" timeFrom="0" timeTo="1" color="0.007843 0.003922 0.062745" />
+		<action type="TargetSize" enabled="true" size="20 20 20" scale="2 2 2" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ligth_6.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="5" />
+</effect>

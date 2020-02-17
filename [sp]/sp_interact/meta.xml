@@ -1,0 +1,310 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Interact" description="by XRAY" type="script" />
+    <oop>true</oop>
+    <script src="shared.lua" type="shared" />	
+    <script src="utils.lua" type="shared" />
+    <script src="defs.lua" type="shared" />
+	<script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <script src="drop_cl.lua" type="client" />
+    <script src="drop_se.lua" type="server" />
+    <script src="anims_cl.lua" type="client" />
+    <script src="guitar_cl.lua" type="client" />
+    <script src="guitar_se.lua" type="server" />
+
+    <file src="radial.xml" />
+
+    <file src="music/guitar_1.ogg" />
+    <file src="music/guitar_2.ogg" />
+    <file src="music/guitar_3.ogg" />
+    <file src="music/guitar_4.ogg" />
+    <file src="music/guitar_5.ogg" />
+    <file src="music/guitar_6.ogg" />
+    <file src="music/guitar_7.ogg" />
+    <file src="music/guitar_8.ogg" />
+    <file src="music/guitar_9.ogg" />
+    <file src="music/guitar_10.ogg" />
+    <file src="music/guitar_11.ogg" />
+    <file src="music/guitar_12.ogg" />
+    <file src="music/guitar_13.ogg" />
+    <file src="music/guitar_14.ogg" />
+    <file src="music/guitar_15.ogg" />
+    <file src="music/guitar_16.ogg" />
+
+    <file src="jokes/stalker/joke_1.ogg" />
+    <file src="jokes/stalker/joke_2.ogg" />
+    <file src="jokes/stalker/joke_3.ogg" />
+    <file src="jokes/stalker/joke_4.ogg" />
+    <file src="jokes/stalker/joke_5.ogg" />
+    <file src="jokes/stalker/joke_6.ogg" />
+    <file src="jokes/stalker/joke_7.ogg" />
+    <file src="jokes/stalker/reaction_joke_1.ogg" />
+    <file src="jokes/stalker/reaction_joke_2.ogg" />
+
+    <file src="jokes/bandit/joke_1.ogg" />
+    <file src="jokes/bandit/joke_2.ogg" />
+    <file src="jokes/bandit/joke_3.ogg" />
+    <file src="jokes/bandit/joke_4.ogg" />
+    <file src="jokes/bandit/joke_5.ogg" />
+    <file src="jokes/bandit/joke_6.ogg" />
+    <file src="jokes/bandit/joke_7.ogg" />
+    <file src="jokes/bandit/reaction_joke_1.ogg" />
+    <file src="jokes/bandit/reaction_joke_2.ogg" />
+
+    <file src="music/reactions/stalker/reaction_music_1.ogg" />
+    <file src="music/reactions/stalker/reaction_music_2.ogg" />
+    <file src="music/reactions/stalker/reaction_music_3.ogg" />
+    <file src="music/reactions/stalker/reaction_music_4.ogg" />
+    <file src="music/reactions/stalker/reaction_music_5.ogg" />
+    <file src="music/reactions/stalker/reaction_music_6.ogg" />
+    <file src="music/reactions/stalker/reaction_music_7.ogg" />
+    <file src="jokes/stalker/laughter_1.ogg" />
+    <file src="jokes/stalker/laughter_2.ogg" />
+    <file src="jokes/stalker/laughter_3.ogg" />
+    <file src="jokes/stalker/laughter_4.ogg" />
+
+    <file src="music/reactions/bandit/reaction_music_1.ogg" />
+    <file src="music/reactions/bandit/reaction_music_2.ogg" />
+    <file src="music/reactions/bandit/reaction_music_3.ogg" />
+    <file src="music/reactions/bandit/reaction_music_4.ogg" />
+    <file src="music/reactions/bandit/reaction_music_5.ogg" />
+    <file src="music/reactions/bandit/reaction_music_6.ogg" />
+    <file src="music/reactions/bandit/reaction_music_7.ogg" />
+    <file src="jokes/bandit/laughter_1.ogg" />
+    <file src="jokes/bandit/laughter_2.ogg" />
+    <file src="jokes/bandit/laughter_3.ogg" />
+    <file src="jokes/bandit/laughter_4.ogg" />
+
+
+    <file src="team_1/radio_artefact_1.ogg" />
+    <file src="team_1/radio_artefact_2.ogg" />
+    <file src="team_1/radio_artefact_3.ogg" />
+    <file src="team_1/radio_attack_1.ogg" />
+    <file src="team_1/radio_attack_2.ogg" />
+    <file src="team_1/radio_attack_3.ogg" />
+    <file src="team_1/radio_camp_1.ogg" />
+    <file src="team_1/radio_camp_2.ogg" />
+    <file src="team_1/radio_camp_3.ogg" />
+    <file src="team_1/radio_clear_1.ogg" />
+    <file src="team_1/radio_clear_2.ogg" />
+    <file src="team_1/radio_clear_3.ogg" />
+    <file src="team_1/radio_cover_1.ogg" />
+    <file src="team_1/radio_cover_2.ogg" />
+    <file src="team_1/radio_cover_3.ogg" />
+    <file src="team_1/radio_follow_1.ogg" />
+    <file src="team_1/radio_follow_2.ogg" />
+    <file src="team_1/radio_follow_3.ogg" />
+    <file src="team_1/radio_help_1.ogg" />
+    <file src="team_1/radio_help_2.ogg" />
+    <file src="team_1/radio_help_3.ogg" />
+    <file src="team_1/radio_help_4.ogg" />
+    <file src="team_1/radio_hold_1.ogg" />
+    <file src="team_1/radio_hold_2.ogg" />
+    <file src="team_1/radio_hold_3.ogg" />
+    <file src="team_1/radio_keep_1.ogg" />
+    <file src="team_1/radio_keep_2.ogg" />
+    <file src="team_1/radio_keep_3.ogg" />
+    <file src="team_1/radio_money_1.ogg" />
+    <file src="team_1/radio_money_2.ogg" />
+    <file src="team_1/radio_money_3.ogg" />
+    <file src="team_1/radio_no_1.ogg" />
+    <file src="team_1/radio_no_2.ogg" />
+    <file src="team_1/radio_no_3.ogg" />
+    <file src="team_1/radio_report_1.ogg" />
+    <file src="team_1/radio_report_2.ogg" />
+    <file src="team_1/radio_report_3.ogg" />
+    <file src="team_1/radio_retreat_1.ogg" />
+    <file src="team_1/radio_retreat_2.ogg" />
+    <file src="team_1/radio_retreat_3.ogg" />
+    <file src="team_1/radio_return_1.ogg" />
+    <file src="team_1/radio_return_2.ogg" />
+    <file src="team_1/radio_return_3.ogg" />
+    <file src="team_1/radio_roger_1.ogg" />
+    <file src="team_1/radio_roger_2.ogg" />
+    <file src="team_1/radio_roger_3.ogg" />
+    <file src="team_1/radio_silence_1.ogg" />
+    <file src="team_1/radio_silence_2.ogg" />
+    <file src="team_1/radio_silence_3.ogg" />
+    <file src="team_1/radio_take_1.ogg" />
+    <file src="team_1/radio_take_2.ogg" />
+    <file src="team_1/radio_take_3.ogg" />
+    <file src="team_1/radio_together_1.ogg" />
+    <file src="team_1/radio_together_2.ogg" />
+    <file src="team_1/radio_together_3.ogg" />
+    <file src="team_1/voice_artefact_1.ogg" />
+    <file src="team_1/voice_artefact_2.ogg" />
+    <file src="team_1/voice_artefact_3.ogg" />
+    <file src="team_1/voice_attack_1.ogg" />
+    <file src="team_1/voice_attack_2.ogg" />
+    <file src="team_1/voice_attack_3.ogg" />
+    <file src="team_1/voice_camp_1.ogg" />
+    <file src="team_1/voice_camp_2.ogg" />
+    <file src="team_1/voice_camp_3.ogg" />
+    <file src="team_1/voice_clear_1.ogg" />
+    <file src="team_1/voice_clear_2.ogg" />
+    <file src="team_1/voice_clear_3.ogg" />
+    <file src="team_1/voice_cover_1.ogg" />
+    <file src="team_1/voice_cover_2.ogg" />
+    <file src="team_1/voice_cover_3.ogg" />
+    <file src="team_1/voice_follow_1.ogg" />
+    <file src="team_1/voice_follow_2.ogg" />
+    <file src="team_1/voice_follow_3.ogg" />
+    <file src="team_1/voice_help_1.ogg" />
+    <file src="team_1/voice_help_2.ogg" />
+    <file src="team_1/voice_help_3.ogg" />
+    <file src="team_1/voice_help_4.ogg" />
+    <file src="team_1/voice_hold_1.ogg" />
+    <file src="team_1/voice_hold_2.ogg" />
+    <file src="team_1/voice_hold_3.ogg" />
+    <file src="team_1/voice_keep_1.ogg" />
+    <file src="team_1/voice_keep_2.ogg" />
+    <file src="team_1/voice_keep_3.ogg" />
+    <file src="team_1/voice_money_1.ogg" />
+    <file src="team_1/voice_money_2.ogg" />
+    <file src="team_1/voice_money_3.ogg" />
+    <file src="team_1/voice_no_1.ogg" />
+    <file src="team_1/voice_no_2.ogg" />
+    <file src="team_1/voice_no_3.ogg" />
+    <file src="team_1/voice_report_1.ogg" />
+    <file src="team_1/voice_report_2.ogg" />
+    <file src="team_1/voice_report_3.ogg" />
+    <file src="team_1/voice_retreat_1.ogg" />
+    <file src="team_1/voice_retreat_2.ogg" />
+    <file src="team_1/voice_retreat_3.ogg" />
+    <file src="team_1/voice_return_1.ogg" />
+    <file src="team_1/voice_return_2.ogg" />
+    <file src="team_1/voice_return_3.ogg" />
+    <file src="team_1/voice_roger_1.ogg" />
+    <file src="team_1/voice_roger_2.ogg" />
+    <file src="team_1/voice_roger_3.ogg" />
+    <file src="team_1/voice_silence_1.ogg" />
+    <file src="team_1/voice_silence_2.ogg" />
+    <file src="team_1/voice_silence_3.ogg" />
+    <file src="team_1/voice_take_1.ogg" />
+    <file src="team_1/voice_take_2.ogg" />
+    <file src="team_1/voice_take_3.ogg" />
+    <file src="team_1/voice_together_1.ogg" />
+    <file src="team_1/voice_together_2.ogg" />
+    <file src="team_1/voice_together_3.ogg" />
+
+    <file src="team_2/radio_artefact_1.ogg" />
+    <file src="team_2/radio_artefact_2.ogg" />
+    <file src="team_2/radio_artefact_3.ogg" />
+    <file src="team_2/radio_attack_1.ogg" />
+    <file src="team_2/radio_attack_2.ogg" />
+    <file src="team_2/radio_attack_3.ogg" />
+    <file src="team_2/radio_camp_1.ogg" />
+    <file src="team_2/radio_camp_2.ogg" />
+    <file src="team_2/radio_camp_3.ogg" />
+    <file src="team_2/radio_clear_1.ogg" />
+    <file src="team_2/radio_clear_2.ogg" />
+    <file src="team_2/radio_clear_3.ogg" />
+    <file src="team_2/radio_cover_1.ogg" />
+    <file src="team_2/radio_cover_2.ogg" />
+    <file src="team_2/radio_cover_3.ogg" />
+    <file src="team_2/radio_follow_1.ogg" />
+    <file src="team_2/radio_follow_2.ogg" />
+    <file src="team_2/radio_follow_3.ogg" />
+    <file src="team_2/radio_help_1.ogg" />
+    <file src="team_2/radio_help_2.ogg" />
+    <file src="team_2/radio_help_3.ogg" />
+    <file src="team_2/radio_help_4.ogg" />
+    <file src="team_2/radio_hold_1.ogg" />
+    <file src="team_2/radio_hold_2.ogg" />
+    <file src="team_2/radio_hold_3.ogg" />
+    <file src="team_2/radio_keep_1.ogg" />
+    <file src="team_2/radio_keep_2.ogg" />
+    <file src="team_2/radio_keep_3.ogg" />
+    <file src="team_2/radio_money_1.ogg" />
+    <file src="team_2/radio_money_2.ogg" />
+    <file src="team_2/radio_money_3.ogg" />
+    <file src="team_2/radio_no_1.ogg" />
+    <file src="team_2/radio_no_2.ogg" />
+    <file src="team_2/radio_no_3.ogg" />
+    <file src="team_2/radio_report_1.ogg" />
+    <file src="team_2/radio_report_2.ogg" />
+    <file src="team_2/radio_report_3.ogg" />
+    <file src="team_2/radio_retreat_1.ogg" />
+    <file src="team_2/radio_retreat_2.ogg" />
+    <file src="team_2/radio_retreat_3.ogg" />
+    <file src="team_2/radio_return_1.ogg" />
+    <file src="team_2/radio_return_2.ogg" />
+    <file src="team_2/radio_return_3.ogg" />
+    <file src="team_2/radio_roger_1.ogg" />
+    <file src="team_2/radio_roger_2.ogg" />
+    <file src="team_2/radio_roger_3.ogg" />
+    <file src="team_2/radio_silence_1.ogg" />
+    <file src="team_2/radio_silence_2.ogg" />
+    <file src="team_2/radio_silence_3.ogg" />
+    <file src="team_2/radio_take_1.ogg" />
+    <file src="team_2/radio_take_2.ogg" />
+    <file src="team_2/radio_take_3.ogg" />
+    <file src="team_2/radio_together_1.ogg" />
+    <file src="team_2/radio_together_2.ogg" />
+    <file src="team_2/radio_together_3.ogg" />
+    <file src="team_2/voice_artefact_1.ogg" />
+    <file src="team_2/voice_artefact_2.ogg" />
+    <file src="team_2/voice_artefact_3.ogg" />
+    <file src="team_2/voice_attack_1.ogg" />
+    <file src="team_2/voice_attack_2.ogg" />
+    <file src="team_2/voice_attack_3.ogg" />
+    <file src="team_2/voice_camp_1.ogg" />
+    <file src="team_2/voice_camp_2.ogg" />
+    <file src="team_2/voice_camp_3.ogg" />
+    <file src="team_2/voice_clear_1.ogg" />
+    <file src="team_2/voice_clear_2.ogg" />
+    <file src="team_2/voice_clear_3.ogg" />
+    <file src="team_2/voice_cover_1.ogg" />
+    <file src="team_2/voice_cover_2.ogg" />
+    <file src="team_2/voice_cover_3.ogg" />
+    <file src="team_2/voice_follow_1.ogg" />
+    <file src="team_2/voice_follow_2.ogg" />
+    <file src="team_2/voice_follow_3.ogg" />
+    <file src="team_2/voice_help_1.ogg" />
+    <file src="team_2/voice_help_2.ogg" />
+    <file src="team_2/voice_help_3.ogg" />
+    <file src="team_2/voice_help_4.ogg" />
+    <file src="team_2/voice_hold_1.ogg" />
+    <file src="team_2/voice_hold_2.ogg" />
+    <file src="team_2/voice_hold_3.ogg" />
+    <file src="team_2/voice_keep_1.ogg" />
+    <file src="team_2/voice_keep_2.ogg" />
+    <file src="team_2/voice_keep_3.ogg" />
+    <file src="team_2/voice_money_1.ogg" />
+    <file src="team_2/voice_money_2.ogg" />
+    <file src="team_2/voice_money_3.ogg" />
+    <file src="team_2/voice_no_1.ogg" />
+    <file src="team_2/voice_no_2.ogg" />
+    <file src="team_2/voice_no_3.ogg" />
+    <file src="team_2/voice_report_1.ogg" />
+    <file src="team_2/voice_report_2.ogg" />
+    <file src="team_2/voice_report_3.ogg" />
+    <file src="team_2/voice_retreat_1.ogg" />
+    <file src="team_2/voice_retreat_2.ogg" />
+    <file src="team_2/voice_retreat_3.ogg" />
+    <file src="team_2/voice_return_1.ogg" />
+    <file src="team_2/voice_return_2.ogg" />
+    <file src="team_2/voice_return_3.ogg" />
+    <file src="team_2/voice_roger_1.ogg" />
+    <file src="team_2/voice_roger_2.ogg" />
+    <file src="team_2/voice_roger_3.ogg" />
+    <file src="team_2/voice_silence_1.ogg" />
+    <file src="team_2/voice_silence_2.ogg" />
+    <file src="team_2/voice_silence_3.ogg" />
+    <file src="team_2/voice_take_1.ogg" />
+    <file src="team_2/voice_take_2.ogg" />
+    <file src="team_2/voice_take_3.ogg" />
+    <file src="team_2/voice_together_1.ogg" />
+    <file src="team_2/voice_together_2.ogg" />
+    <file src="team_2/voice_together_3.ogg" />
+    
+    <file src="music/test.mp3" />
+
+    
+
+    <include resource="xrcore" />
+
+    <export function="xrInteractInsertElement" type="client" />
+    <export function="xrDropItemAt" type="server" />
+    <export function="xrDestroyDropElementRelated" type="server" />
+</meta>

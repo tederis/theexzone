@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="50">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="37" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="-0.05 0 0" point2="0.05 0 0" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 2 -2" radiusInner="0.3" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="300 -30 -30" point2="-300 30 30" />
+			<domain name="size" type="Line" point1="0.03 0.03 0" point2="0 0 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="false">
+			<domain name="domain" type="Plane" origin="0 -0.5 0" normal="0 -1 0" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="0.2" rotation="-163.598 0 0" />
+		<action type="Gravity" enabled="true" direction="0 -5 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_stonedebris2.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<animated randomPlayback="false" speed="12" />
+</effect>

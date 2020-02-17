@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Move" enabled="true" />
+		<action type="Source" enabled="true" rate="1000" alpha="0.5" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0.1 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.1 0.2 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="6" timeFrom="0" timeTo="1" color="0.552941 0.545098 0.545098" />
+	</actions>
+	<sprite material="Materials/pfx_splash3.xml" />
+	<animated randomPlayback="true" speed="0" />
+	<timeLimit value="0.5" />
+	<align defaultRotation="1.5708 0 0" worldAlign="true" faceAlign="false" />
+</effect>

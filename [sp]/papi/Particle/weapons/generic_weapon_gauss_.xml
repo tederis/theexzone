@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.55">
+	<effect name="Particle/weapons\effects\gauss_shot_spark_45.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_40.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.01" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_35.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.02" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_30.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.03" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_25.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.04" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_20.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.05" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_15.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.06" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_10.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.07" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_5.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.08" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\gauss_shot_spark_0.xml" onBirthChild="Particle/weapons\effects\gauss_shot_spark_glow.xml" time0="0.09" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

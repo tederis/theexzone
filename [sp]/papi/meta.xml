@@ -1,0 +1,131 @@
+<meta>
+	<info author="TEDERIs" version="1.0" name="PAPI" description="Particle system" type="script" />
+	<oop>true</oop>
+
+	<include resource="xrcore" />
+
+	<script src="utils.lua" type="client" />
+	<script src="actions.lua" type="client" />
+	<script src="effect.lua" type="client" />
+	<script src="group.lua" type="client" />
+	<script src="material.lua" type="client" />
+	<script src="client.lua" type="client" />
+
+	<file src="Particle/anomaly2/effects/anomaly_electra_idle_sparks.xml" />
+	<file src="Particle/anomaly2/effects/electra_disk.xml" />
+	<file src="Particle/anomaly2/effects/electra_disk_00.xml" />
+	<file src="Particle/anomaly2/electra_idle.xml" />
+
+	<!--
+	<file src="Particle/weapons/generic_weapon03.xml" />
+	<file src="Particle/weapons/effects/weapon_test_02_flame.xml" />
+	<file src="Particle/weapons/effects/weapon_shot_invert_pistol.xml" />
+	<file src="Particle/weapons/effects/weapon_test_02_sparks.xml" />
+	<file src="Particle/weapons/effects/weapon_shot_invert_glow_pistol.xml" />
+	-->
+
+	<file src="Particle/zones_mine/zone_electric_mine_idle.xml" />
+	<file src="Particle/zones_mine/effects/zone_electric_mine_idle_sparks.xml" />
+	<file src="Particle/zones_mine/effects/zone_electric_mine_idle_disk.xml" />
+
+	<file src="Particle/explosions/campfire.xml" />
+	<file src="Particle/explosions/effects/campfire_flame.xml" />
+	<file src="Particle/explosions/effects/campfire_smoke.xml" />
+	<file src="Particle/explosions/effects/campfire_glow.xml" />
+	<file src="Particle/explosions/effects/campfire_vacum.xml" />
+	<file src="Particle/explosions/effects/campfire_sparks.xml" />
+
+	<file src="Particle/anomaly2/studen_idle_bottom.xml" />
+	<file src="Particle/anomaly2/studen_blowout.xml" />
+	<file src="Particle/anomaly2/effects/hit_studen_hit_distort_01.xml" />
+	<file src="Particle/anomaly2/effects/studen_idle_bottom.xml" />
+	<file src="Particle/anomaly2/effects/studen_idle_glow_01.xml" />
+	<file src="Particle/anomaly2/effects/hit_studen_hit_distort_03.xml" />
+	<file src="Particle/anomaly2/effects/hit_studen_bubble.xml" />
+
+	<file src="Particle/anomaly2/electra2_blast.xml" />
+	<file src="Particle/anomaly2/effects/electra2_flash.xml" />
+	<file src="Particle/anomaly2/effects/star_glow_06.xml" />
+	<file src="Particle/anomaly2/effects/electra2_sparks.xml" />
+	<file src="Particle/anomaly2/effects/electra2_trails.xml" />
+	<file src="Particle/anomaly2/effects/star_glow_04.xml" />
+	<file src="Particle/anomaly2/effects/tornado_flash_04.xml" />
+	<file src="Particle/anomaly2/effects/tornado_flash_03.xml" />
+
+	<!--
+	<file src="Particle/zones_mine/zone_gravity_mine_idle_strong.xml" />
+	<file src="Particle/zones_mine/zone_gravity_mine_hit_strong.xml" />
+	<file src="Particle/zones_mine/effects/gravi_vacuum_idle_leaves.xml" />
+	<file src="Particle/zones_mine/effects/gravity_shield_dist.xml" />
+	<file src="Particle/zones_mine/effects/gravi_shield_idle.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat-400.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat00-4.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat004.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat400.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_yadro.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat-400_leaves.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat00-4_leaves.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat004_leaves.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat400_leaves.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_wave.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_yadro_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_otbrosy.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat-400_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat00-4_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat004_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat400_dust.xml" />
+	<file src="Particle/zones_mine/effects/gravi_zaxvat_wave_dist.xml" />
+	-->
+
+	<file src="Materials/pfx_light1.xml" />
+	<file src="Materials/pfx_ligth_6.xml" />	
+	<file src="Materials/pfx_anomaly_8.xml" />
+	<file src="Materials/pfx_anomaly_19.xml" />		
+	<file src="Materials/pfx_leaves_01.xml" />
+	<file src="Materials/pfx_dist2.xml" />
+	<file src="Materials/glow_orange2.xml" />
+	<file src="Materials/pfx_spark_01.xml" />
+	<file src="Materials/pfx_flame_01.xml" />
+	<file src="Materials/glow_fire1.xml" />
+	<file src="Materials/pfx_smoke_a.xml" />
+	<file src="Materials/pfx_smoke_b.xml" />
+	<file src="Materials/pfx_anomaly_2_green.xml" />
+	<file src="Materials/pfx_anomaly_16.xml" />
+	<file src="Materials/pfx_dist3.xml" />
+	<file src="Materials/pfx_specks.xml" />
+	<file src="Materials/pfx_ani-fire01.xml" />
+	
+	<file src="shaders/mta-helper.fx"/>
+	<file src="shaders/shader.fx" />
+	<file src="shaders/add.fx" />
+	<file src="shaders/blend.fx" />
+	<file src="shaders/alpha_add.fx" />
+	<file src="shaders/xdistort.fx" />
+	
+	<file src="textures/pfx_ligth_6.dds" />
+	<file src="textures/pfx_anomaly_8.dds" />
+	<file src="textures/pfx_light1.dds" />
+	<file src="textures/pfx_leaves_01.dds" />
+	<file src="textures/pfx_dist2.dds" />
+	<file src="textures/pfx_anomaly_19.dds" />
+
+	<file src="textures/pfx_anomaly_16.dds" />
+	<file src="textures/pfx_flame_01.dds" />
+	<file src="textures/pfx_ani-fire01.dds" />
+	<file src="textures/pfx_smoke_b.dds" />
+	<file src="textures/pfx_smoke_a.dds" />
+	<file src="textures/glow_fire1.dds" />
+	<file src="textures/pfx_anomaly_2_green.dds" />
+	<file src="textures/glow_orange2.dds" />
+	<file src="textures/pfx_spark_01.dds" />
+	<file src="textures/pfx_dist3.dds" />
+	<file src="textures/pfx_specks.dds" />
+
+	<export function="xrGroupPlay" type="client" />
+	<export function="xrGroupDestroy" type="client" />
+	<export function="xrGroupExists" type="client" />
+	<export function="xrEffectPlay" type="client" />
+	<export function="xrEffectDestroy" type="client" />
+	<export function="xrEffectExists" type="client" />
+</meta>

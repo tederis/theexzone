@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="128">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Scatter" enabled="true" magnitude="888" epsilon="0.004" maxRadius="3" center="0 -0.5 -1" allowRotate="true" />
+		<action type="Source" enabled="true" rate="10000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-4.5 5 0" max="4.5 0 0" />
+			<domain name="velocity" type="Line" point1="0 1 1" point2="0 4 8" />
+			<domain name="rotation" type="Line" point1="300 -30 -30" point2="-300 30 30" />
+			<domain name="size" type="Point" center="0.5 0.5 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.128" timeFrom="0" timeTo="1" color="0.631373 0.631373 0.631373" />
+		<action type="Gravity" enabled="true" direction="0 -12 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_brick.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<timeLimit value="2.2" />
+	<collision friction="0" resilience="0.2" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

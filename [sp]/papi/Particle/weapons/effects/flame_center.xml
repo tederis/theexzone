@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.01" killLessThan="false" />
+		<action type="Source" enabled="true" rate="2000" alpha="1" startingAge="0" ageSigma="0" parentMotion="1" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-18.8014 -1 -1" point2="17.4575 1 99.4889" />
+			<domain name="size" type="Point" center="0.45 0.45 0" />
+			<domain name="color" type="Point" center="3 3 3" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_flame_01.xml" />
+	<timeLimit value="20" />
+</effect>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="11.8">
+	<effect name="Particle/static\effects\flame_burst_line_dist_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\flame_burst_line_glow_00_steam.xml" time0="0" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\flame_burst_line_up_steam.xml" time0="0" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\flame_burst_line_up_01_steam.xml" time0="0" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\expl_smoke_dym_01_steam.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

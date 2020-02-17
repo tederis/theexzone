@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="37" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-5 0 -7" max="5 2.5 -7" />
+			<domain name="velocity" type="Line" point1="0 -1 7" point2="0 0 21" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Line" point1="3.7 3.7 0" point2="12 12 0" />
+			<domain name="color" type="Point" center="0.643137 0.639216 0.631373" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -1.7 0" normal="0 -1 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.058" scale="3" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-27.6589 0 0" />
+		<action type="Vortex" enabled="true" magnitude="7" epsilon="0.001" maxRadius="30" center="0 0 0" axis="0 1 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_b.xml" />
+	<collision friction="1" resilience="0" cutoff="0" destroyOnContact="true" collideWithDynamic="false" />
+</effect>

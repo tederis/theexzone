@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.28" killLessThan="false" />
+		<action type="Source" enabled="true" rate="9" alpha="0.38" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 1 0" radiusInner="0" radiusOuter="15" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 10 0" radiusInner="10" radiusOuter="50" />
+			<domain name="rotation" type="Line" point1="-0.087266 -0.087266 -0.087266" point2="0.087266 0.087266 0.087266" />
+			<domain name="size" type="Line" point1="3 3 3" point2="8 8 8" />
+			<domain name="color" type="Point" center="0.305882 0.337255 0.364706" />
+		</action>
+		<action type="Source" enabled="true" rate="9" alpha="0.38" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 1 0" radiusInner="0" radiusOuter="15" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 10 0" radiusInner="10" radiusOuter="50" />
+			<domain name="rotation" type="Line" point1="-0.087266 -0.087266 -0.087266" point2="0.087266 0.087266 0.087266" />
+			<domain name="size" type="Line" point1="3 3 3" point2="8 8 8" />
+			<domain name="color" type="Point" center="0.305882 0.337255 0.364706" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="5" velocity="0 3 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="15 15 15" scale="1 1 1" />
+		<action type="TargetColor" enabled="true" alpha="0.009" scale="0.8" timeFrom="0" timeTo="1" color="0.133333 0.243137 0.313726" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="6.28319 0 0" />
+		<action type="Vortex" enabled="true" magnitude="10" epsilon="0.001" maxRadius="10" center="0 3 0" axis="0 5 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="1000" epsilon="0.001" maxRadius="30" center="0 20 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+</effect>

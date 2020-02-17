@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\gravi_vivert_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vivert_glow_1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\bold_art_idle_glow_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

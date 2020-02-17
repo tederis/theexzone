@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/static\effects\monsters_fire_flame_burst_line.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\monsters_fire_flame_burst_face.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\monsters_fire_flame_burst_line_dist.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\monsters_fire_flame_burst_line_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/static\effects\monsters_fire_flame_burst_line_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

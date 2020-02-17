@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="6">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="200" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Cone" apex="0 0 28" endPoint="0 0 68" radiusInner="0.5" radiusOuter="4" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.26 0.26 0.26" />
+			<domain name="color" type="Point" center="0.596078 0.596078 0.596078" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="15" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetVelocity" enabled="true" scale="6" velocity="0 -0.05 -0.3" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_flame_01.xml" />
+	<timeLimit value="0.1" />
+	<velocityScale value="0 0.05 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/phy_fx\effects\generic_dust_01.xml" time0="0" time1="5" defferedStop="false" enabled="true" rewind="false" />
+</group>

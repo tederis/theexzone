@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="73">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="18" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0.05" radiusOuter="0.15" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0.033 0" radiusInner="0.03" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="36 -1 -1" point2="6 1 1" />
+			<domain name="size" type="Line" point1="0.4 0.4 0.4" point2="0.8 0.8 0.8" />
+			<domain name="color" type="Point" center="0.988235 0.827451 0.45098" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="3.8" timeFrom="0" timeTo="1" color="0.043137 0.003922 0" />
+		<action type="TargetSize" enabled="true" size="1 1 3" scale="2.8 2.8 2.8" />
+		<action type="Gravity" enabled="true" direction="0 1 0" allowRotate="false" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-23.7191 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-explosion-02a.xml" />
+	<frame randomInit="false" size="0.125 0.142578" dimension="8" count="150" />
+	<animated randomPlayback="false" speed="37" />
+</effect>

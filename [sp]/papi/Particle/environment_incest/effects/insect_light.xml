@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="34.0796 0 0" />
+		<action type="OrbitPoint" enabled="true" magnitude="1" epsilon="0.001" maxRadius="1e+16" center="0 0 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="1" epsilon="0.001" maxRadius="1e+16" center="0.3 0 0.3" allowRotate="true" />
+		<action type="RandomDisplace" enabled="true" allowRotate="true">
+			<domain name="displace" type="Sphere" center="0 0 0" radiusInner="0.3" radiusOuter="0" />
+		</action>
+		<action type="Vortex" enabled="true" magnitude="70" epsilon="50" maxRadius="170" center="0 3 0" axis="0 37 0" allowRotate="true" />
+		<action type="Source" enabled="true" rate="17" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 -0.3 0" radiusInner="0" radiusOuter="0.55" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0.1 0" radiusInner="0.5" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-137 -1 -1" point2="137 1 1" />
+			<domain name="size" type="Point" center="0.012 0.012 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+</effect>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/hit_fx\effects\hit_blood_drops.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_blood_puff.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_flash_inside.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

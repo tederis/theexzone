@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="48">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="18" alpha="0.088" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-20 1 -15" max="-10 2 15" />
+			<domain name="velocity" type="Line" point1="32 -1 2" point2="45 1 5" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Line" point1="8 8 0" point2="12 12 0" />
+			<domain name="color" type="Point" center="0.439216 0.439216 0.439216" />
+		</action>
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -2.7 0" normal="0 -1 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.018" scale="4" timeFrom="0" timeTo="1" color="0.611765 0.611765 0.611765" />
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-27.6589 0 0" />
+		<action type="Vortex" enabled="true" magnitude="99" epsilon="0.03" maxRadius="5" center="0 -1 0" axis="0 1 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="15 15 15" scale="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_b.xml" />
+</effect>

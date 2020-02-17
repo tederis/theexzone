@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="7">
+	<effect name="Particle/monsters\effects\polter_expl.xml" onBirthChild="Particle/monsters\effects\polter_glow_expl.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\body_tear_blood_05.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\body_tear_face_align_00.xml" onPlayChild="Particle/monsters\effects\body_tear_blood_07.xml" time0="0.25" time1="0" defferedStop="false" enabled="true" rewind="true" />
+</group>

@@ -1,0 +1,8 @@
+<fonts>
+    <font name="LettericaRomanSmall" filename="fonts/AGLettericaExtraCompressed Roman.ttf" size="12" bold="false" quality="proof" />
+    <font name="LettericaRomanMedium" filename="fonts/AGLettericaExtraCompressed Roman.ttf" size="18" bold="false" quality="proof" />
+    <font name="LettericaRomanBig" filename="fonts/AGLettericaExtraCompressed Roman.ttf" size="26" bold="false" quality="proof" />
+    <font name="LettericaObliqueSmall" filename="fonts/AG Letterica Oblique Medium.ttf" size="12" bold="false" quality="proof" />
+    <font name="LettericaObliqueMedium" filename="fonts/AG Letterica Oblique Medium.ttf" size="18" bold="false" quality="proof" />
+    <font name="LettericaObliqueBig" filename="fonts/AG Letterica Oblique Medium.ttf" size="26" bold="false" quality="proof" />
+</fonts>

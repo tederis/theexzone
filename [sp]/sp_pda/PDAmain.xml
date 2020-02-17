@@ -1,0 +1,6 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="157" width="1024" height="768"></origin>
+    </frame>
+</ui>

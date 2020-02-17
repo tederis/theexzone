@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="0.1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="1" radiusOuter="0.5" />
+			<domain name="velocity" type="Point" center="0 4 0" />
+			<domain name="rotation" type="Line" point1="5.23599 5.23599 5.23599" point2="-5.23599 -5.23599 -5.23599" />
+			<domain name="size" type="Line" point1="3 3 3" point2="4 4 4" />
+			<domain name="color" type="Triangle" point1="0.192157 0.223529 0.270588" point2="0.239216 0.258824 0.227451" point3="0.219608 0.207843 0.2" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="5" timeFrom="0" timeTo="1" color="0.015686 0.007843 0.007843" />
+		<action type="TargetSize" enabled="true" size="10 10 10" scale="9 9 9" />
+		<action type="TargetVelocity" enabled="true" scale="18" velocity="0 -0.15 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_gradient.xml" />
+	<animated randomPlayback="false" speed="0" />
+</effect>

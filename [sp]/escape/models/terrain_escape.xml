@@ -1,0 +1,4 @@
+<rules>
+    <rule name="terrain_escape" shader="terrain" />
+    <rule name="*" shader="default_internal" />
+</rules>

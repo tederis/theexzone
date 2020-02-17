@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="10">
+	<effect name="Particle/explosions\effects\expl_benzin_06.xml" onPlayChild="Particle/explosions\effects\expl_flame_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_sparks_grenade.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\explosion_glow_grenade.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_distortion_grenade.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_grenade_smoke.xml" time0="0.08" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\explosion_01_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_stones.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_smoke_02.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

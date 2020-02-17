@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="40">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="5" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 10 0" point2="0 5 0" radiusInner="0" radiusOuter="5" />
+			<domain name="velocity" type="Cone" apex="0 2 0" endPoint="0 3 0" radiusInner="0.3" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-137 -1 -1" point2="137 1 1" />
+			<domain name="size" type="Line" point1="5 5 5" point2="10 10 10" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.2" scale="0.3" timeFrom="0" timeTo="1" color="0 0.003922 0.003922" />
+		<action type="TargetSize" enabled="true" size="10 10 10" scale="0.7 0.7 0" />
+		<action type="RandomAccel" enabled="true" allowRotate="false">
+			<domain name="accelerate" type="Sphere" center="0 0 0" radiusInner="1" radiusOuter="3" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="39.8662 0 0" />
+		<action type="Vortex" enabled="true" magnitude="220" epsilon="5" maxRadius="66" center="0 25 0" axis="0 37 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_distortion.xml" />
+</effect>

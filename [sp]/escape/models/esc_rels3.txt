@@ -1,0 +1,13 @@
+[TXDList]
+count=3
+app=TEDERIs Blender Tools
+lighttype=7
+[Texture1]
+name=mtl_rust_dark_iov
+path=D:\OblivionLost\textures\mtl_rust_dark_iov.jpeg
+[Texture2]
+name=mtl_railroad_04
+path=D:\OblivionLost\textures\mtl_railroad_04.jpeg
+[Texture3]
+name=mtl_railroad_04_bok
+path=D:\OblivionLost\textures\mtl_railroad_04_bok.jpeg

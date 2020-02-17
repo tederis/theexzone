@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="30">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="15" epsilon="0.01" maxRadius="1e+16" center="-1 10 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="14" epsilon="0.01" maxRadius="1e+16" center="1 10 0" allowRotate="true" />
+		<action type="Source" enabled="true" rate="10" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 10 0" radiusInner="2" radiusOuter="3" />
+			<domain name="velocity" type="Sphere" center="0 0 0" radiusInner="2" radiusOuter="3" />
+			<domain name="rotation" type="Line" point1="-5.23599 -5.23599 -5.23599" point2="6.98132 6.98132 6.98132" />
+			<domain name="size" type="Point" center="5 5 5" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.2" scale="1" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetRotate" enabled="true" scale="0.3" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+	<animated randomPlayback="false" speed="0" />
+</effect>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="12">
+	<effect name="Particle/generator\effects\generator_work_sparks_emiter_low.xml" onBirthChild="Particle/generator\effects\generator_work_sparks_emiter_glow.xml" time0="0" time1="5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_work_sparks_emiter_fast.xml" onBirthChild="Particle/generator\effects\generator_work_sparks_emiter_glow.xml" time0="5" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_vacuum_dust.xml" time0="6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_electro_hit.xml" time0="10" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_face_align.xml" time0="4" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_glow_00.xml" onBirthChild="Particle/generator\effects\generator_glow_01.xml" time0="5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_face_align_explode_dist.xml" time0="11.5" time1="14" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\generator_glow_02.xml" time0="11.5" time1="14" defferedStop="false" enabled="true" rewind="false" />
+</group>

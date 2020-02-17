@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\art_gravi_vacuum_dust_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\art_vacuum_idle_leaves_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\art_gravity_shield_dist_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

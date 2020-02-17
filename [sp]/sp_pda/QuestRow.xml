@@ -1,0 +1,15 @@
+<ui>
+    <frame type="form" name="QuestEntry" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+        <origin x="0" y="0" width="287" height="50"></origin>
+        <frame font="LettericaObliqueMedium" text="" alignX="left" alignY="top" scale="0.75" clip="true" wordBreak="true" type="text" name="QuestEntyText" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="0"></anchor>
+            <origin x="50" y="10" width="187" height="15"></origin>
+        </frame>
+        <frame texture="ui_common" toggled="true" selected="false" type="button" name="QuestEntrySwitch" visible="true">
+            <sections default="ui_icons_mapPDA_persBig_t" clicked="ui_icons_mapPDA_persBig_d"></sections>
+            <anchor leftTopX="0" leftTopY="0.5" rightBottomX="0" rightBottomY="0.5"></anchor>
+            <origin x="0" y="9" width="32" height="32"></origin>
+        </frame>
+    </frame>
+</ui>

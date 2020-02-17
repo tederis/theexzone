@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.75" killLessThan="false" />
+		<action type="Source" enabled="true" rate="10000" alpha="0.48" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0.4 -2" />
+			<domain name="velocity" type="Point" center="0 0 100" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.5 0.5 0.5" />
+			<domain name="color" type="Point" center="0.576471 0.403922 0.364706" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.28" scale="5" timeFrom="0" timeTo="1" color="0.152941 0.152941 0.152941" />
+		<action type="TargetRotate" enabled="true" scale="5" rotation="0 0 0" />
+		<action type="TargetSize" enabled="true" size="3 3 3" scale="8 8 8" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/act_controller_hit1.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.5" />
+</effect>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.175" killLessThan="false" />
+		<action type="Source" enabled="true" rate="77" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="false">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 1 0" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="0.5 0.5 0.5" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="10" timeFrom="0" timeTo="1" color="0.282353 0.282353 0.282353" />
+		<action type="TargetSize" enabled="true" size="12 12 12" scale="12 12 12" />
+		<action type="TargetVelocity" enabled="false" scale="1.18" velocity="0.3 0.5 0.5" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_sparks.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="7" />
+	<animated randomPlayback="false" speed="32" />
+	<timeLimit value="0.1" />
+</effect>

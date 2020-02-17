@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_ani-fire01.dds" />
+    <shader name="add.fx" />
+</material>

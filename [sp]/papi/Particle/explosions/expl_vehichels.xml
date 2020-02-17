@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="20">
+	<effect name="Particle/explosions\effects\expl_benzin_05.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_fire.xml" onPlayChild="Particle/explosions\effects\expl_car_glow.xml" time0="0.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_flames00.xml" onDeadChild="Particle/explosions\effects\expl_mushroom_fire_small.xml" time0="1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_veh_00.xml" onPlayChild="Particle/explosions\effects\expl_flame_00.xml" time0="0" time1="0" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_parts_car_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_smoke.xml" time0="0.98" time1="9" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_smoke00_06.xml" time0="1.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

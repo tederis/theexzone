@@ -1,0 +1,137 @@
+<radial>
+    <entry name="Встать" fn="onSeatUpCommand" >
+        <condition name="GuitarPhase" equal="#Seat#" />
+    </entry>
+    <entry name="Команды(Бой)">
+        <condition name="CombatPhase" />
+        <condition name="Faction" equal="stalker" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Атакуем" fn="onVoiceCommandSelected" args="#StalkerCmdAttack#" cooldown="3" />
+        <entry name="Я остаюсь" fn="onVoiceCommandSelected" args="#StalkerCmdCamp#" cooldown="3" />
+        <entry name="Врага не наблюдаю" fn="onVoiceCommandSelected" args="#StalkerCmdClear#" cooldown="3" />
+        <entry name="За мной!" fn="onVoiceCommandSelected" args="#StalkerCmdFollow#" cooldown="3" />
+        <entry name="Нужна помощь!" fn="onVoiceCommandSelected" args="#StalkerCmdHelp#" cooldown="3" />
+        <entry name="Держим позицию" fn="onVoiceCommandSelected" args="#StalkerCmdHold#" cooldown="3" />
+        <entry name="Не хватает денег" fn="onVoiceCommandSelected" args="#StalkerCmdMoney#" cooldown="3" />
+        <entry name="Не могу" fn="onVoiceCommandSelected" args="#StalkerCmdNo#" cooldown="3" />
+        <entry name="Доложите о ситуации" fn="onVoiceCommandSelected" args="#StalkerCmdReport#" cooldown="3" />
+        <entry name="Отступаем!" fn="onVoiceCommandSelected" args="#StalkerCmdRetreat#" cooldown="3" />
+        <entry name="Вас понял" fn="onVoiceCommandSelected" args="#StalkerCmdRoger#" cooldown="3" />
+        <entry name="Тишина в эфире" fn="onVoiceCommandSelected" args="#StalkerCmdSilence#" cooldown="3" />
+        <entry name="Идем группой" fn="onVoiceCommandSelected" args="#StalkerCmdTogether#" cooldown="3" />
+    </entry>
+     <entry name="Команды(Бой)">
+        <condition name="CombatPhase" />
+        <condition name="Faction" equal="bandit" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Валим уродов!" fn="onVoiceCommandSelected" args="#BanditCmdAttack#" cooldown="3" />
+        <entry name="Держу точку" fn="onVoiceCommandSelected" args="#BanditCmdCamp#" cooldown="3" />
+        <entry name="Вроде всё чисто" fn="onVoiceCommandSelected" args="#BanditCmdClear#" cooldown="3" />
+        <entry name="За мной" fn="onVoiceCommandSelected" args="#BanditCmdFollow#" cooldown="3" />
+        <entry name="Помогайте" fn="onVoiceCommandSelected" args="#BanditCmdHelp#" cooldown="3" />
+        <entry name="Сидим на месте" fn="onVoiceCommandSelected" args="#BanditCmdHold#" cooldown="3" />
+        <entry name="Нужны деньги" fn="onVoiceCommandSelected" args="#BanditCmdMoney#" cooldown="3" />
+        <entry name="Не могу" fn="onVoiceCommandSelected" args="#BanditCmdNo#" cooldown="3" />
+        <entry name="Как обстановка?" fn="onVoiceCommandSelected" args="#BanditCmdReport#" cooldown="3" />
+        <entry name="Сваливаем!" fn="onVoiceCommandSelected" args="#BanditCmdRetreat#" cooldown="3" />
+        <entry name="Лады" fn="onVoiceCommandSelected" args="#BanditCmdRoger#" cooldown="3" />
+        <entry name="Хорош болтать" fn="onVoiceCommandSelected" args="#BanditCmdSilence#" cooldown="3" />
+        <entry name="Двигаемся группой" fn="onVoiceCommandSelected" args="#BanditCmdTogether#" cooldown="3" />
+    </entry>
+    <entry name="Играть(Гитара)">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Мелодия 1" fn="onGuitarVariantSelected" args="#Play_1#" cooldown="3" />
+        <entry name="Мелодия 2" fn="onGuitarVariantSelected" args="#Play_2#" cooldown="3" />
+        <entry name="Мелодия 3" fn="onGuitarVariantSelected" args="#Play_3#" cooldown="3" />
+        <entry name="Мелодия 4" fn="onGuitarVariantSelected" args="#Play_4#" cooldown="3" />
+        <entry name="Мелодия 5" fn="onGuitarVariantSelected" args="#Play_5#" cooldown="3" />
+        <entry name="Мелодия 6" fn="onGuitarVariantSelected" args="#Play_6#" cooldown="3" />
+        <entry name="Мелодия 7" fn="onGuitarVariantSelected" args="#Play_7#" cooldown="3" />
+        <entry name="Мелодия 8" fn="onGuitarVariantSelected" args="#Play_8#" cooldown="3" />
+        <entry name="Мелодия 9" fn="onGuitarVariantSelected" args="#Play_9#" cooldown="3" />
+        <entry name="Мелодия 10" fn="onGuitarVariantSelected" args="#Play_10#" cooldown="3" />
+        <entry name="Мелодия 11" fn="onGuitarVariantSelected" args="#Play_11#" cooldown="3" />
+        <entry name="Мелодия 12" fn="onGuitarVariantSelected" args="#Play_12#" cooldown="3" />
+        <entry name="Мелодия 13" fn="onGuitarVariantSelected" args="#Play_13#" cooldown="3" />
+        <entry name="Мелодия 14" fn="onGuitarVariantSelected" args="#Play_14#" cooldown="3" />
+        <entry name="Мелодия 15" fn="onGuitarVariantSelected" args="#Play_15#" cooldown="3" />
+        <entry name="Мелодия 16" fn="onGuitarVariantSelected" args="#Play_16#" cooldown="3" />
+        <entry name="Мелодия -1" fn="onGuitarVariantSelected" args="#Play_Test#" cooldown="3">
+            <condition name="TestAbility" />
+        </entry>
+    </entry>
+    <entry name="Реакция(Гитара)">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="stalker" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Мастер!" fn="onReactionVariantSelected" args="#StalkerReact1#" cooldown="1" />
+        <entry name="Класс!" fn="onReactionVariantSelected" args="#StalkerReact2#" cooldown="1" />
+        <entry name="Вот это как.." fn="onReactionVariantSelected" args="#StalkerReact3#" cooldown="1" />
+        <entry name="Ну классно выходит" fn="onReactionVariantSelected" args="#StalkerReact4#" cooldown="1" />
+        <entry name="Кончай уже" fn="onReactionVariantSelected" args="#StalkerReact5#" cooldown="1" />
+        <entry name="Завязывай" fn="onReactionVariantSelected" args="#StalkerReact6#" cooldown="1" />
+        <entry name="Музыкант из тебя.." fn="onReactionVariantSelected" args="#StalkerReact7#" cooldown="1" />
+    </entry>
+    <entry name="Шутки">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="stalker" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Сидят два сталкера.." fn="onReactionVariantSelected" args="#StalkerJoke1#" cooldown="1" />
+        <entry name="Один сталкер.." fn="onReactionVariantSelected" args="#StalkerJoke2#" cooldown="1" />
+        <entry name="Доктор слушает.." fn="onReactionVariantSelected" args="#StalkerJoke3#" cooldown="1" />
+        <entry name="Трое сталкеров.." fn="onReactionVariantSelected" args="#StalkerJoke4#" cooldown="1" />
+        <entry name="Пришел сталкер к доктору.." fn="onReactionVariantSelected" args="#StalkerJoke5#" cooldown="1" />
+        <entry name="Встречает сталкер друга.." fn="onReactionVariantSelected" args="#StalkerJoke6#" cooldown="1" />
+        <entry name="Один сталкер спрашивает.." fn="onReactionVariantSelected" args="#StalkerJoke7#" cooldown="1" />
+    </entry>
+    <entry name="Реакция(Шутки)">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="stalker" />
+        <condition name="LockVoice" inverse="true" />
+        
+        <entry name="Не смешно же" fn="onReactionVariantSelected" args="#StalkerJokeReact1#" cooldown="1" />
+        <entry name="А поновее нет?" fn="onReactionVariantSelected" args="#StalkerJokeReact2#" cooldown="1" />
+        <entry name="Ха-ха-ха" fn="onReactionVariantSelected" args="#StalkerLaughter#" cooldown="1" />
+    </entry>
+    <entry name="Реакция(Гитара)">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="bandit" />
+        <condition name="LockVoice" inverse="true" />
+         
+        <entry name="За душу берет" fn="onReactionVariantSelected" args="#BanditReact1#" cooldown="1" />
+        <entry name="Даа, кекс.." fn="onReactionVariantSelected" args="#BanditReact2#" cooldown="1" />
+        <entry name="Чистый лесоповал" fn="onReactionVariantSelected" args="#BanditReact3#" cooldown="1" />
+        <entry name="А у нас в малолетке.." fn="onReactionVariantSelected" args="#BanditReact4#" cooldown="1" />
+        <entry name="Лаванда..." fn="onReactionVariantSelected" args="#BanditReact5#" cooldown="1" />
+        <entry name="Это не то" fn="onReactionVariantSelected" args="#BanditReact6#" cooldown="1" />
+        <entry name="Это музыка была?" fn="onReactionVariantSelected" args="#BanditReact7#" cooldown="1" />
+    </entry>
+    <entry name="Шутки">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="bandit" />
+        <condition name="LockVoice" inverse="true" />
+         
+        <entry name="Один кореш.." fn="onReactionVariantSelected" args="#BanditJoke1#" cooldown="1" />
+        <entry name="Заходит как-то братан.." fn="onReactionVariantSelected" args="#BanditJoke2#" cooldown="1" />
+        <entry name="Вернулся сталкер с зоны.." fn="onReactionVariantSelected" args="#BanditJoke3#" cooldown="1" />
+        <entry name="Мать присылает маляву.." fn="onReactionVariantSelected" args="#BanditJoke4#" cooldown="1" />
+        <entry name="Два братана сидят.." fn="onReactionVariantSelected" args="#BanditJoke5#" cooldown="1" />
+        <entry name="Что, где, когда" fn="onReactionVariantSelected" args="#BanditJoke6#" cooldown="1" />
+        <entry name="Стоят два лоха" fn="onReactionVariantSelected" args="#BanditJoke7#" cooldown="1" />
+    </entry>
+    <entry name="Реакция(Шутки)">
+        <condition name="GuitarPhase" equal="#Seat#" />
+        <condition name="Faction" equal="bandit" />
+        <condition name="LockVoice" inverse="true" />
+         
+        <entry name="Это про чё?" fn="onReactionVariantSelected" args="#BanditJokeReact1#" cooldown="1" />
+        <entry name="Ты бы еще про штирлица.." fn="onReactionVariantSelected" args="#BanditJokeReact2#" cooldown="1" />
+        <entry name="Ха-ха-ха" fn="onReactionVariantSelected" args="#BanditLaughter#" cooldown="1" />
+    </entry>
+</radial>

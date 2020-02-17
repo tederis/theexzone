@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\gravity_idle_leaves.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_idle_dist_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\graviti_steam_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

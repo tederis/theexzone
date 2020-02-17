@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="73">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="370" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 2 0" radiusInner="0" radiusOuter="0.3" />
+			<domain name="velocity" type="Cone" apex="0 -1 0" endPoint="0 -37 0" radiusInner="3" radiusOuter="17" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="0.05 0.05 0.05" />
+			<domain name="color" type="Point" center="0.5 0.5 0.5" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.3" timeFrom="0" timeTo="1" color="0.5 0.5 0.5" />
+		<action type="TargetVelocity" enabled="true" scale="3.7" velocity="0 1 0" allowRotate="false" />
+		<action type="Bounce" enabled="true" friction="0" resilience="0.7" cutoff="1" allowRotate="true">
+			<domain name="position" type="Sphere" center="0 -0.3 0" radiusInner="0" radiusOuter="1" />
+		</action>
+		<action type="Vortex" enabled="true" magnitude="21" epsilon="5" maxRadius="3.7" center="-1.7 2 0" axis="0 0 -10" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="21" epsilon="5" maxRadius="3.7" center="1.7 2 0" axis="0 0 10" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="21" epsilon="5" maxRadius="3.7" center="0 2 1.7" axis="-10 0 0" allowRotate="false" />
+		<action type="Vortex" enabled="true" magnitude="21" epsilon="5" maxRadius="3.7" center="0 2 -1.7" axis="10 0 0" allowRotate="false" />
+		<action type="Gravity" enabled="true" direction="0 -7 0" allowRotate="true" />
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Box" min="6 -1 6" max="-6 -6 -6" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<timeLimit value="0.2" />
+</effect>

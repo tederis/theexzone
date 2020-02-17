@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="90">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="30" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 2 0" radiusInner="0.5" radiusOuter="0.5" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0.1 0" radiusInner="0.2" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-137 -0.2 -0.21" point2="137 0.2 0.2" />
+			<domain name="size" type="Point" center="0.01 0.01 0" />
+			<domain name="color" type="Point" center="0.035 0.035 0.03" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0.1 0.1 0.1" />
+		<action type="TargetSize" enabled="true" size="0.3 0.3 0" scale="0.3 0.3 0" />
+		<action type="TargetRotate" enabled="true" scale="0.02" rotation="-71.1236 0 0" />
+		<action type="OrbitPoint" enabled="true" magnitude="0.2" epsilon="0.001" maxRadius="1e+16" center="0 0 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="0.2" epsilon="0.001" maxRadius="1e+16" center="0.1 0 0.1" allowRotate="true" />
+		<action type="RandomDisplace" enabled="true" allowRotate="true">
+			<domain name="displace" type="Sphere" center="0 0 0" radiusInner="0.2" radiusOuter="0" />
+		</action>
+		<action type="Vortex" enabled="true" magnitude="50" epsilon="50" maxRadius="170" center="0 0.2 0" axis="0 37 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_spikey_star.xml" />
+	<frame randomInit="true" size="1 1" dimension="1" count="1" />
+</effect>

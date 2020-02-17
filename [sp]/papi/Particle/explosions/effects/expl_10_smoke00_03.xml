@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="16">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="48" alpha="0.008" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 12 0" point2="0 4 0" radiusInner="0" radiusOuter="2.5" />
+			<domain name="velocity" type="Line" point1="0 15 0" point2="0 1 0" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Line" point1="3.7 3.7 3" point2="5 5 5" />
+			<domain name="color" type="Point" center="1 0.74902 0.478431" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="5" timeFrom="0" timeTo="1" color="0.45098 0.411765 0.411765" />
+		<action type="TargetSize" enabled="true" size="10 10 10" scale="3 3 0" />
+		<action type="TargetVelocity" enabled="true" scale="6" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 8 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-explosion-02-b-a.xml" />
+	<frame randomInit="false" size="0.125 0.142578" dimension="8" count="150" />
+	<animated randomPlayback="false" speed="30" />
+	<timeLimit value="1" />
+</effect>

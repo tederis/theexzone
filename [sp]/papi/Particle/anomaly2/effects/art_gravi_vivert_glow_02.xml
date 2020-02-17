@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2.5" killLessThan="false" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.1" timeFrom="0" timeTo="1" color="0.023529 0.047059 0.098039" />
+		<action type="TargetVelocity" enabled="true" scale="4" velocity="0 10 0" allowRotate="false" />
+		<action type="Turbulence" enabled="true" frequency="0.5" magnitude="10" epsilon="1" offset="0.15 2.5 -0.15" octaves="1" />
+		<action type="Source" enabled="true" rate="800" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0.2 0" />
+			<domain name="velocity" type="Line" point1="0 0 0" point2="0 8 0" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Line" point1="1 1 1" point2="2 2 2" />
+			<domain name="color" type="Point" center="0.062745 0.101961 0.188235" />
+		</action>
+		<action type="Sink" enabled="true" killInside="false" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 -0.1 0" normal="0 1 0" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_fire1.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="5" />
+</effect>

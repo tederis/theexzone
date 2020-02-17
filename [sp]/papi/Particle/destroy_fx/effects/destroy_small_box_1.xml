@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="300" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.3" />
+			<domain name="velocity" type="Cone" apex="0 3 0" endPoint="3 3 3" radiusInner="1" radiusOuter="2" />
+			<domain name="rotation" type="Line" point1="6.28319 6.28319 0" point2="-6.28319 -6.28319 0" />
+			<domain name="size" type="Line" point1="0.05 0.05 0" point2="0.1 0.1 0" />
+			<domain name="color" type="Point" center="1 0.9 0.8" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="2" rotation="0 0 0" />
+		<action type="Gravity" enabled="true" direction="0 -8 0" allowRotate="false" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="2" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_woodchips3.xml" />
+	<frame randomInit="true" size="0.0625 0.5" dimension="16" count="32" />
+	<timeLimit value="1" />
+</effect>

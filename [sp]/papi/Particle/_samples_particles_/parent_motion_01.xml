@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/_samples_particles_\effects\motion_01.xml" onPlayChild="Particle/_samples_particles_\effects\smoke.xml" onDeadChild="Particle/_samples_particles_\effects\smoke_death.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

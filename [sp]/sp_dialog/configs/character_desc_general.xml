@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+	<specific_character id="char_trader" team_default = "1">
+		<name>Торговец</name>
+		<icon x="0" y="9"></icon>
+		<map_icon x="0" y="4"></map_icon>
+		<bio>Промышлял торговлей с малых лет. В детском садике продавал цветные карандаши.
+		В школе торговал жевательной резинкой.
+		В институте промышлял продажей легкой наркоты. С появлением Зоны смекнул, что на
+		этом можно хорошо заработать. Славится тем, что способен наладить хорошие торговые
+		отношения с самыми разношерстными клиентами.</bio>
+
+		<rank>50</rank>
+		<reputation>50</reputation>
+		<trade>true</trade>
+		
+		<start_dialog>start_dialog_stalker</start_dialog>
+		<actor_dialog>intro_dialog</actor_dialog>
+		<actor_dialog>return_items_dialog</actor_dialog>
+		<actor_dialog>talk_about_stalker</actor_dialog>
+	</specific_character>
+
+	<specific_character id="char_trader_bandit" team_default = "2">
+		<name>Торговец</name>
+		<icon x="0" y="9"></icon>
+		<map_icon x="0" y="4"></map_icon>
+		<bio>Промышлял торговлей с малых лет. В детском садике продавал цветные карандаши.
+		В школе торговал жевательной резинкой.
+		В институте промышлял продажей легкой наркоты. С появлением Зоны смекнул, что на
+		этом можно хорошо заработать. Славится тем, что способен наладить хорошие торговые
+		отношения с самыми разношерстными клиентами.</bio>
+
+		<rank>50</rank>
+		<reputation>50</reputation>
+		<trade>true</trade>
+		
+		<start_dialog>start_dialog_bandit</start_dialog>
+		<actor_dialog>intro_dialog_bandit</actor_dialog>
+		<actor_dialog>return_items_dialog_bandit</actor_dialog>
+		<actor_dialog>talk_about_bandit</actor_dialog>
+	</specific_character>
+
+	<specific_character id="char_provider" team_default = "1">
+		<name>Волк</name>
+		<icon x="0" y="9"></icon>
+		<map_icon x="0" y="4"></map_icon>
+		<bio></bio>
+
+		<rank>50</rank>
+		<reputation>50</reputation>
+		
+		<start_dialog>start_dialog_stalker</start_dialog>
+		<actor_dialog>provider_quest</actor_dialog>
+		<actor_dialog>provider_quest_wait</actor_dialog>
+	</specific_character>
+
+	<specific_character id="char_receiver" team_default = "1">
+		<name>Валера</name>
+		<icon x="0" y="9"></icon>
+		<map_icon x="0" y="4"></map_icon>
+		<bio></bio>
+
+		<team>Trader</team>
+		<rank>50</rank>
+		<reputation>50</reputation>
+		
+		<start_dialog>start_dialog_stalker</start_dialog>
+		<actor_dialog>receiver_quest</actor_dialog>
+		<actor_dialog>receiver_quest_fail</actor_dialog>
+		<actor_dialog>receiver_help</actor_dialog>
+	</specific_character>
+
+	<specific_character id="actor" team_default = "1">
+		<name>Меченый</name>
+		<!--<icon x="0" y="9"></icon>-->
+		<icon x="26" y="6"></icon>
+		<map_icon x="0" y="4"></map_icon>
+
+		<team>Actor</team>
+		<rank>50</rank>
+		<reputation>50</reputation>
+	</specific_character>
+</xml>

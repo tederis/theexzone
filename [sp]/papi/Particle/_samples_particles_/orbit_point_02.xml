@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="5">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Gravity" enabled="true" direction="0 -0.1 0" allowRotate="false" />
+		<action type="Turbulence" enabled="false" frequency="1" magnitude="1" epsilon="0.05" offset="1 1 1" octaves="2" />
+		<action type="OrbitPoint" enabled="true" magnitude="6" epsilon="0.01" maxRadius="1e+16" center="-0.4 0 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="6" epsilon="0.01" maxRadius="1e+16" center="0.4 0 0" allowRotate="true" />
+		<action type="Source" enabled="true" rate="15" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0.1" radiusOuter="0.2" />
+			<domain name="velocity" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="1.5" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.1 0.1 0.1" />
+			<domain name="color" type="Line" point1="1 1 1" point2="0.8 0.898039 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.1" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_spark_01.xml" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

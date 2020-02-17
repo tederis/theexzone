@@ -1,0 +1,19 @@
+<textures>
+    <texture name="ui_icons_npc" filename="textures/ui_icons_npc.dds" />
+    <texture name="ui_grid" filename="textures/ui_grid.dds" />
+    <texture name="map_escape" filename="textures/map_escape.dds" />
+    <texture name="ui\ui_actor_pda" filename="textures/ui/ui_actor_pda.dds" />
+    <texture name="ui_common" filename="textures/ui/ui_common.dds" />
+    <texture name="ui_actor_hint_wnd" filename="textures/ui/ui_actor_hint_wnd.dds" />
+    <texture name="ui_old_textures" filename="textures/ui/ui_old_textures.dds" />
+    <texture name="ui_frame_over_lb" filename="textures/ui/ui_frame_over_lb.dds" />
+    <texture name="ui_frame_over_lt" filename="textures/ui/ui_frame_over_lt.dds" />
+    <texture name="ui_inv_info_over_lt" filename="textures/ui/ui_inv_info_over_lt.dds" />
+    <texture name="ui_hud" filename="textures/ui/ui_hud.dds" />
+    <texture name="ui_icon_equipment" filename="textures/ui/ui_icon_equipment.dds" />
+    <texture name="ui_actor_achivments" filename="textures/ui/ui_actor_achivments.dds" />
+    <texture name="ui_actor_newsmanager_icons" filename="textures/ui/ui_actor_newsmanager_icons.dds" />
+    <texture name="ui_logos" filename="textures/ui/ui_logos.dds" />
+    <texture name="circle" filename="textures/circle.png" />
+    <texture name="keyboard" filename="textures/keyboard.png" />
+</textures>

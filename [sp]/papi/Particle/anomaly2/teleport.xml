@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.1">
+	<effect name="Particle/anomaly2\effects\teleport_glow_idle_vert_00.xml" time0="0" time1="1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_idle_dist_krug.xml" time0="0.9" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_glow_00.xml" time0="0.4" time1="1" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_dist_strong.xml" time0="0.6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_spark_glow.xml" time0="0.4" time1="1.2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_idle_dist_krug_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_spark.xml" time0="0.9" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_dist_30.xml" time0="0" time1="1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_okno_5.xml" time0="0.85" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_okno_10.xml" time0="0.9" time1="1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_okno_20.xml" time0="0.95" time1="1" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_okno_30.xml" time0="1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\teleport_dist_strong_big_00.xml" time0="0" time1="0.9" defferedStop="false" enabled="true" rewind="false" />
+</group>

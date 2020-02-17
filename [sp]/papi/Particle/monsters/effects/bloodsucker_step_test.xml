@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="100" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0.001 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.3 0.5 0" />
+			<domain name="color" type="Point" center="0.290196 0.2 0.2" />
+		</action>
+		<action type="TargetColor" enabled="false" alpha="0.18" scale="0.25" timeFrom="0" timeTo="1" color="0.090196 0.082353 0.07451" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_step_blood.xml" />
+	<timeLimit value="0.5" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

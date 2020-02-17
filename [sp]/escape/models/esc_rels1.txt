@@ -1,0 +1,10 @@
+[TXDList]
+count=2
+app=TEDERIs Blender Tools
+lighttype=5
+[Texture1]
+name=mtl_railroad_04
+path=D:\OblivionLost\textures\mtl_railroad_04.jpeg
+[Texture2]
+name=mtl_railroad_04_bok
+path=D:\OblivionLost\textures\mtl_railroad_04_bok.jpeg

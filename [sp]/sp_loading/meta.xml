@@ -1,0 +1,21 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="Loading" description="Loading screen" type="script" />
+	<oop>true</oop>
+	<download_priority_group>1</download_priority_group>	
+	<min_mta_version client="1.5.6" server="1.5.6" />
+
+	<script src="client.lua" type="client" />
+
+	<file src="textures/loading/background.jpg" />
+	<file src="textures/loading/background2.jpg" />		
+	<file src="textures/loading/rolling.png" />	
+	
+	<file src="sounds/wasteland2.ogg" />
+
+	<file src="shaders/shader.fx" />
+
+	<export function="xrStartLoadingSound" type="client" />
+	<export function="xrStopLoadingSound" type="client" />
+	<export function="xrLoader_start" type="client" />
+	<export function="xrLoader_stop" type="client" />
+</meta>

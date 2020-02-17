@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="12" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 0.3 0" radiusInner="0" radiusOuter="3" />
+			<domain name="velocity" type="Cone" apex="0 -1 0" endPoint="0 5 0" radiusInner="3" radiusOuter="17" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="0.2 0.2 0" />
+			<domain name="color" type="Point" center="0.5 0.5 0.5" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0.5 0.5 0.5" />
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 1 0" allowRotate="false" />
+		<action type="Gravity" enabled="true" direction="0 -7 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="7" epsilon="0.37" offset="1 -3 1" octaves="1" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+	<timeLimit value="2" />
+</effect>

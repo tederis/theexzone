@@ -1,0 +1,7 @@
+[TXDList]
+count=1
+app=TEDERIs Blender Tools
+lighttype=8
+[Texture1]
+name=prop_vishka_01
+path=D:\OblivionLost\textures\prop_vishka_01.jpeg

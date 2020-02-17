@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="6">
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_3.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_6.xml" time0="0.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_9.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_12.xml" time0="0.75" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_15.xml" time0="1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_dust_10.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_vacuum_dust_15.xml" time0="0.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_shield_01.xml" time0="2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_leaves_00.xml" time0="2.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_dust_02.xml" time0="2.35" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_distort_3.xml" time0="0" time1="2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_distort_6.xml" time0="0.25" time1="2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_distort_9.xml" time0="0.5" time1="2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_distort_12.xml" time0="0.75" time1="2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_flash_03.xml" time0="2.3" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_sphere_distort.xml" time0="0" time1="2" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_wave_distort.xml" time0="0" time1="2.25" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_shield_wave.xml" time0="2.3" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_zaxvat_otbrosy00.xml" time0="2.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

@@ -1,0 +1,12 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect2222" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="client.lua" type="client" />
+
+	<file src="Name.xml" />
+	<file src="BugReport.xml" />
+
+	<include resource="xrcore" />	
+</meta>

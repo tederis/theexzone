@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/monsters\effects\poletr_flash.xml" onBirthChild="Particle/monsters\effects\polter_glow_07.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/monsters\effects\polter_sparks_leader.xml" onPlayChild="Particle/monsters\effects\polter_trails.xml" time0="0.05" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

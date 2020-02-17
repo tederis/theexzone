@@ -1,0 +1,103 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Pipeline" description="by XRAY" type="script" />
+	<min_mta_version client="1.4.0" server="1.4.0" />
+	<oop>true</oop>
+
+	<include resource="xrcore" />
+	
+	<script src="utils_cl.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="surge_cl.lua" type="client" />
+	<script src="server.lua" type="server" />
+	<script src="editor.lua" type="client" />
+	
+	<file src="models/skybox.txd" />
+	<file src="models/skybox.col" />
+	<file src="models/skybox.dff" />
+	
+	<file src="shaders\mta-helper.fx" />
+	<file src="shaders\default.fx" />
+	<file src="shaders\gradient.fx" />	
+	
+	<file src="sky\sky_10_cube+small.dds" />
+	<file src="sky\sky_10_cube.dds" />
+	<file src="sky\sky_11_cube+small.dds" />
+	<file src="sky\sky_11_cube.dds" />
+	<file src="sky\sky_11_dx9_cube+small.dds" />
+	<file src="sky\sky_11_dx9_cube.dds" />
+	<file src="sky\sky_12_cube+small.dds" />
+	<file src="sky\sky_12_cube.dds" />
+	<file src="sky\sky_12_vibros_cube+small.dds" />
+	<file src="sky\sky_12_vibros_cube.dds" />
+	<file src="sky\sky_13_cube+small.dds" />
+	<file src="sky\sky_13_cube.dds" />
+	<file src="sky\sky_13_cube_night+small.dds" />
+	<file src="sky\sky_13_cube_night.dds" />
+	<file src="sky\sky_13_vibros_cube+small.dds" />
+	<file src="sky\sky_13_vibros_cube.dds" />
+	<file src="sky\sky_14_cube+small.dds" />
+	<file src="sky\sky_14_cube.dds" />
+	<file src="sky\sky_17_cube+small.dds" />
+	<file src="sky\sky_17_cube.dds" />
+	<file src="sky\sky_18_cube+small.dds" />
+	<file src="sky\sky_18_cube.dds" />
+	<file src="sky\sky_19_cube+small.dds" />
+	<file src="sky\sky_19_cube.dds" />
+	<file src="sky\sky_1_cube+small.dds" />
+	<file src="sky\sky_1_cube.dds" />
+	<file src="sky\sky_20_cube+small.dds" />
+	<file src="sky\sky_20_cube+small_.dds" />
+	<file src="sky\sky_20_cube+small_16.dds" />
+	<file src="sky\sky_20_cube+small_16_.dds" />
+	<file src="sky\sky_20_cube+small_5.dds" />
+	<file src="sky\sky_20_cube.dds" />
+	<file src="sky\sky_20_dx9_cube+small.dds" />
+	<file src="sky\sky_20_dx9_cube.dds" />
+	<file src="sky\sky_21_cube+small.dds" />
+	<file src="sky\sky_21_cube.dds" />
+	<file src="sky\sky_21_dx9_cube+small.dds" />
+	<file src="sky\sky_21_dx9_cube.dds" />
+	<file src="sky\sky_22_cube+small.dds" />
+	<file src="sky\sky_22_cube.dds" />
+	<file src="sky\sky_22_dx9_cube+small.dds" />
+	<file src="sky\sky_22_dx9_cube.dds" />
+	<file src="sky\sky_23_cube+small.dds" />
+	<file src="sky\sky_23_cube.dds" />
+	<file src="sky\sky_24_cube+small.dds" />
+	<file src="sky\sky_24_cube.dds" />
+	<file src="sky\sky_25_cube+small.dds" />
+	<file src="sky\sky_25_cube.dds" />
+	<file src="sky\sky_2_cube+small.dds" />
+	<file src="sky\sky_2_cube.dds" />
+	<file src="sky\sky_3_cube+small.dds" />
+	<file src="sky\sky_3_cube.dds" />
+	<file src="sky\sky_3_cube_or+small.dds" />
+	<file src="sky\sky_3_cube_or.dds" />
+	<file src="sky\sky_3_dx9_cube+small.dds" />
+	<file src="sky\sky_3_dx9_cube+small_old.dds" />
+	<file src="sky\sky_3_dx9_cube.dds" />
+	<file src="sky\sky_5_cube+small.dds" />
+	<file src="sky\sky_5_cube.dds" />
+	<file src="sky\sky_6_cube+small.dds" />
+	<file src="sky\sky_6_cube.dds" />
+	<file src="sky\sky_6_dx9_cube+small.dds" />
+	<file src="sky\sky_6_dx9_cube.dds" />
+	<file src="sky\sky_7_cube+small.dds" />
+	<file src="sky\sky_7_cube.dds" />
+	<file src="sky\sky_7_dx9_cube+small.dds" />
+	<file src="sky\sky_7_dx9_cube.dds" />
+	<file src="sky\sky_8_cube+small.dds" />
+	<file src="sky\sky_8_cube.dds" />
+	<file src="sky\sky_9_cube+small.dds" />
+	<file src="sky\sky_9_cube.dds" />
+
+	<file src="sounds\zat_a2_stalker_barmen_surge_phase_1.ogg" />
+	<file src="sounds\zat_a2_stalker_barmen_surge_phase_2.ogg" />
+	<file src="sounds\zat_a2_stalker_barmen_after_surge.ogg" />
+	<file src="sounds\blowout_begin.ogg" />
+	<file src="sounds\blowout_rumble.ogg" />
+	<file src="sounds\anomaly\stancia_thunder.ogg" />
+	<file src="sounds\nature\thunder-0.ogg" />
+	
+	<export function="getEnvValue" type="client" />
+</meta>

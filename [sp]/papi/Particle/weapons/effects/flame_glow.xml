@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="20" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.01" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="1 1 0" point2="4 4 4" />
+			<domain name="color" type="Point" center="0.913726 0.792157 0.45098" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="15" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetSize" enabled="true" size="15 15 12" scale="20 20 12" />
+		<action type="TargetVelocity" enabled="true" scale="10" velocity="0 0 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_orange_bright.xml" />
+	<timeLimit value="20" />
+</effect>

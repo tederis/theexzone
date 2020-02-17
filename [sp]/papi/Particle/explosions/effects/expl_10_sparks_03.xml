@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="38">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="730" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.15" />
+			<domain name="velocity" type="Cone" apex="0 0.25 0.75" endPoint="0 20 20" radiusInner="8" radiusOuter="35" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.5 0.5 0.5" point2="0.2 0.2 0.2" />
+			<domain name="color" type="Point" center="0.996078 0.937255 0.854902" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="4" timeFrom="0" timeTo="1" color="0.184314 0.062745 0.019608" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -9 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_spark_01.xml" />
+	<timeLimit value="0.2" />
+	<collision friction="1" resilience="0" cutoff="0" destroyOnContact="true" collideWithDynamic="false" />
+	<velocityScale value="0 0.04 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

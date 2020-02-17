@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_anomaly_8.dds" />
+    <shader name="add.fx" />
+</material>

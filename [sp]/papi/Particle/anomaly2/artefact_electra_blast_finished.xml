@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/anomaly2\effects\anomaly_electra_idle_sparks.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\anomaly_emi_idle_sparks_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\electra3_flash.xml" time0="1.9" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/anomaly2\effects\heat_steam_green.xml" time0="0" time1="0" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\heat_glow00_green.xml" time0="0" time1="0" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\heat_center00_green.xml" time0="0" time1="0" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\heat_sparks_collision_green.xml" time0="0" time1="0" defferedStop="true" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\heat_dist00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

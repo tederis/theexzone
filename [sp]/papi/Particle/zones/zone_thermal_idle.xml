@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/zones\effects\zone_thermal_idle_point_emiter.xml" onPlayChild="Particle/zones\effects\zone_thermal_idle_distort.xml" onBirthChild="Particle/zones\effects\zone_thermal_idle_sparks.xml" onDeadChild="Particle/zones\effects\zone_thermal_idle_smoke.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

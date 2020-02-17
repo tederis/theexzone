@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="28" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0.34 0" normal="0 1 0" radiusInner="0.5" radiusOuter="0.5" />
+			<domain name="velocity" type="Disc" center="0 0 0" normal="0 -1 0" radiusInner="2" radiusOuter="4" />
+			<domain name="rotation" type="Line" point1="-52.3599 -52.3599 -52.3599" point2="62.8319 62.8319 62.8319" />
+			<domain name="size" type="Line" point1="0.3 0.3 0.3" point2="0.2 0.2 0.2" />
+			<domain name="color" type="Point" center="0.72549 0.847059 0.980392" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0 0" allowRotate="true" />
+		<action type="Turbulence" enabled="false" frequency="40" magnitude="20" epsilon="0.143" offset="4 4 4" octaves="1" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="12" timeFrom="0" timeTo="1" color="0.203922 0.203922 0.364706" />
+		<action type="Gravity" enabled="true" direction="0 -20 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="0.2 0.2 1" scale="1 1 1" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_lightning_02.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="1" />
+	<collision friction="1" resilience="0.5" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

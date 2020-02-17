@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="12">
+	<effect name="Particle/anomaly2\effects\monolith_dist_glow_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\monolith_dist_glow_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\monolith_dist_glow_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

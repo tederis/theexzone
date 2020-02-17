@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="40">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="60" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="0.5 0.5 0.5" max="-0.5 0 -0.5" />
+			<domain name="velocity" type="Sphere" center="0 1 0" radiusInner="2" radiusOuter="0.8" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.01 0.01 0.03" point2="0.05 0.05 0.05" />
+			<domain name="color" type="Point" center="2 2 2" />
+		</action>
+		<action type="TargetColor" enabled="false" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -1 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_spark_01.xml" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/weapons\effects\rpg7_rocket_trail_dist.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg7_rocket_trail_00.xml" time0="0.25" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg7_rocket_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg_rocket_hit_spark_00.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\rpg7_rocket_glow00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

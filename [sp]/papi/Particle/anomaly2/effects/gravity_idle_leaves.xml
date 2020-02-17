@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="70">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="17" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0 0" normal="0 2 0" radiusInner="0" radiusOuter="5" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 1 0" radiusInner="0.3" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-137 -1 -1" point2="137 1 1" />
+			<domain name="size" type="Line" point1="0.05 0.05 0" point2="0.075 0.075 0.075" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.3" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="RandomAccel" enabled="true" allowRotate="false">
+			<domain name="accelerate" type="Sphere" center="0 0 0" radiusInner="1" radiusOuter="3" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="0.03" rotation="-33.7535 0 0" />
+		<action type="Vortex" enabled="true" magnitude="70" epsilon="50" maxRadius="170" center="0 3 0" axis="0 37 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="true" size="0.5 0.5" dimension="2" count="4" />
+</effect>

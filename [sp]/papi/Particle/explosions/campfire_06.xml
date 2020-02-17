@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/explosions\effects\campfire_06_flame.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_06_flame_big.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_06_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\campfire_smoke_06.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

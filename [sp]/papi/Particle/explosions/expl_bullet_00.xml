@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/explosions\effects\expl_bullet_smoke_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_bullet_spark.xml" time0="0.04" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_bullet_stones_00.xml" time0="0.02" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_bullet_dust.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_bullet_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

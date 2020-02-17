@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.1" killLessThan="false" />
+		<action type="Scatter" enabled="true" magnitude="200" epsilon="5" maxRadius="8" center="0 0 0" allowRotate="true" />
+		<action type="Damping" enabled="true" vLow="0" vHigh="200" damping="-5 -5 -5" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="10" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetSize" enabled="true" size="3 3 0.001" scale="8 8 0" />
+		<action type="Source" enabled="true" rate="200" alpha="0.4" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="7" radiusOuter="7.5" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="5.23599 5.23599 5.23599" point2="-5.23599 -5.23599 -5.23599" />
+			<domain name="size" type="Line" point1="0.2 0.2 0.2" point2="0.7 0.7 0.7" />
+			<domain name="color" type="Point" center="0.360784 0.384314 0.478431" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_plasma.xml" />
+	<timeLimit value="10000" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="true" />
+</effect>

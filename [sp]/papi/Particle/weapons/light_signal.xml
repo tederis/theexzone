@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/weapons\effects\light_signal_fog.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\light_signal_flame.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\light_signal_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

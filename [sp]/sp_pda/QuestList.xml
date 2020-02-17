@@ -1,0 +1,10 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame type="list" name="QuestList" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+            <origin x="0" y="0" width="1024" height="768"></origin>
+        </frame>
+    </frame>
+</ui>

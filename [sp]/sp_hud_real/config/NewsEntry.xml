@@ -1,0 +1,18 @@
+<ui>
+    <frame type="frame" name="Entry" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+        <origin x="0" y="0" width="543" height="46"></origin>
+        <frame texture="ui_actor_newsmanager_icons" section="ui_inGame2_PD_storonnik_ravnovesiya" type="image" name="Img" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="0.15992292870906" rightBottomY="0.62666666666667"></anchor>
+            <origin x="0" y="0" width="83" height="47"></origin>
+        </frame>
+        <frame font="default" text="16:19" alignX="left" alignY="top" scale="1" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="Time" visible="true">
+            <anchor leftTopX="0.16955684007707" leftTopY="0.026666666666667" rightBottomX="0.24662813102119" rightBottomY="0.22666666666667"></anchor>
+            <origin x="88" y="2" width="40" height="15"></origin>
+        </frame>
+        <frame font="default" text="За игрока Михалыча объявлена награда 9000 рублей. Игрок помечен специальным маркером на карте." alignX="left" alignY="top" scale="1" clip="false" wordBreak="true" colorCoded="false" color="255 255 255" type="text" name="Desc" visible="true">
+            <anchor leftTopX="0.16955684007707" leftTopY="0.21333333333333" rightBottomX="0.96339113680154" rightBottomY="0.93333333333333"></anchor>
+            <origin x="88" y="16" width="412" height="54"></origin>
+        </frame>
+    </frame>
+</ui>

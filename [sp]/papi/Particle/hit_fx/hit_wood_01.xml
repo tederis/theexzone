@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/hit_fx\effects\hit_dust_wooden.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_wood_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_dust_wooden_out.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_sparks_out.xml" time0="0" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_wood_01c.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/hit_fx\effects\hit_sparks_glow_out.xml" time0="0" time1="0" defferedStop="false" enabled="false" rewind="false" />
+</group>

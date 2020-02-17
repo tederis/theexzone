@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="120" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 1.2 0" normal="0 1 0" radiusInner="0" radiusOuter="0.5" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="2 3 1" point2="3 4 1.5" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.005" scale="0.2" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-fire01.bmp.xml" />
+	<frame randomInit="false" size="0.09082 0.142578" dimension="11" count="77" />
+	<animated randomPlayback="false" speed="39" />
+	<timeLimit value="0.5" />
+	<collision friction="0.72" resilience="0" cutoff="0" destroyOnContact="false" collideWithDynamic="true" />
+</effect>

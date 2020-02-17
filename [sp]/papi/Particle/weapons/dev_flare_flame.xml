@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/weapons\effects\dev_flame_flame.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\dev_flare_flame_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/weapons\effects\dev_flame_flame_root.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

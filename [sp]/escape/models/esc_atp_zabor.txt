@@ -1,0 +1,13 @@
+[TXDList]
+count=3
+app=TEDERIs Blender Tools
+lighttype=7
+[Texture1]
+name=ston_old_beton_iov
+path=D:\OblivionLost\textures\ston_old_beton_iov.jpeg
+[Texture2]
+name=wood_doski2
+path=D:\OblivionLost\textures\wood_doski2.jpeg
+[Texture3]
+name=ston_beton_lom_iov
+path=D:\OblivionLost\textures\ston_beton_lom_iov.jpeg

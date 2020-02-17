@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="7">
+	<effect name="Particle/generator\effects\anomaly_gen_smoke_spark.xml" onBirthChild="Particle/generator\effects\anomaly_gen_leaves.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/generator\effects\anomaly_gen_leaves_smoke.xml" onBirthChild="Particle/generator\effects\anomaly_gen_leaves_exploded.xml" time0="6" time1="7" defferedStop="false" enabled="true" rewind="false" />
+</group>

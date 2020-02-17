@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.2">
+	<effect name="Particle/artefact\effects\af_acidic_show_01.xml" onPlayChild="Particle/artefact\effects\af_acidic_show_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_acidic_show_yadro.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

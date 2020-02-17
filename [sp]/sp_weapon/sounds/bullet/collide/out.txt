@@ -1,0 +1,16 @@
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\concrete01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\default01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\default02gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\dirt01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\dirt02gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\glass01hl.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\metall01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\metall02gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\metall05gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\out.txt
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\sand01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\sand03gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\tree01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\water01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\wood01gr.ogg
+C:\Program Files (x86)\MTA San Andreas 1.5\server\mods\deathmatch\resources\[sp]\sp_weapon\sounds\bullet\collide\wood02gr.ogg

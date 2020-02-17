@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1">
+	<effect name="Particle/vehiclefx\effects\genericimpact_glassdebris_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/vehiclefx\effects\genericimpact_sparks_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/vehiclefx\effects\genericimpact_metaldebris_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

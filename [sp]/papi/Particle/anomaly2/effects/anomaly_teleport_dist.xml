@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="1">
+	<actions>
+		<action type="KillOld" enabled="false" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="25" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 3 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="6 6 0" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_dist_teleport.xml" />
+	<animated randomPlayback="false" speed="0" />
+</effect>

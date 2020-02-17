@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\gravity_dust_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_leaves_01.xml" time0="0.2" time1="2.7" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_dust_02.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_flash_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_shield_02.xml" time0="0.1" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravi_shield_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

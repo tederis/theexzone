@@ -1,0 +1,25 @@
+[TXDList]
+count=7
+app=TEDERIs Blender Tools
+lighttype=27
+[Texture1]
+name=ston_beton_stena_iov_hi
+path=D:\OblivionLost\textures\ston_beton_stena_iov_hi.jpeg
+[Texture2]
+name=mtl_rust_dark_iov
+path=D:\OblivionLost\textures\mtl_rust_dark_iov.jpeg
+[Texture3]
+name=mtl_set_iov
+path=D:\OblivionLost\textures\mtl_set_iov.jpeg
+[Texture4]
+name=mtl_fence2n
+path=D:\OblivionLost\textures\mtl_fence2n.jpeg
+[Texture5]
+name=mtl_bochka_01
+path=D:\OblivionLost\textures\mtl_bochka_01.jpeg
+[Texture6]
+name=wood_zabor_iov
+path=D:\OblivionLost\textures\wood_zabor_iov.jpeg
+[Texture7]
+name=prop_barbwire3
+path=D:\OblivionLost\textures\prop_barbwire3.jpeg

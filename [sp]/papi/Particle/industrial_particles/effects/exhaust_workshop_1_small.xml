@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="200">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="30" alpha="0.5" startingAge="0.1" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 0 0" point2="0 0 0" radiusInner="0" radiusOuter="0.1" />
+			<domain name="velocity" type="Line" point1="0 0 0.5" point2="0 0 2" />
+			<domain name="rotation" type="Line" point1="-6.28319 -6.28319 0" point2="6.28319 6.28319 0" />
+			<domain name="size" type="Point" center="0.21 0.21 0.21" />
+			<domain name="color" type="Line" point1="0.278431 0.270588 0.223529" point2="0.047059 0.047059 0.039216" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="1" velocity="0 2 5" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="10 10 0.001" scale="0.124 0.12 0" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.5" timeFrom="0" timeTo="1" color="0.164706 0.164706 0.164706" />
+		<action type="TargetRotate" enabled="true" scale="0.2" rotation="12.5664 0 0" />
+		<action type="Move" enabled="true" />
+		<action type="Gravity" enabled="false" direction="0 2 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="5" epsilon="0.01" offset="1 1 1" octaves="1" />
+	</actions>
+	<sprite material="Materials/pfx_smokepuffs1.xml" />
+	<frame randomInit="false" size="0.25 0.5" dimension="4" count="8" />
+	<collision friction="1" resilience="0" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

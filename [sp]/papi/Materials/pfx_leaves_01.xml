@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_leaves_01.dds" />
+    <shader name="blend.fx" />
+</material>

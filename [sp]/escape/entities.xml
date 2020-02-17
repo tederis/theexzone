@@ -1,0 +1,159 @@
+<map>
+    <spawnpoint faction="team_stalker" special="normal" posX="-207.2" posY="-142.9" posZ="131.2" />
+    <spawnpoint faction="team_bandit" special="normal" posX="114.55114" posY="-19.06980" posZ="143.66076" />
+    <spawnpoint faction="team_stalker" special="penalty" posX="180.7" posY="306" posZ="158" />
+    <spawnpoint faction="team_bandit" special="penalty" posX="-65" posY="195.7" posZ="150" />
+    <spawnpoint faction="team_stalker" special="penalty" posX="42.8" posY="455.6" posZ="130.1" />
+    <spawnpoint faction="team_bandit" special="penalty" posX="-103.5" posY="-434.15" posZ="127.5" />
+
+    <zone type="zone_area_ferma" posX="-0.19677563011646" posY="273.94876098633" posZ="151.55963134766" />
+    <zone type="zone_area_doma" posX="129.68284606934" posY="327.09576416016" posZ="150.18621826172" />
+    <zone type="zone_area_most" posX="56.179008483887" posY="163.59721374512" posZ="152.14741516113" />
+    <zone type="zone_area_factory" posX="-1.9927899837494" posY="82.885986328125" posZ="153.56475830078" />    
+
+    <zone type="zone_mine_electric" posX="-79.061424255371" posY="124.1707611084" posZ="149.12861633301" />
+    <zone type="zone_mine_electric" posX="-79.206520080566" posY="135.98934936523" posZ="149.11311340332" />
+    <zone type="zone_mine_electric" posX="-78.264343261719" posY="148.4462890625" posZ="149.11302185059" />
+    <zone type="zone_mine_electric" posX="-73.55680847168" posY="165.36311340332" posZ="149.11433410645" />
+    <zone type="zone_mine_electric" posX="-73.627624511719" posY="178.56283569336" posZ="149.10877990723" />
+    <zone type="zone_mine_electric" posX="-96.800476074219" posY="-5.5530519485474" posZ="143.83561706543" radius="5" />
+    <zone type="zone_mine_electric" posX="-226.62705993652" posY="-166.92512512207" posZ="129.82095336914" radius="5" />
+    <zone type="zone_mine_electric" posX="-194.21641540527" posY="-259.89147949219" posZ="115.01878356934" radius="5" />
+    <zone type="zone_mine_electric" posX="-198.67346191406" posY="-278.95983886719" posZ="112.81578826904" radius="5" />
+    <zone type="zone_mine_electric" posX="-208.38200378418" posY="-274.39831542969" posZ="113.95170593262" radius="5" />
+    <zone type="zone_mine_electric" posX="-174.10079956055" posY="-386.01477050781" posZ="122.85914611816" radius="5" />
+    <zone type="zone_mine_electric" posX="-74.866279602051" posY="-291.36416625977" posZ="120.46221923828" radius="5" />
+    <zone type="zone_mine_electric" posX="-60.059322357178" posY="-260.3840637207" posZ="127.08139038086" radius="5" />
+    <zone type="zone_mine_electric" posX="-53.733509063721" posY="-257.9189453125" posZ="128.26376953125" radius="5" />
+    <zone type="zone_mine_electric" posX="-48.652366638184" posY="-251.05964660645" posZ="129.68395996094" radius="5" />
+    <zone type="zone_mine_electric" posX="-33.831367492676" posY="-244.1318359375" posZ="134.34306335449" radius="5" />
+    <zone type="zone_mine_electric" posX="11.777297019958" posY="-127.99300384521" posZ="137.43252563477" radius="5" />
+    <zone type="zone_mine_electric" posX="18.763690948486" posY="-119.4591217041" posZ="139.65391540527" radius="5" />
+    <zone type="zone_mine_electric" posX="3.5057411193848" posY="-111.15798950195" posZ="139.63012695313" radius="5" />
+    <zone type="zone_mine_electric" posX="87.167182922363" posY="-58.414165496826" posZ="142.71231079102" radius="5" />
+    <zone type="zone_mine_electric" posX="84.437004089355" posY="-39.45724105835" posZ="142.49029541016" radius="5" />
+    <zone type="zone_mine_electric" posX="197.80972290039" posY="8.9332847595215" posZ="144.44732666016" radius="5" />
+    <zone type="zone_mine_electric" posX="215.80302429199" posY="8.3222513198853" posZ="148.6988067627" radius="5" />
+    <zone type="zone_mine_electric" posX="255.19375610352" posY="135.64163208008" posZ="163.61219787598" radius="5" />
+    <zone type="zone_mine_electric" posX="261.43530273438" posY="142.52119445801" posZ="161.40702819824" radius="5" />
+    <zone type="zone_mine_electric" posX="272.13522338867" posY="133.48233032227" posZ="160.98610534668" radius="5" />
+    <zone type="zone_mine_electric" posX="290.05178833008" posY="243.28823852539" posZ="169.4817199707" radius="5" />
+    <zone type="zone_mine_electric" posX="211.23942565918" posY="330.49426269531" posZ="152.38728027344" radius="5" />
+    <zone type="zone_mine_electric" posX="204.51020812988" posY="338.30856323242" posZ="152.2540435791" radius="5" />
+    <zone type="zone_mine_electric" posX="198.68646240234" posY="351.95935058594" posZ="152.51538085938" radius="5" />
+    <zone type="zone_mine_electric" posX="34.514469146729" posY="597.84045410156" posZ="153.82800292969" radius="5" />
+    <zone type="zone_mine_electric" posX="23.737447738647" posY="416.98147583008" posZ="156.52407836914" radius="5" />
+    <zone type="zone_mine_electric" posX="-51.899166107178" posY="314.51306152344" posZ="161.02754211426" radius="5" />
+    <zone type="zone_mine_electric" posX="-108.21279144287" posY="218.73603820801" posZ="153.36267089844" radius="5" />
+    <zone type="zone_mine_electric" posX="-117.38108062744" posY="229.30754089355" posZ="154.00065612793" radius="5" />
+    <zone type="zone_mine_electric" posX="-132.37850952148" posY="229.26422119141" posZ="154.57493591309" radius="5" />
+    <zone type="zone_mine_electric" posX="-102.5213470459" posY="45.725120544434" posZ="149.54057312012" radius="5" />
+    <zone type="zone_mine_electric" posX="-126.83045959473" posY="-68.50496673584" posZ="146.4136505127" radius="5" />
+    <zone type="zone_mine_electric" posX="-122.06604003906" posY="-71.771507263184" posZ="146.68537902832" radius="5" />
+    <zone type="zone_mine_electric" posX="-120.50592803955" posY="-63.515815734863" posZ="146.09773254395" radius="5" />
+    <zone type="zone_mine_electric" posX="-239.36965942383" posY="-19.518802642822" posZ="135.67039489746" radius="5" />
+    <zone type="zone_mine_electric" posX="-248.45007324219" posY="-14.494686126709" posZ="135.92736816406" radius="5" />
+    <zone type="zone_mine_electric" posX="-256.90454101563" posY="-21.852912902832" posZ="135.96890258789" radius="5" />
+    <zone type="zone_mine_electric" posX="-299.36193847656" posY="-54.567790985107" posZ="149.83401489258" radius="5" />
+    <zone type="zone_mine_electric" posX="-228.22273254395" posY="-218.18676757813" posZ="122.15282440186" radius="5" />
+    <zone type="zone_mine_electric" posX="-74.328460693359" posY="-394.24594116211" posZ="119.38623809814" radius="5" />
+    <zone type="zone_mine_electric" posX="-60.88729095459" posY="-383.03326416016" posZ="120.30032348633" radius="5" />
+    <zone type="zone_mine_electric" posX="-61.223316192627" posY="-360.64923095703" posZ="118.60238647461" radius="5" />
+
+   <zone type="zone_field_radioactive_strong" strength="0.01" posX="43.814884185791016" posY="-87.75443267822266" posZ="119.73929405212402" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="153.28550720214844" posY="420.98095703125" posZ="119.73929214477539" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="-106.16990661621094" posY="215.61138916015625" posZ="119.73926162719727" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="239.21490478515625" posY="282.0902099609375" posZ="119.73927116394043" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="276.44793701171875" posY="91.35261535644531" posZ="119.73927307128906" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="-91.30982971191406" posY="-268.5666198730469" posZ="119.7392749786377" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="326.78729248046875" posY="657.3941650390625" posZ="119.73927307128906" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="244.86720275878906" posY="-546.05078125" posZ="119.73927116394043" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="232.32554626464844" posY="-350.87127685546875" posZ="119.73927307128906" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-253.8826904296875" posY="475.11517333984375" posZ="119.73927116394043" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-242.59519958496094" posY="658.5368041992188" posZ="119.73927116394043" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-173.62196350097656" posY="152.2529296875" posZ="119.7392692565918" radius="46.790000915527344" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="340.7679138183594" posY="32.95445251464844" posZ="119.7392749786377" radius="25.420001983642578" />
+    <zone type="zone_field_radioactive_strong" strength="0.01" posX="-251.99972534179688" posY="-17.08038902282715" posZ="119.73927307128906" radius="23.130001068115234" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="361.6022644042969" posY="388.14007568359375" posZ="119.7392463684082" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="247.78907775878906" posY="-104.80911254882812" posZ="119.73928451538086" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="172.7061004638672" posY="-151.65884399414062" posZ="119.73928451538086" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="17.206369400024414" posY="756.0288696289062" posZ="119.73927688598633" radius="60.249996185302734" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="400.2947082519531" posY="251.31689453125" posZ="119.73927879333496" radius="23.410003662109375" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="414.4440612792969" posY="290.1860046386719" posZ="119.73927879333496" radius="23.410003662109375" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="381.79644775390625" posY="320.8210144042969" posZ="119.73927879333496" radius="23.410003662109375" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="428.1033630371094" posY="197.8259735107422" posZ="119.73927879333496" radius="71.37000274658203" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="434.2499084472656" posY="67.51139068603516" posZ="119.73927879333496" radius="71.37000274658203" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="471.9302978515625" posY="-33.38869857788086" posZ="119.7392749786377" radius="69.79000091552734" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="97.62313842773438" posY="-191.86761474609375" posZ="119.73929023742676" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="45.76847839355469" posY="-291.2984313964844" posZ="119.73927307128906" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="40.6163330078125" posY="-435.4427490234375" posZ="119.73927307128906" radius="100.0" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-29.4024715423584" posY="-557.956298828125" posZ="119.73927307128906" radius="99.99000549316406" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-152.80963134765625" posY="-559.8997802734375" posZ="119.73927307128906" radius="99.99000549316406" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-231.54605102539062" posY="-535.6658325195312" posZ="119.73927307128906" radius="68.19000244140625" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-300.4617919921875" posY="-469.1119689941406" posZ="119.73927307128906" radius="68.19000244140625" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-295.5143737792969" posY="-370.45947265625" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-296.3182678222656" posY="-283.3949279785156" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-305.7837829589844" posY="-226.91940307617188" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-326.4082946777344" posY="-166.2630157470703" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-336.060302734375" posY="-97.39107513427734" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-331.4208068847656" posY="-39.31779479980469" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-308.8154602050781" posY="37.719268798828125" posZ="119.73927307128906" radius="49.86000061035156" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-222.6808319091797" posY="104.98589324951172" posZ="119.73927307128906" radius="91.02999877929688" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-266.5230712890625" posY="191.8538818359375" posZ="119.73927307128906" radius="90.81999969482422" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-234.4068603515625" posY="288.7468566894531" posZ="119.73927307128906" radius="91.02999877929688" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-116.59298706054688" posY="370.4708251953125" posZ="119.73927307128906" radius="91.02999877929688" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-61.99544143676758" posY="470.4120788574219" posZ="119.73927307128906" radius="91.02999877929688" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-63.109519958496094" posY="577.61865234375" posZ="119.7392749786377" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="-78.39466094970703" posY="712.1800537109375" posZ="119.73927116394043" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="129.83082580566406" posY="694.8080444335938" posZ="119.7392463684082" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="178.24102783203125" posY="628.4164428710938" posZ="119.7392463684082" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="230.135009765625" posY="509.62274169921875" posZ="119.7392463684082" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="267.79644775390625" posY="438.7412414550781" posZ="119.7392463684082" radius="81.65999603271484" />
+    <zone type="zone_field_radioactive_strong" strength="1" posX="389.82073974609375" posY="-126.17369842529297" posZ="119.7392749786377" radius="69.79000091552734" />
+
+    <zone type="zone_buzz" posX="2.8387386798859" posY="87.85774230957" posZ="152.67346191406" radius="5" />
+    <zone type="zone_buzz" posX="134.05612182617" posY="-39.425327301025" posZ="142.82063293457" radius="5" />
+    <zone type="zone_buzz" posX="362.49429321289" posY="-35.995979309082" posZ="165.16865539551" radius="4" />
+    <zone type="zone_buzz" posX="206.52546691895" posY="194.38226318359" posZ="170.19160461426" radius="5" />
+    <zone type="zone_buzz" posX="180.73678588867" posY="358.37200927734" posZ="151.75590515137" radius="5" />
+    <zone type="zone_buzz" posX="-14.393678665161" posY="277.5139465332" posZ="150.6862487793" radius="5" />
+    <zone type="zone_buzz" posX="67.786010742188" posY="514.71539306641" posZ="148.05694580078" radius="5" />
+    <zone type="zone_buzz" posX="17.450485229492" posY="713.21826171875" posZ="169.99505615234" radius="5" />
+    <zone type="zone_buzz" posX="15.882040977478" posY="692.32537841797" posZ="167.1686706543" radius="5" />
+    <zone type="zone_buzz" posX="4.6990947723389" posY="419.89849853516" posZ="158.14332580566" radius="5" />
+    <zone type="zone_buzz" posX="-48.447853088379" posY="-67.457077026367" posZ="139.96607971191" radius="5" />
+    <zone type="zone_buzz" posX="-257.0654296875" posY="-90.564323425293" posZ="133.21337890625" radius="5" />
+    <zone type="zone_buzz" posX="-229.09539794922" posY="-21.943651199341" posZ="137.73609924316" radius="5" />
+    <zone type="zone_buzz" posX="-141.76983642578" posY="-8.7030115127563" posZ="144.13259887695" radius="5" />
+
+    <zone type="campfire" posX="-207.32592773438" posY="-140.60957336426" posZ="130.5958190918" radius="3" />
+    <zone type="campfire" posX="-196.78269958496" posY="-158.87145996094" posZ="130.60926818848" radius="3" />
+    <zone type="campfire" posX="-234.51724243164" posY="-156.85356140137" posZ="130.44708251953" radius="3" />
+    <zone type="campfire" posX="-53.533504486084" posY="-59.572738647461" posZ="140.46607971191" radius="3" />
+    <zone type="campfire" posX="28.511415481567" posY="-70.942054748535" posZ="150.77555847168" radius="3" />
+    <zone type="campfire" posX="110.86656951904" posY="-41.480922698975" posZ="143.06105041504" radius="3" />
+    <zone type="campfire" posX="111.17240142822" posY="-7.2632412910461" posZ="147.33410644531" radius="3" />
+    <zone type="campfire" posX="128.61566162109" posY="5.1304960250854" posZ="142.81643676758" radius="3" />
+    <zone type="campfire" posX="-24.400815963745" posY="82.139854431152" posZ="152.8776550293" radius="3" />
+    <zone type="campfire" posX="-2.2084810733795" posY="62.981197357178" posZ="152.8776550293" radius="3" />
+    <zone type="campfire" posX="53.771183013916" posY="156.6561126709" posZ="152.44718933105" radius="3" />
+    <zone type="campfire" posX="3.7702779769897" posY="255.65171813965" posZ="151.04261779785" radius="3" />
+    <zone type="campfire" posX="7.4356465339661" posY="292.60073852539" posZ="150.97991943359" radius="3" />
+    <zone type="campfire" posX="130.16996765137" posY="311.15347290039" posZ="150.18423461914" radius="3" />
+    <zone type="campfire" posX="118.67936706543" posY="461.37649536133" posZ="152.57780456543" radius="3" />
+    <zone type="campfire" posX="18.697109222412" posY="666.15686035156" posZ="166.42721557617" radius="3" />
+    <zone type="campfire" posX="32.993255615234" posY="679.37744140625" posZ="167.06008911133" radius="3" />
+    <zone type="campfire" posX="-151.26547241211" posY="-348.5266418457" posZ="119.99588012695" radius="3" />
+    <zone type="campfire" posX="-120.86064147949" posY="-379.3620300293" posZ="120.44953918457" radius="3" />
+    <zone type="campfire" posX="-168.09376525879" posY="-354.638671875" posZ="125.09931945801" radius="3" />
+
+    <zone type="zone_green_stalker" posX="-207" posY="-141" posZ="130" radius="40" />
+    <zone type="zone_green_bandit" posX="112" posY="-16" posZ="143" radius="40" />
+    <zone type="zone_green" posX="-154.0559387207" posY="-366.26858520508" posZ="121.18087005615" radius="20" />
+    <zone type="zone_green" posX="21.175216674805" posY="669.36669921875" posZ="167.00283813477" radius="20" />
+
+    <ped model="33" type="char_trader_bandit" posX="105.89" posY="-9.8" posZ="143.28" rotZ="180" name="Дарвин" rank="1000" team="bandit" />
+    <ped model="32" type="char_trader" posX="-199.32409667969" posY="-136.56736755371" posZ="131.13529968262" rotZ="90" name="Косой" rank="1000" team="stalker" />        
+    <ped model="31" type="char_provider" posX="26.06" posY="676.58" posZ="167.55" rotZ="180" name="Волк" rank="560" />
+    <ped model="31" type="char_receiver" posX="-138.09" posY="-361.62" posZ="121.30" rotZ="90" name="Валера" rank="560" />
+</map>

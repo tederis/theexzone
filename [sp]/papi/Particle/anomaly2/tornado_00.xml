@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="7">
+	<effect name="Particle/anomaly2\effects\star_glow_03.xml" onBirthChild="Particle/anomaly2\effects\star_glow_04.xml" time0="0" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star_glow_05.xml" onBirthChild="Particle/anomaly2\effects\star_glow_04.xml" time0="4" time1="8" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado_flash_00.xml" time0="6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star_glow_01.xml" time0="4" time1="6" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado_flash_02.xml" time0="6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\smoke_01.xml" time0="1" time1="6" defferedStop="false" enabled="true" rewind="false" />
+</group>

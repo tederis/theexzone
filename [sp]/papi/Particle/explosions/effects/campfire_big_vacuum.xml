@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="22">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="TargetColor" enabled="true" alpha="0.5" scale="5" timeFrom="0" timeTo="1" color="0.901961 0.698039 0.372549" />
+		<action type="TargetSize" enabled="true" size="1 1 1" scale="0.3 0.3 0.3" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="0 0 0" />
+		<action type="OrbitPoint" enabled="true" magnitude="5" epsilon="0.1" maxRadius="99" center="0 0.05 0" allowRotate="false" />
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0.05 0" radiusInner="0" radiusOuter="0.051" />
+		</action>
+		<action type="SpeedLimit" enabled="true" minSpeed="-1" maxSpeed="1" />
+		<action type="Move" enabled="true" />
+		<action type="Source" enabled="true" rate="40" alpha="0.05" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 -0.05 0" normal="0 1 0" radiusInner="0.1" radiusOuter="1.5" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="-0.523599 -0.523599 -0.523599" point2="5.23599 5.23599 5.23599" />
+			<domain name="size" type="Line" point1="0.2 0.2 0.2" point2="0.5 0.5 0.5" />
+			<domain name="color" type="Line" point1="0 0 0" point2="0 0 0" />
+		</action>
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+	<animated randomPlayback="false" speed="0" />
+</effect>

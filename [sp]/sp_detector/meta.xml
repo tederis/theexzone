@@ -1,0 +1,11 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect0" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="client.lua" type="client" />
+
+	<file src="textures/detector.png" />
+	<file src="textures/detector_light.png" />
+	<file src="shader.fx" />
+
+	<!--<include resource="xrcore" />	-->
+</meta>

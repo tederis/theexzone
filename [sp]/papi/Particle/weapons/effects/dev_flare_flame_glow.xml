@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="7">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="25" alpha="1" startingAge="0" ageSigma="0" parentMotion="1" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 0.1 0" point2="0 0.01 0" radiusInner="0.02" radiusOuter="0.05" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Line" point1="0 0 0" point2="130 30 30" />
+			<domain name="size" type="Point" center="0.05 0.05 0" />
+			<domain name="color" type="Point" center="0.517647 0.407843 0.003922" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="8" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetSize" enabled="true" size="1 1 0.001" scale="12 12 12" />
+		<action type="TargetVelocity" enabled="true" scale="20" velocity="0 1 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_orange2.xml" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/artefact\effects\af_electra_show_death_00.xml" time0="0.35" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_death_01.xml" time0="0.45" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_flash_00.xml" onPlayChild="Particle/artefact\effects\af_electra_show_glow_0.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_leader_sparks.xml" onPlayChild="Particle/artefact\effects\af_electra_show_lead_trails.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_idle.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_idle_00.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_glow.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/artefact\effects\af_electra_show_aftersmoke.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

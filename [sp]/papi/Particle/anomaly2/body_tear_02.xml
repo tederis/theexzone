@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="5">
+	<effect name="Particle/anomaly2\effects\body_tear_blood_01.xml" time0="0.05" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\body_tear_face_align.xml" onPlayChild="Particle/anomaly2\effects\body_tear_blood_04.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\body_tear_blood_05.xml" time0="0.05" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

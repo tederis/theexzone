@@ -1,0 +1,35 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="sp_gamemode" description="Gamemode" type="script" />
+    <oop>true</oop>
+    <script src="shared.lua" type="shared" />	
+    <script src="team_se.lua" type="server" />
+    <script src="quest_cl.lua" type="client" />
+    <script src="quest_se.lua" type="server" />
+    <script src="level_se.lua" type="server" />
+	<script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <script src="surge_se.lua" type="server" />
+
+    <file src="sounds/heart/4.ogg" />
+    <file src="sounds/trader/trader_script1c_7.ogg" />
+    <file src="sounds/trader/trader_script1c_8.ogg" />
+    <file src="sounds/trader/trader_script1c_9.ogg" />
+
+    <include resource="xrcore" />	
+
+    <export function="xrGamemodeJoin" type="server" />
+    <export function="xrGamemodeQuit" type="server" />
+    <export function="xrIsPlayerJoined" type="shared" />
+    <export function="xrCreateSpawnpoint" type="server" />
+    <export function="xrGiveNPCMoney" type="server" />    
+    <export function="PlayerQuest_getQuestsPack" type="server" />    
+    <export function="PlayerQuest_loadQuests" type="server" />    
+    <export function="xrFinishCourierQuest" type="server" />    
+    <export function="xrStartCourierQuest" type="server" />    
+    <export function="xrIsPlayerKeepCourierItem" type="server" />    
+    <export function="xrIsPlayerWasteCourierItem" type="server" />    
+    <export function="xrPlayerCourierTimeCondition" type="server" />    
+    <export function="xrPlayerCourierTimeConditionInv" type="server" />    
+    <export function="xrIsSurgeProceeding" type="server" />    
+    <export function="xrGetSurgeRemainingSecs" type="server" />    
+</meta>

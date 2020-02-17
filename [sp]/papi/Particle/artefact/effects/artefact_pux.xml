@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="30">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.7" killLessThan="false" />
+		<action type="Source" enabled="true" rate="20" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.1" />
+			<domain name="velocity" type="Point" center="0 0.1 0" />
+			<domain name="rotation" type="Line" point1="-137 -1 -1" point2="137 1 1" />
+			<domain name="size" type="Point" center="0.2 0.2 0" />
+			<domain name="color" type="Point" center="0.67451 0.67451 0.67451" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="1" rotation="0 0 0" />
+		<action type="OrbitPoint" enabled="true" magnitude="1" epsilon="0" maxRadius="0.3" center="0 0 0" allowRotate="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="1" epsilon="0" maxRadius="0.3" center="0 0 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_specks.xml" />
+</effect>

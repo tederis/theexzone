@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.7" killLessThan="false" />
+		<action type="Source" enabled="true" rate="24" alpha="0.8" startingAge="0.1" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Plane" origin="0 0 0" normal="0 0 0" />
+			<domain name="velocity" type="Line" point1="0 0 0.5" point2="0 0 6" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Point" center="0.21 0.21 0.21" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0.01 0.01" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="5 5 5" scale="0.24 0.24 0.24" />
+		<action type="TargetColor" enabled="true" alpha="0.2" scale="1" timeFrom="0" timeTo="1" color="0.658824 1 0" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="-42.4543 0 0" />
+		<action type="Move" enabled="true" />
+		<action type="Gravity" enabled="true" direction="0 4 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="2" epsilon="0.01" offset="1 1 1" octaves="4" />
+	</actions>
+	<sprite material="Materials/pfx_distortion.xml" />
+	<frame randomInit="false" size="1 1" dimension="1" count="1" />
+	<collision friction="1" resilience="0" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

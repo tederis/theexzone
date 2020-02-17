@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<!-- таблица строк общего назначения -->
+<string_table>
+	<string id="Local Map">
+		<text>To Local Map</text>
+		<text ln="rus">Локальная карта</text>
+	</string>
+	<string id="Global Map">
+		<text>To Global Map</text>
+		<text ln="rus">Глобальная карта</text>
+	</string>
+	<!-- надписи внизу основного окна -->
+	<string id="cant_walk">
+		<text>too tied to walk</text>
+		<text ln="rus">слишком истощен, чтобы идти</text>
+	</string>
+</string_table>
+

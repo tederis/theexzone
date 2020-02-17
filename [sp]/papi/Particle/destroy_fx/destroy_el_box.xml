@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="1.5">
+	<effect name="Particle/destroy_fx\effects\destroy_el_box_1.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/destroy_fx\effects\destroy_el_box_1_00.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/destroy_fx\effects\destroy_el_box_1_01.xml" onPlayChild="Particle/destroy_fx\effects\destroy_el_box_1_04.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/destroy_fx\effects\destroy_el_box_1_05.xml" onBirthChild="Particle/destroy_fx\effects\destroy_el_box_1_03.xml" onDeadChild="Particle/destroy_fx\effects\destroy_el_box_1_06.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

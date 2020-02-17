@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/anomaly2\effects\burn_attack_blast.xml" time0="0.9" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\burn_attack_vortex.xml" time0="0" time1="0.9" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\gravity_flash_02.xml" time0="0.9" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

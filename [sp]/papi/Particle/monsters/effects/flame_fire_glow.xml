@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="12">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="100" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 0 0" point2="0 0 6" />
+			<domain name="velocity" type="Cone" apex="0 0 18" endPoint="0 0 68" radiusInner="0" radiusOuter="1" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Line" point1="1.5 1.5 1.5" point2="2.5 2.5 2.5" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0" timeTo="1" color="0.090196 0.05098 0" />
+		<action type="TargetSize" enabled="true" size="7 7 7" scale="9 9 9" />
+		<action type="TargetVelocity" enabled="true" scale="6" velocity="0 0.5 0.2" allowRotate="true" />
+		<action type="TargetRotate" enabled="true" scale="0.001" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_fire1.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.5" />
+</effect>

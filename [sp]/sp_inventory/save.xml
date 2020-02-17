@@ -1,0 +1,17 @@
+<save>
+	<item name="wpn_ak74u" container="XRAY" slot="6" />
+	<item name="wpn_abakan" container="XRAY" slot="6" />
+	<item name="w_colt1911" container="XRAY" slot="6" />
+	<item name="bread" container="XRAY" slot="6" />
+	
+	<item name="bread" container="test" />
+	
+	<item name="w_colt1911" container="mainped" />
+	<item name="bread" container="mainped" />
+	<item name="ammo_5.45x39_fmj" container="mainped" />
+	
+	<item name="ammo_5.45x39_fmj" container="mainbox" />
+	<item name="ammo_5.45x39_fmj" container="mainbox" />
+	<item name="ammo_5.45x39_fmj" container="mainbox" />
+	<item name="ammo_11.43x23_hydro" container="mainbox" />
+</save>

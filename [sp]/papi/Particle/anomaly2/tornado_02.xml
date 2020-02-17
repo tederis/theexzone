@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="12">
+	<effect name="Particle/anomaly2\effects\star_glow.xml" time0="6" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado-400_dust_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado00-4_dust_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado004_dust_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado400_dust_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\tornado_01_dust_03.xml" time0="6" time1="0" defferedStop="false" enabled="false" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star.xml" time0="6" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star_glow.xml" time0="3" time1="10" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star_glow_00.xml" time0="10" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\star_glow_01.xml" time0="3" time1="10" defferedStop="false" enabled="true" rewind="false" />
+</group>

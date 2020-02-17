@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="60">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="5" killLessThan="false" />
+		<action type="OrbitPoint" enabled="true" magnitude="12" epsilon="0.01" maxRadius="1e+16" center="0.5 1 0.5" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="12" epsilon="0.01" maxRadius="1e+16" center="-1 2 -1" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="44" epsilon="0.01" maxRadius="1e+16" center="2 13 -2" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="8" epsilon="0.02" maxRadius="1e+16" center="-4 7 0" allowRotate="true" />
+		<action type="OrbitPoint" enabled="true" magnitude="10" epsilon="0.02" maxRadius="1e+16" center="0 10 0" allowRotate="true" />
+		<action type="Turbulence" enabled="false" frequency="2" magnitude="3" epsilon="0.02" offset="1 10 1" octaves="1" />
+		<action type="Source" enabled="true" rate="15" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="-1 0 -6" point2="0 1 0" />
+			<domain name="velocity" type="Point" center="0 0 1" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.1 0.1 0.1" />
+			<domain name="color" type="Line" point1="1 1 1" point2="0.8 0.898039 1" />
+		</action>
+		<action type="TargetVelocity" enabled="false" scale="0.2" velocity="10 10 10" allowRotate="true" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.1" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="SpeedLimit" enabled="true" minSpeed="5" maxSpeed="8" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="false" size="0.5 0.5" dimension="2" count="4" />
+	<animated randomPlayback="false" speed="24" />
+	<timeLimit value="3" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

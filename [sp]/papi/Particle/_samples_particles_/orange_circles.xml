@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="100">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="27" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 1 0" radiusInner="1" radiusOuter="0.3" />
+			<domain name="velocity" type="Sphere" center="0 1 1" radiusInner="2" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Point" center="0 1 1" />
+			<domain name="color" type="Point" center="1 0.5 0.1" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="0" velocity="0 0 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="2 0.2 1" scale="5 5 0" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="4" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="53.0528 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/fx_sun.xml" />
+</effect>

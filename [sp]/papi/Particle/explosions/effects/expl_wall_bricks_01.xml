@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="48">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="10000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Box" min="-0.75 0.75 0" max="0.75 0 0" />
+			<domain name="velocity" type="Box" min="-4 1 -4" max="7 7 8" />
+			<domain name="rotation" type="Line" point1="300 -30 -30" point2="-300 30 30" />
+			<domain name="size" type="Line" point1="0.03 0.39 0" point2="0.25 0.9 0" />
+			<domain name="color" type="Point" center="0.486275 0.486275 0.486275" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.128" timeFrom="0" timeTo="1" color="0.631373 0.631373 0.631373" />
+		<action type="Gravity" enabled="true" direction="0 -9 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_brick.xml" />
+	<frame randomInit="true" size="0.25 0.25" dimension="4" count="16" />
+	<timeLimit value="2.2" />
+	<collision friction="0" resilience="0.3" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+</effect>

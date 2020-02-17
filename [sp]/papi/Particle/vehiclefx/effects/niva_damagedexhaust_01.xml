@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="120">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="97" alpha="0.3" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 0 1" radiusInner="0" radiusOuter="0" />
+			<domain name="rotation" type="Line" point1="-1 -1 -1" point2="1 1 1" />
+			<domain name="size" type="Point" center="0.2 0.2 0.2" />
+			<domain name="color" type="Point" center="0.3 0.3 0.3" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="0.1" velocity="0 0.1 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="0.3 0.3 0.3" scale="0.15 0 0" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="2.5" timeFrom="0" timeTo="1" color="0.2 0.2 0.2" />
+		<action type="TargetRotate" enabled="true" scale="0.05" rotation="-38.5321 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smokepuffs1.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="8" />
+</effect>

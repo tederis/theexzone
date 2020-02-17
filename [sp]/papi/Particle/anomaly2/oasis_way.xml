@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\oasis_way.xml" onPlayChild="Particle/anomaly2\effects\anomaly_entrance_flash.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="true" />
+</group>

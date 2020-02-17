@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/zones_mine\effects\gravi_vacuum_idle_leaves.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravity_shield_dist.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/zones_mine\effects\gravi_shield_idle.xml" time0="0" time1="0" defferedStop="false" enabled="false" rewind="false" />
+</group>

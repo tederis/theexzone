@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="77" alpha="0.4" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="false">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.3" />
+			<domain name="velocity" type="Cone" apex="0 0 0" endPoint="0 38 0" radiusInner="0" radiusOuter="7" />
+			<domain name="rotation" type="Line" point1="180 -30 -30" point2="-180 30 30" />
+			<domain name="size" type="Point" center="2 2 0.02" />
+			<domain name="color" type="Point" center="1 0.63 0.45" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="2" timeFrom="0" timeTo="1" color="1 0.63 0.45" />
+		<action type="TargetSize" enabled="true" size="30 30 30" scale="20 20 20" />
+		<action type="TargetVelocity" enabled="true" scale="2.7" velocity="0 1 0" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="-3.7 10 0" axis="0 0 10" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="3.7 10 0" axis="0 0 -10" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="0 10 3.7" axis="10 0 0" allowRotate="false" />
+		<action type="Vortex" enabled="false" magnitude="50" epsilon="3" maxRadius="7" center="0 10 -3.7" axis="-10 0 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/fx_gradient1.xml" />
+	<timeLimit value="2" />
+</effect>

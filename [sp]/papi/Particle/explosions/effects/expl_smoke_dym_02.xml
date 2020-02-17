@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="42">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1.8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="128" alpha="0.28" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Disc" center="0 0.15 0" normal="0 1 0" radiusInner="0" radiusOuter="0.8" />
+			<domain name="velocity" type="Disc" center="0 5 0" normal="0 1 0" radiusInner="8" radiusOuter="15" />
+			<domain name="rotation" type="Line" point1="52.9051 -64.9066 -64.9066" point2="-52.9051 64.9066 64.9066" />
+			<domain name="size" type="Line" point1="2 2 2" point2="1.25 1.25 1.25" />
+			<domain name="color" type="Point" center="1 0.933333 0.815686" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="5" timeFrom="0" timeTo="1" color="0.45098 0.447059 0.439216" />
+		<action type="TargetSize" enabled="true" size="7 7 7" scale="12 12 9" />
+		<action type="TargetVelocity" enabled="true" scale="3.4" velocity="1 1 0.25" allowRotate="true" />
+		<action type="TargetRotate" enabled="false" scale="0.01" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-explosion-02-b-a.xml" />
+	<frame randomInit="false" size="0.125 0.142578" dimension="8" count="56" />
+	<animated randomPlayback="false" speed="28" />
+	<timeLimit value="0.25" />
+</effect>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="2">
+	<effect name="Particle/anomaly2\effects\generator_death_00.xml" time0="0.35" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_death_01.xml" time0="0.45" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_flash_00.xml" onPlayChild="Particle/anomaly2\effects\generator_glow_0.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_leader_sparks.xml" onPlayChild="Particle/anomaly2\effects\generator_lead_trails.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_idle.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_idle_00.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_glow.xml" time0="0" time1="0.5" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\generator_aftersmoke.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

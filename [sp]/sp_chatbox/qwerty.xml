@@ -1,0 +1,34 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="Background" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+            <origin x="24" y="24" width="397" height="251"></origin>
+            <frame type="scrollpane" name="Pane" visible="true">
+                <anchor leftTopX="0.020151133501259" leftTopY="0.031872509960159" rightBottomX="0.96725440806045" rightBottomY="0.94422310756972"></anchor>
+                <origin x="8" y="8" width="376" height="229"></origin>
+                <frame type="list" name="PaneList" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                    <origin x="0" y="0" width="376" height="229"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui_common" section="ui_icons_PDA_string_tooltips" type="image" name="Str" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+            <origin x="26" y="274" width="385" height="35"></origin>
+            <frame font="default-bold" text="" scale="1" masked="false" memo="false" length="100" type="editfield" name="EditField" visible="true">
+                <anchor leftTopX="0.012987012987013" leftTopY="0.057142857142857" rightBottomX="0.95584415584416" rightBottomY="0.68571428571429"></anchor>
+                <origin x="5" y="2" width="363" height="22"></origin>
+            </frame>
+        </frame>
+        <frame texture="ui_common" section="ui_cb_listline_back" type="image" name="HelpBar" visible="true">
+            <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+            <origin x="26" y="305" width="374" height="40"></origin>
+            <frame font="default-bold" text="(F1) Рядом; (F2) Шепот; (F3) Крик; (F4) Действие; (F5) Описание; (F6) Попытка; (F7) Сказать миру" alignX="left" alignY="top" scale="1" clip="false" wordBreak="true" colorCoded="false" color="255 255 255" type="text" name="HelpBarLbl" visible="true">
+                <anchor leftTopX="0.0080213903743316" leftTopY="0.075" rightBottomX="0.81016042780749" rightBottomY="1.4"></anchor>
+                <origin x="3" y="3" width="300" height="53"></origin>
+            </frame>
+        </frame>
+    </frame>
+</ui>

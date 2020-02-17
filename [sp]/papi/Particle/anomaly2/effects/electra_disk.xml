@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.24" killLessThan="false" />
+		<action type="Source" enabled="true" rate="8" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 0.25 0" point2="0 0.05 0" />
+			<domain name="velocity" type="Point" center="0 0.01 0" />
+			<domain name="rotation" type="Line" point1="-17.4358 -17.4358 -17.4358" point2="17.4358 17.4358 17.4358" />
+			<domain name="size" type="Line" point1="0.4 0.4 0.5" point2="3 3 3" />
+			<domain name="color" type="Point" center="0.415686 0.415686 0.415686" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="10" timeFrom="0" timeTo="1" color="0.113726 0.133333 0.239216" />
+		<action type="TargetSize" enabled="true" size="5 5 5" scale="8 8 8" />
+		<action type="Gravity" enabled="false" direction="0 -10 0" allowRotate="false" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ligth_6.xml" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="true" faceAlign="true" />
+</effect>

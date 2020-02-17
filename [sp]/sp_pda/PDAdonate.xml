@@ -1,0 +1,339 @@
+<ui>
+    <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_texture" type="image" name="CanvasDonate" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="0" y="0" width="1024" height="768"></origin>
+        <frame type="frame" name="BackButtons" visible="true">
+            <anchor leftTopX="0.0244140625" leftTopY="0.053385416666667" rightBottomX="0.96875" rightBottomY="0.19791666666667"></anchor>
+            <origin x="25" y="41" width="967" height="111"></origin>
+            <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_secondary_tasks_list_bckgnd" type="image" name="BackHull" visible="true">
+                <anchor leftTopX="0.0010341261633919" leftTopY="0.036036036036036" rightBottomX="0.99896587383661" rightBottomY="0.79279279279279"></anchor>
+                <origin x="1" y="4" width="965" height="84"></origin>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_buttons_leftside" type="image" name="BtnsLeftside" visible="true">
+                    <anchor leftTopX="0.01139896373057" leftTopY="0.19047619047619" rightBottomX="0.46424870466321" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="11" y="16" width="437" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Наборы" alignX="left" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CurrentTabLbl" visible="true">
+                        <anchor leftTopX="0.015358361774744" leftTopY="0.074074074074074" rightBottomX="0.6518771331058" rightBottomY="0.92592592592593"></anchor>
+                        <origin x="9" y="2" width="300" height="23"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_buttons_rightside" type="image" name="BtnsRightside" visible="true">
+                    <anchor leftTopX="0.90051813471503" leftTopY="0.19047619047619" rightBottomX="0.98860103626943" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="869" y="16" width="85" height="27"></origin>
+                    <frame font="LettericaObliqueBig" text="09:47" alignX="center" alignY="center" scale="0.4" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="TimeLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0117647058824" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="86" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="SetsBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.44041450777202" leftTopY="0.19047619047619" rightBottomX="0.61865284974093" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="425" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Наборы" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="SetsBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="MapBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.59378238341969" leftTopY="0.19047619047619" rightBottomX="0.7720207253886" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="573" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Карта" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="MapBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="OptionsBtn" visible="true">
+                    <sections default="ui_inGame2_pda_button_e" selected="ui_inGame2_pda_button_h" clicked="ui_inGame2_pda_button_t"></sections>
+                    <anchor leftTopX="0.74715025906736" leftTopY="0.19047619047619" rightBottomX="0.92538860103627" rightBottomY="0.51190476190476"></anchor>
+                    <origin x="721" y="16" width="172" height="27"></origin>
+                    <frame font="LettericaRomanBig" text="Настройки" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="OptionsBtnLbl" visible="true">
+                        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1.037037037037"></anchor>
+                        <origin x="0" y="0" width="172" height="28"></origin>
+                    </frame>
+                </frame>
+                <frame font="LettericaRomanBig" text="0 МОНЕТ" alignX="left" alignY="center" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CoinsLbl" visible="true">
+                    <anchor leftTopX="0.046632124352332" leftTopY="0.58333333333333" rightBottomX="0.20310880829016" rightBottomY="0.9047619047619"></anchor>
+                    <origin x="45" y="49" width="151" height="27"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="1000 ИГРОВЫХ РУБЛЕЙ" alignX="left" alignY="center" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RublesLbl" visible="true">
+                    <anchor leftTopX="0.44041450777202" leftTopY="0.57142857142857" rightBottomX="0.64663212435233" rightBottomY="0.96428571428571"></anchor>
+                    <origin x="425" y="48" width="199" height="33"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="AddCoinsBtn" visible="true">
+                    <sections default="ui_beltbut_plus_d" selected="ui_beltbut_plus_e" clicked="ui_beltbut_plus_t"></sections>
+                    <anchor leftTopX="0.016580310880829" leftTopY="0.5952380952381" rightBottomX="0.041450777202073" rightBottomY="0.89285714285714"></anchor>
+                    <origin x="16" y="50" width="24" height="25"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui\ui_actor_pda" toggled="false" type="button" name="PowerBtn" visible="true">
+            <sections default="ui_inGame2_pda_offline_e" clicked="ui_inGame2_pda_offline_h"></sections>
+            <anchor leftTopX="0.9501953125" leftTopY="0.03125" rightBottomX="0.982421875" rightBottomY="0.075520833333333"></anchor>
+            <origin x="973" y="24" width="33" height="34"></origin>
+        </frame>
+        <frame texture="ui\ui_actor_pda" section="ui_inGame2_pda_buttons_background" type="image" name="VariantsBack" visible="true">
+            <anchor leftTopX="0.0244140625" leftTopY="0.171875" rightBottomX="0.96875" rightBottomY="0.93229166666667"></anchor>
+            <origin x="25" y="132" width="968" height="584"></origin>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry1" visible="true">
+                <anchor leftTopX="0.015495867768595" leftTopY="0.035958904109589" rightBottomX="0.32747933884298" rightBottomY="0.24828767123288"></anchor>
+                <origin x="15" y="21" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="55 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.21523178807947" leftTopY="0.40322580645161" rightBottomX="0.72284769222437" rightBottomY="0.65725806451613"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry2" visible="true">
+                <anchor leftTopX="0.34297520661157" leftTopY="0.035958904109589" rightBottomX="0.65495867768595" rightBottomY="0.24828767123288"></anchor>
+                <origin x="332" y="21" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="100 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.20860927152318" leftTopY="0.46774193548387" rightBottomX="0.71622517566807" rightBottomY="0.72177419354839"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry3" visible="true">
+                <anchor leftTopX="0.015495867768595" leftTopY="0.28595890410959" rightBottomX="0.32747933884298" rightBottomY="0.49828767123288"></anchor>
+                <origin x="15" y="167" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="250 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.20860927152318" leftTopY="0.46774193548387" rightBottomX="0.71622517566807" rightBottomY="0.72177419354839"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry4" visible="true">
+                <anchor leftTopX="0.34297520661157" leftTopY="0.28595890410959" rightBottomX="0.65495867768595" rightBottomY="0.49828767123288"></anchor>
+                <origin x="332" y="167" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="500 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.20860927152318" leftTopY="0.46774193548387" rightBottomX="0.71622517566807" rightBottomY="0.72177419354839"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry5" visible="true">
+                <anchor leftTopX="0.015495867768595" leftTopY="0.52397260273973" rightBottomX="0.32747933884298" rightBottomY="0.73630136986301"></anchor>
+                <origin x="15" y="306" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="1 000 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.20860927152318" leftTopY="0.46774193548387" rightBottomX="0.71622517566807" rightBottomY="0.72177419354839"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry6" visible="true">
+                <anchor leftTopX="0.34297520661157" leftTopY="0.52397260273973" rightBottomX="0.65495867768595" rightBottomY="0.73630136986301"></anchor>
+                <origin x="332" y="306" width="302" height="124"></origin>
+                <frame font="LettericaRomanBig" text="2 000 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl" visible="true">
+                    <anchor leftTopX="0.20860927152318" leftTopY="0.46774193548387" rightBottomX="0.71622517566807" rightBottomY="0.72177419354839"></anchor>
+                    <origin x="65" y="50" width="153.30000305176" height="31.5"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.056291390728477" leftTopY="0.64516129032258" rightBottomX="0.91390728476821" rightBottomY="0.91935483870968"></anchor>
+                    <origin x="17" y="80" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry7" visible="true">
+                <anchor leftTopX="0.015495867768595" leftTopY="0.76198630136986" rightBottomX="0.32747933884298" rightBottomY="0.97431506849315"></anchor>
+                <origin x="15" y="445" width="302" height="124"></origin>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry8" visible="true">
+                <anchor leftTopX="0.34297520661157" leftTopY="0.76198630136986" rightBottomX="0.65495867768595" rightBottomY="0.97431506849315"></anchor>
+                <origin x="332" y="445" width="302" height="124"></origin>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry9" visible="true">
+                <anchor leftTopX="0.67045454545455" leftTopY="0.035958904109589" rightBottomX="0.98243801652893" rightBottomY="0.48630136986301"></anchor>
+                <origin x="649" y="21" width="302" height="263"></origin>
+                <frame font="LettericaRomanBig" text="НАБОР НОВИЧКА" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl2" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame texture="ui_actor_achivments" section="ui_inGame2_Svoy_paren" type="image" name="NoviceImg" visible="true">
+                    <anchor leftTopX="0.27814569536424" leftTopY="0.21292775665399" rightBottomX="0.67880794701987" rightBottomY="0.67300380228137"></anchor>
+                    <origin x="84" y="56" width="121" height="121"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn2" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.062913907284768" leftTopY="0.80988593155894" rightBottomX="0.9205298013245" rightBottomY="0.93916349809886"></anchor>
+                    <origin x="19" y="213" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+            <frame texture="ui_common" section="ui_icons_PDA_tooltips" type="image" name="ProductEntry10" visible="true">
+                <anchor leftTopX="0.67045454545455" leftTopY="0.51712328767123" rightBottomX="0.98243801652893" rightBottomY="0.96746575342466"></anchor>
+                <origin x="649" y="302" width="302" height="263"></origin>
+                <frame font="LettericaRomanBig" text="НАБОР ОПЫТНОГО" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl2" visible="true">
+                    <anchor leftTopX="0.32119205298013" leftTopY="0.10483870967742" rightBottomX="0.61258278145695" rightBottomY="0.46774193548387"></anchor>
+                    <origin x="98" y="9" width="88" height="45"></origin>
+                </frame>
+                <frame texture="ui_actor_achivments" section="ui_inGame2_Master_boevih_sistem" type="image" name="MasterImg" visible="true">
+                    <anchor leftTopX="0.28145695364238" leftTopY="0.22433460076046" rightBottomX="0.68211920529801" rightBottomY="0.68441064638783"></anchor>
+                    <origin x="85" y="59" width="121" height="121"></origin>
+                </frame>
+                <frame texture="ui_common" toggled="false" type="button" name="BuyBtn3" visible="true">
+                    <sections default="ui_cb_listline_back" selected="ui_cb_listline_back"></sections>
+                    <anchor leftTopX="0.06953642384106" leftTopY="0.79467680608365" rightBottomX="0.92715231788079" rightBottomY="0.92395437262357"></anchor>
+                    <origin x="21" y="209" width="259" height="34"></origin>
+                    <frame font="LettericaRomanBig" text="Купить за 100 монет" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="LblCoins" visible="true">
+                        <anchor leftTopX="0" leftTopY="0.058823529411765" rightBottomX="1" rightBottomY="0.94117647058824"></anchor>
+                        <origin x="0" y="2" width="259" height="30"></origin>
+                    </frame>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui_common" section="ui_icons_PDA_dialog" type="image" name="PaymentWnd" visible="false">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="190" y="163" width="644" height="442"></origin>
+            <frame texture="ui_actor_achivments" section="ui_inGame2_Sostoyatelniy_Klient" type="image" name="PaymentImg" visible="false">
+                <anchor leftTopX="0.063664596273292" leftTopY="0.35972850678733" rightBottomX="0.40217391304348" rightBottomY="0.85294117647059"></anchor>
+                <origin x="41" y="159" width="218" height="218"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="2 000 000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="ValueLbl33" visible="false">
+                <anchor leftTopX="0.13664596273292" leftTopY="0.1131221719457" rightBottomX="0.33695652173913" rightBottomY="0.20588235294118"></anchor>
+                <origin x="88" y="50" width="129" height="41"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="ИГРОВЫХ РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl44" visible="false">
+                <anchor leftTopX="0.11801242236025" leftTopY="0.21266968325792" rightBottomX="0.35605590535988" rightBottomY="0.28393665158371"></anchor>
+                <origin x="76" y="94" width="153.30000305176" height="31.5"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="2000" alignX="center" alignY="top" scale="0.9" clip="false" wordBreak="false" colorCoded="false" color="105 105 255" type="text" name="RubleLbl54" visible="false">
+                <anchor leftTopX="0.59937888198758" leftTopY="0.46606334841629" rightBottomX="0.8374223649872" rightBottomY="0.53733031674208"></anchor>
+                <origin x="386" y="206" width="153.30000305176" height="31.5"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="РУБЛЕЙ" alignX="center" alignY="top" scale="0.6" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="RubleLbl94" visible="false">
+                <anchor leftTopX="0.60403726708075" leftTopY="0.55882352941176" rightBottomX="0.84208075008037" rightBottomY="0.63009049773756"></anchor>
+                <origin x="389" y="247" width="153.30000305176" height="31.5"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="PaymentBtnOK" visible="false">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_e" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.58385093167702" leftTopY="0.64253393665158" rightBottomX="0.86024844720497" rightBottomY="0.74660633484163"></anchor>
+                <origin x="376" y="284" width="178" height="46"></origin>
+                <frame font="LettericaRomanBig" text="Купить" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="PaymentBtnOKLbl" visible="false">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0056179775281" rightBottomY="0.93478260869565"></anchor>
+                    <origin x="0" y="0" width="179" height="43"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="PaymentBtnCancel" visible="false">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_e" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.58385093167702" leftTopY="0.64253393665158" rightBottomX="0.86024844720497" rightBottomY="0.74660633484163"></anchor>
+                <origin x="375" y="330" width="178" height="46"></origin>
+                <frame font="LettericaRomanBig" text="Отмена" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="PaymentBtnOKLbl" visible="false">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0056179775281" rightBottomY="0.93478260869565"></anchor>
+                    <origin x="0" y="0" width="179" height="43"></origin>
+                </frame>
+            </frame>
+            <frame font="LettericaRomanBig" text="В состав пакета входит 2 000 000 игровых рублей, которые вы сможете потратить на всё, что понадобится для выживания в условиях зоны" alignX="left" alignY="top" scale="0.5" clip="false" wordBreak="true" colorCoded="false" color="255 255 255" type="text" name="PaymentDescLnl" visible="false">
+                <anchor leftTopX="0.4860248447205" leftTopY="0.11085972850679" rightBottomX="0.92701863354037" rightBottomY="0.50452488687783"></anchor>
+                <origin x="313" y="49" width="284" height="174"></origin>
+            </frame>
+        </frame>
+        <frame texture="ui_common" section="ui_icons_PDA_dialog" type="image" name="BrowserWnd" visible="false">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="152" y="96" width="720" height="576"></origin>
+            <frame type="browser" name="Browser" visible="false">
+                <anchor leftTopX="0.023611111111111" leftTopY="0.029513888888889" rightBottomX="0.97083333333333" rightBottomY="0.88888888888889"></anchor>
+                <origin x="17" y="17" width="682" height="495"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="CancelBtn" visible="false">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_e" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.027777777777778" leftTopY="0.92013888888889" rightBottomX="0.19027777777778" rightBottomY="0.97048611111111"></anchor>
+                <origin x="20" y="530" width="117" height="29"></origin>
+                <frame font="LettericaRomanBig" text="Назад" alignX="center" alignY="center" scale="0.4" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="CancelLbl" visible="false">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.025641025641" rightBottomY="0.96551724137931"></anchor>
+                    <origin x="0" y="0" width="120" height="28"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame texture="ui_common" section="ui_icons_PDA_dialog" type="image" name="ErrorWnd" visible="false">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="242" y="274" width="540" height="220"></origin>
+            <frame texture="ui_common" section="ui_frame_error_sign_red" type="image" name="ErrorImg" visible="false">
+                <anchor leftTopX="0.040665434380776" leftTopY="0.15765765765766" rightBottomX="0.24214417744917" rightBottomY="0.64864864864865"></anchor>
+                <origin x="22" y="35" width="109" height="109"></origin>
+            </frame>
+            <frame font="LettericaRomanBig" text="Text2222222 222222222222222222222 2222222222222 2222222222222 222222 222222222222 22222222222 22222222222 22222222 222222" alignX="left" alignY="top" scale="0.5" clip="false" wordBreak="true" colorCoded="false" color="255 255 255" type="text" name="ErrorLbl" visible="false">
+                <anchor leftTopX="0.28096118299445" leftTopY="0.18018018018018" rightBottomX="0.89833641404806" rightBottomY="0.55405405405405"></anchor>
+                <origin x="152" y="40" width="334" height="83"></origin>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="AcceptBtn" visible="false">
+                <sections default="ui_button_ordinary_d" selected="ui_button_ordinary_e" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.3641404805915" leftTopY="0.74774774774775" rightBottomX="0.62292051756007" rightBottomY="0.9009009009009"></anchor>
+                <origin x="197" y="166" width="140" height="34"></origin>
+                <frame font="LettericaRomanBig" text="Принять" alignX="center" alignY="center" scale="0.5" clip="false" wordBreak="false" colorCoded="false" color="255 255 255" type="text" name="AcceptLbl" visible="false">
+                    <anchor leftTopX="0.042857142857143" leftTopY="0.029411764705882" rightBottomX="1.0357142857143" rightBottomY="0.94117647058824"></anchor>
+                    <origin x="6" y="1" width="139" height="31"></origin>
+                </frame>
+            </frame>
+        </frame>
+    </frame>
+</ui>

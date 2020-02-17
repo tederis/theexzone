@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="24">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="33" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Blob" center="0 0.5 0" radiusOuter="0.6" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="0.02 0.02 0" point2="0.01 0.01 0.01" />
+			<domain name="color" type="Point" center="1 0.894118 0.670588" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="2" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -4 0" allowRotate="false" />
+		<action type="TargetColor" enabled="true" alpha="0.08" scale="0.4" timeFrom="0" timeTo="1" color="0.352941 0.015686 0.054902" />
+		<action type="TargetRotate" enabled="false" scale="0.3" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_sparks.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="8" />
+	<animated randomPlayback="false" speed="24" />
+	<timeLimit value="1" />
+	<collision friction="0.5" resilience="0.5" cutoff="0" destroyOnContact="false" collideWithDynamic="false" />
+	<velocityScale value="0 0.02 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

@@ -1,0 +1,4 @@
+<material>
+    <texture name="pfx_dist2.dds" />
+    <shader name="xdistort.fx" rt="screen" />
+</material>

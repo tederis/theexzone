@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="100">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="6" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 2 0" radiusInner="1" radiusOuter="2" />
+			<domain name="velocity" type="Sphere" center="0 1 0" radiusInner="10" radiusOuter="20" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.1 0.1 0.1" />
+			<domain name="color" type="Line" point1="1 1 1" point2="0.8 0.898039 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0" scale="0.1" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="TargetVelocity" enabled="true" scale="3" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -5 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="5" epsilon="0.01" offset="0 0 0" octaves="2" />
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Box" min="6 0 6" max="-6 -6 -6" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_leaves_01.xml" />
+	<frame randomInit="false" size="0.5 0.5" dimension="2" count="4" />
+	<animated randomPlayback="false" speed="24" />
+	<timeLimit value="0.2" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="false" faceAlign="false" />
+</effect>

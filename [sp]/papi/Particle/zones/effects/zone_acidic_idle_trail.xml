@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="8">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="3" killLessThan="false" />
+		<action type="Source" enabled="true" rate="8" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Cylinder" point1="0 0 0" point2="0 0.1 0" radiusInner="1" radiusOuter="3" />
+			<domain name="velocity" type="Point" center="0 1 0" />
+			<domain name="rotation" type="Line" point1="6.28319 6.28319 0" point2="-6.28319 -6.28319 0" />
+			<domain name="size" type="Line" point1="0.5 0.5 0" point2="1 1 0" />
+			<domain name="color" type="Point" center="0.486275 0.541176 0.368627" />
+		</action>
+		<action type="TargetVelocity" enabled="true" scale="0.9" velocity="0 1 0" allowRotate="true" />
+		<action type="TargetSize" enabled="true" size="2 2 0.001" scale="3 3 0" />
+		<action type="TargetColor" enabled="true" alpha="0.2" scale="1" timeFrom="0" timeTo="0.6" color="0.396078 0.584314 0.509804" />
+		<action type="TargetColor" enabled="true" alpha="0" scale="1" timeFrom="0.6" timeTo="1" color="0 0 0" />
+		<action type="TargetRotate" enabled="true" scale="0.01" rotation="0 0 0" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="1.5" />
+</effect>

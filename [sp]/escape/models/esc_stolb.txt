@@ -1,0 +1,16 @@
+[TXDList]
+count=4
+app=TEDERIs Blender Tools
+lighttype=24
+[Texture1]
+name=ston_beton_iov_06
+path=D:\OblivionLost\textures\ston_beton_iov_06.jpeg
+[Texture2]
+name=mtl_rja_iov_01
+path=D:\OblivionLost\textures\mtl_rja_iov_01.jpeg
+[Texture3]
+name=wood_stolb_iov
+path=D:\OblivionLost\textures\wood_stolb_iov.jpeg
+[Texture4]
+name=prop_transformer_dw
+path=D:\OblivionLost\textures\prop_transformer_dw.jpeg

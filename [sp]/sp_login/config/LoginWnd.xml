@@ -1,0 +1,68 @@
+<ui>
+    <frame type="frame" name="Canvas" visible="true">
+        <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+        <origin x="448" y="156" width="1024" height="768"></origin>
+        <frame texture="ui_old_textures" section="ui_frame_03" type="image" name="Wnd" visible="true">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="293" y="277" width="400" height="170"></origin>
+            <frame texture="ui_old_textures" section="ui_string_06" type="image" name="UsernameFrame" visible="true">
+                <anchor leftTopX="0.325" leftTopY="0.20588235294118" rightBottomX="0.925" rightBottomY="0.39411764705882"></anchor>
+                <origin x="130" y="35" width="240" height="32"></origin>
+                <frame font="LettericaRomanMedium" text="" scale="0.6" masked="false" length="10" type="editfield" name="UsernameEdt" visible="true">
+                    <anchor leftTopX="0.045833333333333" leftTopY="0" rightBottomX="0.95" rightBottomY="0.71875"></anchor>
+                    <origin x="11" y="0" width="217" height="23"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_old_textures" section="ui_string_06" type="image" name="PasswordFrame" visible="true">
+                <anchor leftTopX="0.325" leftTopY="0.38235294117647" rightBottomX="0.925" rightBottomY="0.57058823529412"></anchor>
+                <origin x="130" y="65" width="240" height="32"></origin>
+                <frame font="LettericaRomanMedium" text="" scale="0.6" masked="true" length="10" type="editfield" name="PasswordEdt" visible="true">
+                    <anchor leftTopX="0.045833333333333" leftTopY="0" rightBottomX="0.93333333333333" rightBottomY="0.6875"></anchor>
+                    <origin x="11" y="0" width="213" height="22"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_frame_over_lb" type="image" name="WndOverLb" visible="true">
+                <anchor leftTopX="0" leftTopY="1" rightBottomX="0" rightBottomY="1"></anchor>
+                <origin x="-15" y="45" width="64" height="128"></origin>
+            </frame>
+            <frame font="LettericaRomanMedium" text="Пользователь" alignX="left" alignY="top" scale="0.6" clip="false" wordBreak="false" color="255 255 255" type="text" name="UsernameLbl" visible="true">
+                <anchor leftTopX="0.075" leftTopY="0.23529411764706" rightBottomX="0.26" rightBottomY="0.34705882352941"></anchor>
+                <origin x="30" y="40" width="74" height="19"></origin>
+            </frame>
+            <frame font="LettericaRomanMedium" text="Пароль" alignX="left" alignY="top" scale="0.6" clip="false" wordBreak="false" color="255 255 255" type="text" name="PasswordLbl" visible="true">
+                <anchor leftTopX="0.075" leftTopY="0.38235294117647" rightBottomX="0.26" rightBottomY="0.49411764705882"></anchor>
+                <origin x="30" y="65" width="74" height="19"></origin>
+            </frame>
+            <frame texture="ui_inv_info_over_lt" type="image" name="WndOverLt" visible="true">
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+                <origin x="15" y="-20" width="256" height="64"></origin>
+                <frame font="LettericaRomanMedium" text="Oblivion Lost: Online" alignX="left" alignY="top" scale="0.7" clip="false" wordBreak="false" color="255 255 255" type="text" name="WndLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="0" rightBottomY="0"></anchor>
+                    <origin x="35" y="7" width="167" height="31"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="LoginBtn" visible="true">
+                <sections default="ui_button_ordinary_e" selected="ui_button_ordinary_h" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0" leftTopY="0" rightBottomX="1" rightBottomY="1"></anchor>
+                <origin x="29" y="105" width="161" height="40"></origin>
+                <frame font="LettericaRomanMedium" text="Войти" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" color="255 255 255" type="text" name="LoginLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0186335403727" rightBottomY="0.95"></anchor>
+                    <origin x="0" y="0" width="164" height="38"></origin>
+                </frame>
+            </frame>
+            <frame texture="ui_common" toggled="false" type="button" name="RegisterBtn" visible="true">
+                <sections default="ui_button_ordinary_e" selected="ui_button_ordinary_h" clicked="ui_button_ordinary_t"></sections>
+                <anchor leftTopX="0.5225" leftTopY="0.61764705882353" rightBottomX="0.925" rightBottomY="0.85294117647059"></anchor>
+                <origin x="209" y="105" width="161" height="40"></origin>
+                <frame font="LettericaRomanMedium" text="Создать аккаунт" alignX="center" alignY="center" scale="0.7" clip="false" wordBreak="false" color="255 255 255" type="text" name="LoginLbl" visible="true">
+                    <anchor leftTopX="0" leftTopY="0" rightBottomX="1.0186335403727" rightBottomY="0.95"></anchor>
+                    <origin x="0" y="0" width="164" height="38"></origin>
+                </frame>
+            </frame>
+        </frame>
+        <frame font="LettericaRomanMedium" text="" alignX="center" alignY="top" scale="0.8" clip="true" wordBreak="true" color="255 255 255" type="text" name="ErrorLbl" visible="true">
+            <anchor leftTopX="0.5" leftTopY="0.5" rightBottomX="0.5" rightBottomY="0.5"></anchor>
+            <origin x="256" y="160" width="512" height="100"></origin>
+        </frame>
+    </frame>
+</ui>

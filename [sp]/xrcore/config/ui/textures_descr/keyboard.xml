@@ -1,0 +1,13 @@
+<w>
+    <file name="keyboard">
+	    <texture id="key_tab" x="21" y="86" width="97" height="65" />
+	    <texture id="key_b" x="495" y="219" width="63" height="63" />
+	    <texture id="key_i" x="399" y="153" width="63" height="63" />
+	    <texture id="key_q" x="231" y="219" width="63" height="63" />
+	    <texture id="key_t" x="597" y="153" width="63" height="63" />
+	    <texture id="key_y" x="597" y="153" width="63" height="63" />
+	    <texture id="key_u" x="333" y="153" width="63" height="63" />
+	    <texture id="key_i" x="399" y="153" width="63" height="63" />
+	    <texture id="key_y" x="384" y="87" width="63" height="63" />
+   </file>
+</w>

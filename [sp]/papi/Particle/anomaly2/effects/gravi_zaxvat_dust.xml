@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="20">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="8" killLessThan="false" />
+		<action type="Source" enabled="true" rate="1000" alpha="0.15" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 9 0" radiusInner="1" radiusOuter="2" />
+			<domain name="velocity" type="Sphere" center="0 0 0" radiusInner="12" radiusOuter="16" />
+			<domain name="rotation" type="Line" point1="-5.23599 -5.23599 -5.23599" point2="5.23599 5.23599 5.23599" />
+			<domain name="size" type="Point" center="1 1 1" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.05" scale="0.01" timeFrom="0" timeTo="1" color="1 1 1" />
+		<action type="TargetVelocity" enabled="true" scale="3" velocity="0 0 0" allowRotate="true" />
+		<action type="Gravity" enabled="true" direction="0 -5 0" allowRotate="true" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="8" epsilon="0.01" offset="0 0 0" octaves="2" />
+		<action type="TargetSize" enabled="true" size="6 6 6" scale="4 4 4" />
+		<action type="TargetRotate" enabled="true" scale="0.1" rotation="0 0 0" />
+		<action type="Sink" enabled="true" killInside="true" allowRotate="true">
+			<domain name="domain" type="Box" min="6 0 6" max="-6 -6 -6" />
+		</action>
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_smoke_a.xml" />
+	<animated randomPlayback="false" speed="0" />
+	<timeLimit value="0.2" />
+</effect>

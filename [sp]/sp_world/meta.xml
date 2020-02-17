@@ -1,0 +1,62 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<script src="sound.lua" type="client" />
+
+	
+	<file src="sounds/amb02_l.ogg" />
+	<file src="sounds/human/step/t_gravel1.ogg" />
+	<file src="sounds/human/step/t_gravel2.ogg" />
+	<file src="sounds/human/step/t_gravel3.ogg" />
+	<file src="sounds/human/step/t_gravel4.ogg" />
+	<file src="sounds/human/step/asphalt01gr.ogg" />
+	<file src="sounds/human/step/asphalt02gr.ogg" />
+	
+    <file src="sounds/random/new_drone1.ogg" />
+    <file src="sounds/random/new_drone2.ogg" />
+    <file src="sounds/random/rnd_3dmbridge.ogg" />
+    <file src="sounds/random/rnd_ak47_1.ogg" />
+    <file src="sounds/random/rnd_ak47_2.ogg" />
+    <file src="sounds/random/rnd_crow.ogg" />
+    <file src="sounds/random/rnd_disgusting.ogg" />
+    <file src="sounds/random/rnd_distantmortar3.ogg" />
+    <file src="sounds/random/rnd_dog6.ogg" />
+    <file src="sounds/random/rnd_drone1.ogg" />
+    <file src="sounds/random/rnd_drone2.ogg" />
+    <file src="sounds/random/rnd_fallscream.ogg" />
+    <file src="sounds/random/rnd_horror3.ogg" />
+    <file src="sounds/random/rnd_horror4.ogg" />
+    <file src="sounds/random/rnd_m-16_3.ogg" />
+    <file src="sounds/random/rnd_m-16_4.ogg" />
+    <file src="sounds/random/rnd_m-249.ogg" />
+    <file src="sounds/random/rnd_moan.ogg" />
+    <file src="sounds/random/rnd_moan1.ogg" />
+    <file src="sounds/random/rnd_moan2.ogg" />
+    <file src="sounds/random/rnd_moan3.ogg" />
+    <file src="sounds/random/rnd_moan4.ogg" />
+    <file src="sounds/random/rnd_moan5.ogg" />
+    <file src="sounds/random/rnd_scr1.ogg" />
+    <file src="sounds/random/rnd_scr2.ogg" />
+    <file src="sounds/random/rnd_scr3.ogg" />
+    <file src="sounds/random/rnd_scr4.ogg" />
+    <file src="sounds/random/rnd_scr5.ogg" />
+    <file src="sounds/random/rnd_scr7.ogg" />
+    <file src="sounds/random/rnd_scr8.ogg" />
+    <file src="sounds/random/rnd_scr9.ogg" />
+    <file src="sounds/random/rnd_scr10.ogg" />
+    <file src="sounds/random/rnd_the_horror1.ogg" />
+    <file src="sounds/random/rnd_the_horror2.ogg" />
+    <file src="sounds/random/rnd_the_horror3.ogg" />
+    <file src="sounds/random/rnd_the_horror4.ogg" />
+    <file src="sounds/random/rnd_thunder.ogg" />
+    <file src="sounds/random/rnd_wolfhowl01.ogg" />
+    <file src="sounds/random/rnd_wolfhowl02.ogg" />
+    <file src="sounds/random/rt_coo1-m.ogg" />
+    <file src="sounds/random/rt_sickened1.ogg" />
+    <file src="sounds/random/rt_sickened2.ogg" />
+    <file src="sounds/random/rt_swamp_thing1.ogg" />
+	
+	<file src="sounds/nature/thunder-0.ogg" />
+	<file src="sounds/nature/thunder-1.ogg" />
+	<file src="sounds/nature/thunder-2.ogg" />
+	<file src="sounds/nature/thunder-3.ogg" />
+</meta>

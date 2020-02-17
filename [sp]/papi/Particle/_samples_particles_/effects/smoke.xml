@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="100">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.7" killLessThan="false" />
+		<action type="Source" enabled="true" rate="50" alpha="1" startingAge="0" ageSigma="0" parentMotion="0.3" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Point" center="0 0 0" />
+			<domain name="velocity" type="Point" center="0 0 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Point" center="0.01 0.01 0.01" />
+			<domain name="color" type="Point" center="1 0.541176 0" />
+		</action>
+		<action type="Move" enabled="true" />
+		<action type="TargetSize" enabled="true" size="1 1 1" scale="1 1 1" />
+		<action type="TargetColor" enabled="true" alpha="1" scale="5" timeFrom="0" timeTo="1" color="0 0 0" />
+		<action type="Gravity" enabled="true" direction="0 0 0" allowRotate="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-smoke-01.xml" />
+	<frame randomInit="true" size="0.1 0.1" dimension="10" count="100" />
+</effect>

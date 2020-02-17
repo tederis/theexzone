@@ -1,0 +1,22 @@
+<zone>
+    <blowoutDuration value="0.1" />
+    <awakingDuration value="0.1" />
+    <accumulateDuration value="1.5" />
+    <ignoreNonaliveDuration value="0.05" />
+    <ignoreSmallDuration value="0.5" />
+    <disableParticlesDelay value="0.1" />
+    <ignoreNonalive value="false" />
+    <ignoreSmall value="false" />
+    <ignoreArtefact value="true" />
+    <blowoutParticlesDelay value="0" />
+    <blowoutLightDelay value="0" />
+    <blowoutSoundDelay value="0" />
+    <blowoutAffectDelay value="0" />
+    <idleParticles value="Particle/zones_mine/zone_electric_mine_idle.xml" />
+    <awakeParticles value="" />
+    <accumulateParticles value="" />
+    <blowoutParticles value="Particle/anomaly2/electra2_blast.xml" />
+    <idleSound value="Sounds/anomaly/electra_idle1.ogg" />
+    <blowoutSound value="Sounds/anomaly/electra_blast1.ogg" />
+    <blowoutLight color="0.8 0.9 1" range="30" time="1" height="1.5" />
+</zone>

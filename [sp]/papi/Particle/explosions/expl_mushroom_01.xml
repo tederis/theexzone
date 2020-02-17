@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="20">
+	<effect name="Particle/explosions\effects\expl_benzin_05.xml" onPlayChild="Particle/explosions\effects\expl_benzin_veh_big.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_parts_heli.xml" onDeadChild="Particle/explosions\effects\expl_10_smoke00_07.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_flames00_00.xml" onDeadChild="Particle/explosions\effects\expl_mushroom_fire.xml" time0="1" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_glow00_barrel.xml" time0="0.2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_flames00.xml" onDeadChild="Particle/explosions\effects\expl_mushroom_fire_small.xml" time0="0.4" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_sparks_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_benzin_veh_00.xml" onPlayChild="Particle/explosions\effects\expl_flame_02.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_flying_parts_heli_00.xml" onDeadChild="Particle/explosions\effects\expl_flying_parts_heli_01.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_smoke00_04.xml" time0="1.8" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_smoke00_06.xml" time0="2" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_glow_00.xml" time0="0.5" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_mushroom_flame_glow_01.xml" time0="2.3" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_distortion.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/explosions\effects\expl_10_smoke00_05.xml" time0="3" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

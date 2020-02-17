@@ -1,0 +1,7 @@
+[TXDList]
+count=1
+app=TEDERIs Blender Tools
+lighttype=0
+[Texture1]
+name=veh_zaz968
+path=D:\OblivionLost\textures\veh_zaz968.jpeg

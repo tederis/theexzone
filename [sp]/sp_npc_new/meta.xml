@@ -1,0 +1,108 @@
+<meta>
+	<info author="TEDERIs" version="0.1" name="OblivionLost NPC" type="script" />
+    <oop>true</oop>
+    <min_mta_version client="1.5.6" server="1.5.6" />
+
+    <script src="defs.lua" type="shared" />
+
+    <script src="utils_se.lua" type="server" />
+    <script src="utils_cl.lua" type="client" />
+
+	<script src="server.lua" type="server" />
+    <script src="behavior_se.lua" type="server" />
+    <script src="dog_logic_se.lua" type="server" />
+	<script src="dog_se.lua" type="server" />  
+
+    <script src="dog_cl.lua" type="client" />
+    <script src="client.lua" type="client" />
+
+    <file src="models/army.dff" />
+    <file src="models/army.txd" />
+    <file src="models/dog.ifp" />
+    <file src="models/wmoice.dff" />
+    <file src="models/wmoice.txd" />
+    <file src="models/dog2.ifp" />
+
+    <file src="sounds/dog/attack_hit_0.ogg" />
+    <file src="sounds/dog/attack_hit_1.ogg" />
+    <file src="sounds/dog/attack_hit_2.ogg" />
+    <file src="sounds/dog/attack_hit_3.ogg" />
+    <file src="sounds/dog/bdog_attack_0.ogg" />
+    <file src="sounds/dog/bdog_attack_1.ogg" />
+    <file src="sounds/dog/bdog_attack_2.ogg" />
+    <file src="sounds/dog/bdog_attack_3.ogg" />
+    <file src="sounds/dog/bdog_die_0.ogg" />
+    <file src="sounds/dog/bdog_die_1.ogg" />
+    <file src="sounds/dog/bdog_die_2.ogg" />
+    <file src="sounds/dog/bdog_distant_0.ogg" />
+    <file src="sounds/dog/bdog_distant_1.ogg" />
+    <file src="sounds/dog/bdog_distant_2.ogg" />
+    <file src="sounds/dog/bdog_distant_3.ogg" />
+    <file src="sounds/dog/bdog_distant_4.ogg" />
+    <file src="sounds/dog/bdog_distant_5.ogg" />
+    <file src="sounds/dog/bdog_eat_0.ogg" />
+    <file src="sounds/dog/bdog_eat_1.ogg" />
+    <file src="sounds/dog/bdog_groan_0.ogg" />
+    <file src="sounds/dog/bdog_groan_1.ogg" />
+    <file src="sounds/dog/bdog_groan_2.ogg" />
+    <file src="sounds/dog/bdog_groan_3.ogg" />
+    <file src="sounds/dog/bdog_growl_0.ogg" />
+    <file src="sounds/dog/bdog_growl_1.ogg" />
+    <file src="sounds/dog/bdog_growl_2.ogg" />
+    <file src="sounds/dog/bdog_howl_0.ogg" />
+    <file src="sounds/dog/bdog_howl_1.ogg" />
+    <file src="sounds/dog/bdog_howl_2.ogg" />
+    <file src="sounds/dog/bdog_hurt_0.ogg" />
+    <file src="sounds/dog/bdog_hurt_1.ogg" />
+    <file src="sounds/dog/bdog_hurt_2.ogg" />
+    <file src="sounds/dog/bdog_hurt_3.ogg" />
+    <file src="sounds/dog/bdog_idle_0.ogg" />
+    <file src="sounds/dog/bdog_idle_1.ogg" />
+    <file src="sounds/dog/bdog_idle_2.ogg" />
+    <file src="sounds/dog/bdog_idle_3.ogg" />
+    <file src="sounds/dog/bdog_panic_0.ogg" />
+    <file src="sounds/dog/bdog_panic_1.ogg" />
+    <file src="sounds/dog/bdog_panic_2.ogg" />
+    <file src="sounds/dog/bdog_panic_3.ogg" />
+    <file src="sounds/dog/bdog_panic_4.ogg" />
+
+    <!-- Dog strong -->
+    <file src="sounds/pseudodog/attack_hit_0.ogg" />
+    <file src="sounds/pseudodog/attack_hit_1.ogg" />
+    <file src="sounds/pseudodog/attack_hit_2.ogg" />
+    <file src="sounds/pseudodog/eat_0.ogg" />
+    <file src="sounds/pseudodog/idle_0.ogg" />
+    <file src="sounds/pseudodog/idle_1.ogg" />
+    <file src="sounds/pseudodog/pdog_aggression_0.ogg" />
+    <file src="sounds/pseudodog/pdog_aggression_1.ogg" />
+    <file src="sounds/pseudodog/pdog_attack_0.ogg" />
+    <file src="sounds/pseudodog/pdog_attack_1.ogg" />
+    <file src="sounds/pseudodog/pdog_attack_2.ogg" />
+    <file src="sounds/pseudodog/pdog_attack_3.ogg" />
+    <file src="sounds/pseudodog/pdog_chew_0.ogg" />
+    <file src="sounds/pseudodog/pdog_chew_1.ogg" />
+    <file src="sounds/pseudodog/pdog_chew_2.ogg" />
+    <file src="sounds/pseudodog/pdog_death_0.ogg" />
+    <file src="sounds/pseudodog/pdog_death_1.ogg" />
+    <file src="sounds/pseudodog/pdog_howl_0.ogg" />
+    <file src="sounds/pseudodog/pdog_howl_1.ogg" />
+    <file src="sounds/pseudodog/pdog_howl_2.ogg" />
+    <file src="sounds/pseudodog/pdog_howl_3.ogg" />
+    <file src="sounds/pseudodog/pdog_hurt_0.ogg" />
+    <file src="sounds/pseudodog/pdog_hurt_1.ogg" />
+    <file src="sounds/pseudodog/pdog_idle_0.ogg" />
+    <file src="sounds/pseudodog/pdog_idle_1.ogg" />
+    <file src="sounds/pseudodog/pdog_idle_2.ogg" />
+    <file src="sounds/pseudodog/pdog_idle_3.ogg" />
+    <file src="sounds/pseudodog/pdog_idle_4.ogg" />
+    <file src="sounds/pseudodog/pdog_threaten_0.ogg" />
+    <file src="sounds/pseudodog/pdog_threaten_1.ogg" />
+    <file src="sounds/pseudodog/pdog_threaten_2.ogg" />
+    <file src="sounds/pseudodog/psy_affect_0.ogg" />
+    <file src="sounds/pseudodog/psy_attack_0.ogg" />
+
+
+    <export function="xrGivePlayerWeapon" type="server" />
+	<export function="xrTakePlayerWeapon" type="server" />
+    <export function="xrReloadPlayerWeapon" type="server" />
+</meta>

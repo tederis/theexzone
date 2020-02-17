@@ -1,0 +1,20 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect2222" description="by XRAY" type="script" />
+	<oop>true</oop>
+	<script src="shared.lua" type="shared" />
+	<script src="utils.lua" type="client" />
+	<script src="uiconfig.lua" type="client" />
+	<script src="donate_cl.lua" type="client" />
+	<script src="map_cl.lua" type="client" />
+	<script src="client.lua" type="client" />
+
+	<file src="Name.xml" />
+	<file src="Map.xml" />
+	<file src="QuestList.xml" />
+	<file src="QuestRow.xml" />
+	<file src="PDAdonate.xml" />
+	<file src="PDAmap.xml" />
+	<file src="PDAmain.xml" />
+
+	<include resource="xrcore" />	
+</meta>

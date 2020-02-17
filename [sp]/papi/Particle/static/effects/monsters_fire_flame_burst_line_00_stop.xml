@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="18">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.5" killLessThan="false" />
+		<action type="Source" enabled="true" rate="12" alpha="0" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Line" point1="-0.05 -0.05 0.3" point2="0.05 0.05 0.75" />
+			<domain name="velocity" type="Box" min="0 0 9" max="0 0 11" />
+			<domain name="rotation" type="Line" point1="0 -1.5708 0" point2="0 1.5708 0" />
+			<domain name="size" type="Box" min="0.03 0.03 0" max="0.037 0.037 0" />
+			<domain name="color" type="Line" point1="0 0 0" point2="0 0 0" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="1" scale="4" timeFrom="0" timeTo="1" color="0.337255 0.337255 0.807843" />
+		<action type="TargetSize" enabled="true" size="2.5 2.5 2.5" scale="3 3 3" />
+		<action type="Turbulence" enabled="true" frequency="1" magnitude="4" epsilon="0.038" offset="1 1 1" octaves="2" />
+		<action type="Gravity" enabled="true" direction="0 5 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_ani-fire01.xml" />
+	<frame randomInit="true" size="0.09082 0.142578" dimension="11" count="77" />
+	<timeLimit value="0.5" />
+	<velocityScale value="0 0.1 0" />
+	<align defaultRotation="-1.5708 0 0" worldAlign="true" faceAlign="false" />
+</effect>

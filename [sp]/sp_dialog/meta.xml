@@ -1,0 +1,41 @@
+<meta>
+	<info author="XRAY" version="0.1" name="Protect" description="by XRAY" type="script" />
+	<script src="system.lua" type="shared" />
+	<script src="defs_sh.lua" type="client" />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	
+	<file src="textures/ui_trade_character.dds" />
+	
+	<file src="textures/ui_frame_03/ui_frame_03_b.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_back.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_l.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_lt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_r.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rb.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_rt.dds" />
+	<file src="textures/ui_frame_03/ui_frame_03_t.dds" />
+	<file src="textures/ui_bottom_background.dds" />
+	<file src="textures/ui_button_05.dds" />
+
+	
+	<file src="textures/ui_icons_npc.dds" />
+	<file src="textures/ui_iconstotal.dds" />
+
+	<file src="configs/character_desc_general.xml" />
+	
+	<file src="configs/gameplay/dialogs_escape.xml" />
+	
+	<file src="configs/text/rus/st_dialogs_escape.xml" />
+
+	
+	<file src="AG Letterica Roman Medium.ttf" />
+
+	<export function="xrPlayerStartTalk" type="server" />
+	<export function="xrPlayerStopTalk" type="server" />
+	<export function="xrPlayerSwitchTalk" type="server" />
+	<export function="xrPlayerGiveItem" type="server" />
+	<export function="xrPlayerGiveMoney" type="server" />
+	<export function="xrPlayerGiveRank" type="server" />
+</meta>

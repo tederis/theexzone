@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<group version="3" timeLimit="0">
+	<effect name="Particle/anomaly2\effects\studen_idle_00.xml" onDeadChild="Particle/anomaly2\effects\hit_studen_hit_distort_00.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\studen_idle_glow.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+	<effect name="Particle/anomaly2\effects\studen_idle_par_up.xml" time0="0" time1="0" defferedStop="false" enabled="true" rewind="false" />
+</group>

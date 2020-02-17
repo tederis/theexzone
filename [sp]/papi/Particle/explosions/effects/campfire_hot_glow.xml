@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="3">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="0.2" killLessThan="false" />
+		<action type="Source" enabled="true" rate="8" alpha="0.7" startingAge="0" ageSigma="0" parentMotion="0" singleSize="false" allowRotate="true">
+			<domain name="domain" type="Line" point1="0 0.3 0" point2="0 0.5 0" />
+			<domain name="velocity" type="Point" center="0 0.8 0" />
+			<domain name="rotation" type="Point" center="0 0 0" />
+			<domain name="size" type="Line" point1="1.7 1.7 1.7" point2="2 2 2" />
+			<domain name="color" type="Point" center="0.403922 0.403922 0.403922" />
+		</action>
+		<action type="TargetColor" enabled="true" alpha="0.5" scale="8" timeFrom="0" timeTo="1" color="0.333333 0.329412 0.329412" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/glow_fire1.xml" />
+</effect>

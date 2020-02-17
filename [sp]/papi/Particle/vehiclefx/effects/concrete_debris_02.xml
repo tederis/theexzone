@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<effect version="1" maxParticles="15">
+	<actions>
+		<action type="KillOld" enabled="true" ageLimit="1" killLessThan="false" />
+		<action type="Source" enabled="true" rate="15" alpha="1" startingAge="0" ageSigma="0" parentMotion="0" singleSize="true" allowRotate="true">
+			<domain name="domain" type="Sphere" center="0 0 0" radiusInner="0" radiusOuter="0.25" />
+			<domain name="velocity" type="Line" point1="0 -0.2 0" point2="0 0 0" />
+			<domain name="rotation" type="Line" point1="-10 0 0" point2="10 0 0" />
+			<domain name="size" type="Line" point1="0.01 0.01 0.01" point2="0.037 0.017 0.017" />
+			<domain name="color" type="Point" center="1 1 1" />
+		</action>
+		<action type="TargetRotate" enabled="true" scale="0.5" rotation="-2.14698 0 0" />
+		<action type="Gravity" enabled="true" direction="0 -5 0" allowRotate="true" />
+		<action type="Move" enabled="true" />
+	</actions>
+	<sprite material="Materials/pfx_concretedebris_01.xml" />
+	<frame randomInit="true" size="0.25 0.5" dimension="4" count="8" />
+	<timeLimit value="1" />
+</effect>
